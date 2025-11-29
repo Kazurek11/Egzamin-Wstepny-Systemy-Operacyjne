@@ -38,3 +38,5 @@ egzamin i opuszczają budynek wydziału – Dziekan publikuje listę kandydatów
 wzięli udział w egzaminie wstępnym.
 Napisz programy Dziekan, Komisja i Kandydat symulujące przeprowadzenie egzaminu wstępnego.
 Raport z przebiegu symulacji zapisać w pliku (plikach) tekstowym.
+
+Github: https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/
