@@ -1,1 +1,0 @@
-# Egzamin-Wstepny-Systemy-Operacyjne
