@@ -3,14 +3,24 @@
 int main() {
     srand(getpid()); 
 
+    
     Zgloszenie zgloszenie_kandydat;
     zgloszenie_kandydat.id = getpid();
+    if ((rand() % 100) < SZANSA_NA_ZDANA_TEORIE) {
+        // osoba powtarzajaca
+        zgloszenie_kandydat.zdana_matura = 1;       // MUSI mieć zdaną maturę
+        zgloszenie_kandydat.zdana_teoria_wczesniej = 1; // Ma już zaliczoną teorię z poprzednich lat
+    } 
+    else {
+        // nowy kandydat
+        zgloszenie_kandydat.zdana_teoria_wczesniej = 0; 
 
-    // Losowanie zdawalności matur
-    if ((rand() % 100) < SZANSA_NA_BRAK_MATURY) {
-        zgloszenie_kandydat.zdana_matura = 0;
-    } else {
-        zgloszenie_kandydat.zdana_matura = 1;
+        // losowanie matury dla nowego kandydata
+        if ((rand() % 100) < SZANSA_NA_BRAK_MATURY) {
+            zgloszenie_kandydat.zdana_matura = 0; 
+        } else {
+            zgloszenie_kandydat.zdana_matura = 1;
+        }
     }
 
     // 1. Próba wejścia do kolejki (kandydat ma czekac na dziekana)
@@ -36,7 +46,6 @@ int main() {
         return 3;
     }
 
-    // 3. Wyjście
     close(file_descriptor);
     return 0; 
 }
