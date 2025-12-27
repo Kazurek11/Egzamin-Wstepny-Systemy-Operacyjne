@@ -1,0 +1,10 @@
+# Pliki wykonywalne
+dziekan
+kandydat
+
+# Pliki tymczasowe i systemowe
+*.o
+.DS_Store
+
+# kolejka FIFO
+kolejka_przed_wydzialem
