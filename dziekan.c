@@ -1,6 +1,7 @@
 #include "common.h"
 #include <sys/wait.h>
 #include <sys/mman.h> 
+#include <semaphore.h>
 #include <errno.h>
 
 int main() {
@@ -44,6 +45,34 @@ int main() {
         unlink(FIFO_WEJSCIE);
         return 4;
     }
+    // Na poczatku nikt nie czeka do kolejki bo komisja siedzi w sali a dziekan jeszcze nikogo nie wpuscił
+    sem_t *sem_kolejka_A = sem_open(KOLEJKA_KOMISJA_A,O_CREAT,0600,0);
+    sem_t *sem_kolejka_B = sem_open(KOLEJKA_KOMISJA_B,O_CREAT,0600,0);
+    // Trzy miejsca w sali czekaja na kandydatów wiec startujemy od 3.
+    sem_t *sem_miejsce_A = sem_open(WOLNE_MIEJSCA_KOMISJA_A,O_CREAT,0600,3);
+    sem_t *sem_miejsce_B = sem_open(WOLNE_MIEJSCA_KOMISJA_B,O_CREAT,0600,3);
+    
+    if (sem_kolejka_A == SEM_FAILED){
+        perror("[Dziekan] Bład otwarcia sem_kolejka_A");
+        return 6;
+    }
+    if (sem_kolejka_B == SEM_FAILED){
+        perror("[Dziekan] Bład otwarcia sem_kolejka_B");
+        return 6;
+    }
+    if (sem_miejsce_A == SEM_FAILED){
+        perror("[Dziekan] Bład otwarcia sem_miejsce_A");
+        return 6;
+    }
+    if (sem_miejsce_B == SEM_FAILED){
+        perror("[Dziekan] Bład otwarcia sem_miejsce_B");
+        return 6;
+    }
+    // Zamykam semafory bo sa one dla komisji
+    // sem_close(sem_kolejka_A);
+    // sem_close(sem_kolejka_B);
+    sem_close(sem_miejsce_A);
+    sem_close(sem_miejsce_B);
 
     // Inicjalizacja licznika w pamięci
     egzamin->liczba_kandydatow = 0;
@@ -140,10 +169,12 @@ int main() {
                 if (buf.zdana_teoria_wczesniej == 1) {
                     int ocena = (rand() % 71) + 30;
                     egzamin->lista[idx].status = 2; // Zdana teoria - wysyłamy na praktyke (komisja b)
+                    sem_post(sem_kolejka_B);                    
                     egzamin->lista[idx].punkty_teoria = ocena; // Przepisana ocena z poprzedniego roku 
                     printf("[Dziekan] Kandydat %d (Stary) -> Skierowany na Praktykę.\n", buf.id);
                 } else {
                     egzamin->lista[idx].status = 1; // Idzie na teorie (komisja a)
+                    sem_post(sem_kolejka_A);
                     printf("[Dziekan] Kandydat %d (Nowy) -> Skierowany na Teorię.\n", buf.id);
                 }
 

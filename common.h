@@ -43,6 +43,13 @@ typedef struct {
 #define LICZBA_EGZAMINATOROW_B 3
 #define LICZBA_KOMISJI 2
 
+#define KOLEJKA_KOMISJA_A "/sem_kolejka_a" // Kolejka osob do komisji A która bedzie kontrolował dziekan
+#define KOLEJKA_KOMISJA_B "/sem_kolejka_b" // Kolejka osób do komisji B która bedzie kontrolowałą komisja A oraz dziekan w przypadku wczesniej zdanej teorii przez kandydata
+
+#define WOLNE_MIEJSCA_KOMISJA_A "/sem_miejsca_a" // Wolne miejsca zwalniane przez komisje A po przepytaniu kandydata
+#define WOLNE_MIEJSCA_KOMISJA_B "/sem_miejsca_b" // Wolne miejsca zwalniane przez komisje B po przepytaniu kandydata
+
+
 
 // Pamięć dzielona
 typedef struct {

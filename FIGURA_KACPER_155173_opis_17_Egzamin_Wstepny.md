@@ -40,3 +40,25 @@ Napisz programy Dziekan, Komisja i Kandydat symulujące przeprowadzenie egzaminu
 Raport z przebiegu symulacji zapisać w pliku (plikach) tekstowym.
 
 Github: https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/
+
+### Aktualizacje prac
+
+#### Commit 3
+
+W poprzednich 2 commitach nie dodawałem opisu, ponieważ dotyczyły one podstawowej struktury (FIFO, struktura kandydata), co było mniej złożone niż obecna implementacja synchronizacji.
+
+Względem poprzedniego commita dodałem mechanizmy synchronizacji międzyprocesowej:
+
+* **Semafory nazwane:** Utworzyłem w procesie Dziekana semafory kontrolujące kolejkę oraz liczbę wolnych miejsc w salach. Procesy Komisji otwierają te semafory (`sem_open`), co umożliwia sterowanie przepływem studentów.
+* **Pamięć Dzielona:** Zaimplementowałem mapowanie pamięci dzielonej w procesie Komisji, aby umożliwić odczyt i zapis danych studentów współdzielonych z Dziekanem.
+* **Mutexy:** W kodzie Komisji dodałem mutexy, które posłużą do synchronizacji pracy wątków (egzaminatorów) wewnątrz jednej sali, zapobiegając wyścigom danych (*race conditions*).
+
+#### Jaki jest plan na następne commity
+
+Pozostaję przy jednym pliku `komisja.c`, który będzie obsługiwał logikę obu komisji zależnie od argumentu uruchomienia ('A' lub 'B'). Planuję zaimplementować czesciowa logikę egzaminu (do momentu odpowiedzi kandyata):
+
+1.  **Wejście:** Przewodniczący będzie oczekiwał na semaforze kolejki (sygnał od Dziekana) i zajmował miejsce w sali (`sem_wait` na semaforze miejsc).
+2.  **Identyfikacja:** Pobranie `ID_studenta` z Pamięci Dzielonej do zmiennej globalnej w procesie komisji.
+3.  **Egzamin:** Zastosuję zmienną globalną `ilosc_zadanych_pytan` chronioną mutexem. Każdy z wątków (członkowie + przewodniczący) zada pytanie i zwiększy licznik.
+4.  **Synchronizacja:** Gdy licznik osiągnie wymaganą wartość (np. 5 dla Komisji A), ostatni wątek wyśle sygnał `pthread_cond_signal`, co pozwoli Przewodniczącemu przejść do fazy oceniania i odesłania kandydata dalej.
+
