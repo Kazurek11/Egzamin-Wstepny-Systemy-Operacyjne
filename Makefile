@@ -1,28 +1,30 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -g
-# LDFLAGS dla konkretnych programów
-LDFLAGS_DZIEKAN = -lrt
-LDFLAGS_KOMISJA = -pthread
+
+# Biblioteki konieczne do linkowania:
+# -lrt:     wymagane przez shm_open, shm_unlink, mmap
+# -pthread: wymagane przez wątki, mutexy ORAZ semafory
+LIBS = -lrt -pthread
 
 # Domyślny cel - kompiluje wszystko
 all: dziekan kandydat komisja
 
-# 1. Dziekan (korzysta z SHM i FIFO)
+# 1. Dziekan
 dziekan: dziekan.c common.h
-	$(CC) $(CFLAGS) dziekan.c -o dziekan $(LDFLAGS_DZIEKAN)
+	$(CC) $(CFLAGS) dziekan.c -o dziekan $(LIBS)
 
-# 2. Kandydat (korzysta z FIFO)
+# 2. Kandydat (tu wystarczy samo CFLAGS, ale LIBS nie zaszkodzi)
 kandydat: kandydat.c common.h
 	$(CC) $(CFLAGS) kandydat.c -o kandydat
 
-# 3. Komisja (korzysta z wątków)
+# 3. Komisja
 komisja: komisja.c common.h
-	$(CC) $(CFLAGS) komisja.c -o komisja $(LDFLAGS_KOMISJA)
+	$(CC) $(CFLAGS) komisja.c -o komisja $(LIBS)
 
 # Czyszczenie plików binarnych i logów
 clean:
 	rm -f dziekan kandydat komisja lista_przyjetych.txt lista_odrzuconych.txt
 
-# Pomocniczy cel do testowania (uruchamia tylko dziekana, resztę uruchomi execl)
-run: all
+# Uruchamianie (najpierw czyści, potem kompiluje, potem uruchamia)
+run: clean all
 	./dziekan

@@ -3,9 +3,18 @@
 #include <sys/mman.h> 
 #include <semaphore.h>
 #include <errno.h>
+#include <time.h>   
+#include <unistd.h> 
 
 int main() {
     srand(time(NULL) ^ getpid());
+
+    // czyszczenie semaforów ze smieci
+    sem_unlink(KOLEJKA_KOMISJA_A);
+    sem_unlink(KOLEJKA_KOMISJA_B);
+    sem_unlink(WOLNE_MIEJSCA_KOMISJA_A);
+    sem_unlink(WOLNE_MIEJSCA_KOMISJA_B);
+    // --------------------------------------------------------
 
     if (unlink(FIFO_WEJSCIE) == -1) {
         if (errno != ENOENT) { 
@@ -45,86 +54,57 @@ int main() {
         unlink(FIFO_WEJSCIE);
         return 4;
     }
-    // Na poczatku nikt nie czeka do kolejki bo komisja siedzi w sali a dziekan jeszcze nikogo nie wpuscił
-    sem_t *sem_kolejka_A = sem_open(KOLEJKA_KOMISJA_A,O_CREAT,0600,0);
-    sem_t *sem_kolejka_B = sem_open(KOLEJKA_KOMISJA_B,O_CREAT,0600,0);
-    // Trzy miejsca w sali czekaja na kandydatów wiec startujemy od 3.
-    sem_t *sem_miejsce_A = sem_open(WOLNE_MIEJSCA_KOMISJA_A,O_CREAT,0600,3);
-    sem_t *sem_miejsce_B = sem_open(WOLNE_MIEJSCA_KOMISJA_B,O_CREAT,0600,3);
     
-    if (sem_kolejka_A == SEM_FAILED){
-        perror("[Dziekan] Bład otwarcia sem_kolejka_A");
+    // Teraz tworzymy nowe, czyste semafory (kolejki = 0, miejsca = 3)
+    sem_t *sem_kolejka_A = sem_open(KOLEJKA_KOMISJA_A, O_CREAT, 0600, 0);
+    sem_t *sem_kolejka_B = sem_open(KOLEJKA_KOMISJA_B, O_CREAT, 0600, 0);
+    sem_t *sem_miejsce_A = sem_open(WOLNE_MIEJSCA_KOMISJA_A, O_CREAT, 0600, 3);
+    sem_t *sem_miejsce_B = sem_open(WOLNE_MIEJSCA_KOMISJA_B, O_CREAT, 0600, 3);
+    
+    if (sem_kolejka_A == SEM_FAILED || sem_kolejka_B == SEM_FAILED || 
+        sem_miejsce_A == SEM_FAILED || sem_miejsce_B == SEM_FAILED){
+        perror("[Dziekan] Bład otwarcia semaforów");
         return 6;
     }
-    if (sem_kolejka_B == SEM_FAILED){
-        perror("[Dziekan] Bład otwarcia sem_kolejka_B");
-        return 6;
-    }
-    if (sem_miejsce_A == SEM_FAILED){
-        perror("[Dziekan] Bład otwarcia sem_miejsce_A");
-        return 6;
-    }
-    if (sem_miejsce_B == SEM_FAILED){
-        perror("[Dziekan] Bład otwarcia sem_miejsce_B");
-        return 6;
-    }
-    // Zamykam semafory bo sa one dla komisji
-    // sem_close(sem_kolejka_A);
-    // sem_close(sem_kolejka_B);
+    
+    // Dziekan nie używa semaforów miejsc, wiec zamykam
     sem_close(sem_miejsce_A);
     sem_close(sem_miejsce_B);
 
-    // Inicjalizacja licznika w pamięci
     egzamin->liczba_kandydatow = 0;
 
     printf("[Dziekan] Rekrutacja otwarta. Generuję komisje i kandydatów \n");
 
-    // ----------------- komisja --------------------
+    // Tworzenie Komisji
     for (int i = 0; i < LICZBA_KOMISJI; i++) {
         pid_t pid = fork();
-        if (pid == -1) {
-            perror("[Dziekan] Błąd fork (Komisja)");
-            return 2;
-        }
-        
+        if (pid == -1) return 2;
         if (pid == 0) {
-            char *typ;
-            if (i == 0) {
-                typ = "A";
-            }else{
-                typ = "B";
-            }
+            char *typ = (i == 0) ? "A" : "B";
             execl("./komisja", "komisja", typ, NULL);
-            
             perror("[Dziekan -> Komisja] Błąd execl");
             return 6; 
         }
     }
 
-    // ----------------- kandydat --------------------
+    // Tworzenie Kandydatów
     for (int i = 0; i < LICZBA_KANDYDATOW; i++) {
         pid_t pid = fork();
-        
         if (pid == -1) {
-            perror("[Dziekan] Błąd fork (Kandydat)");
             unlink(FIFO_WEJSCIE); 
             return 2; 
         }
-
         if (pid == 0) {
-            // --- PROCES DZIECKO (Kandydat) ---
             execl("./kandydat", "kandydat", NULL);
             perror("[Dziekan -> Kandydat] Błąd execl");
             return 6;
         }
-        
-        usleep(5000); // 5ms opóźnienia
+        usleep(5000); 
     }
 
     printf("[Dziekan] Wszyscy kandydaci (%d) stoją przed wydziałem.\n", LICZBA_KANDYDATOW);
-    printf("[Dziekan] Czekam na godzinę T (symulacja 1 sekunda)...\n");
-    sleep(1); 
-
+    printf("[Dziekan] Czekam na godzinę T %d...\n", GODZINA_T);
+    sleep(GODZINA_T); 
     printf("[Dziekan] Godzina T wybija! Otwieram drzwi (FIFO).\n");
     
     int fd = open(FIFO_WEJSCIE, O_RDONLY);
@@ -134,34 +114,28 @@ int main() {
         return 3;
     }
 
-    FILE *plik_przyjec = fopen("lista_przyjetych.txt", "w"); // log1
-    FILE *plik_odrzucen = fopen("lista_odrzuconych.txt", "w"); // log2
+    FILE *plik_przyjec = fopen("lista_przyjetych.txt", "w"); 
+    FILE *plik_odrzucen = fopen("lista_odrzuconych.txt", "w"); 
 
     if (!plik_przyjec || !plik_odrzucen) {
-        perror("[Dziekan] Błąd otwarcia plików raportowych"); // Kontynuujemy, ale wypiszemy błąd na stderr
-        
+        perror("[Dziekan] Błąd otwarcia plików raportowych");
     }
 
     Zgloszenie buf;
     int licznik_odrzuceni = 0;
 
     while (read(fd, &buf, sizeof(Zgloszenie)) > 0) {
-        
         if (buf.zdana_matura == 1) {
-            
-            // --- ZAPIS DO PLIKU ---
             if (plik_przyjec) {
                 fprintf(plik_przyjec, "PID: %d | Rekrutował wczesniej i zdał teorie: %s\n", 
                         buf.id, buf.zdana_teoria_wczesniej ? "TAK" : "NIE");
             }
 
             int idx = egzamin->liczba_kandydatow;
-            
             if (idx < MAX_KANDYDATOW) {
                 egzamin->lista[idx].id = buf.id;
                 egzamin->lista[idx].zdana_matura = 1;
                 egzamin->lista[idx].zdana_teoria_wczesniej = buf.zdana_teoria_wczesniej;
-                
                 egzamin->lista[idx].punkty_teoria = -1;
                 egzamin->lista[idx].punkty_praktyka = -1;
                 egzamin->lista[idx].czy_przyjety = 0;
@@ -169,22 +143,19 @@ int main() {
                 if (buf.zdana_teoria_wczesniej == 1) {
                     int ocena = (rand() % 71) + 30;
                     egzamin->lista[idx].status = 2; // Zdana teoria - wysyłamy na praktyke (komisja b)
+                    egzamin->lista[idx].punkty_teoria = ocena; 
                     sem_post(sem_kolejka_B);                    
-                    egzamin->lista[idx].punkty_teoria = ocena; // Przepisana ocena z poprzedniego roku 
                     printf("[Dziekan] Kandydat %d (Stary) -> Skierowany na Praktykę.\n", buf.id);
                 } else {
                     egzamin->lista[idx].status = 1; // Idzie na teorie (komisja a)
                     sem_post(sem_kolejka_A);
                     printf("[Dziekan] Kandydat %d (Nowy) -> Skierowany na Teorię.\n", buf.id);
                 }
-
                 egzamin->liczba_kandydatow++; 
             } else {
                 fprintf(stderr, "[Dziekan] Błąd: Brak miejsca w pamięci dzielonej!\n");
             }
-
         } else {
-            // --- KANDYDAT ODRZUCONY ---
             licznik_odrzuceni++;
             if (plik_odrzucen) {
                 fprintf(plik_odrzucen, "PID: %d | Matura: %d | Powód: Brak matury\n", buf.id, buf.zdana_matura);
@@ -202,12 +173,10 @@ int main() {
     
     close(fd);
     unlink(FIFO_WEJSCIE);
-
     
-    while (wait(NULL) > 0); // Czekamy na wszystkie procesy dzieci (Kandydaci + Komisje)
-
+    // Czekamy na dzieci
+    while (wait(NULL) > 0); 
     
-    shm_unlink(SHM_NAME); // Usuwanie pamięci dzielonej (zawsze na koncu!!)
-    
+    shm_unlink(SHM_NAME); 
     return 0;
 }

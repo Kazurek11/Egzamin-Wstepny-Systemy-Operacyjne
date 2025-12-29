@@ -41,7 +41,7 @@ Raport z przebiegu symulacji zapisać w pliku (plikach) tekstowym.
 
 Github: https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/
 
-### Aktualizacje prac
+### Aktualizacje prac 28.12.2025
 
 #### Commit 3
 
@@ -62,3 +62,44 @@ Pozostaję przy jednym pliku `komisja.c`, który będzie obsługiwał logikę ob
 3.  **Egzamin:** Zastosuję zmienną globalną `ilosc_zadanych_pytan` chronioną mutexem. Każdy z wątków (członkowie + przewodniczący) zada pytanie i zwiększy licznik.
 4.  **Synchronizacja:** Gdy licznik osiągnie wymaganą wartość (np. 5 dla Komisji A), ostatni wątek wyśle sygnał `pthread_cond_signal`, co pozwoli Przewodniczącemu przejść do fazy oceniania i odesłania kandydata dalej.
 
+### Aktualizacja prac (29.12.2025)
+
+### Implementacja logiki Komisji i synchronizacja wątków
+
+**Zrealizowane funkcjonalności:**
+
+1.  **Synchronizacja Procesów (Dziekan <-> Komisja):**
+    * Zaimplementowano mechanizm startowy: Dziekan zwiększa semafor odpowiedniej kolejki (A/B), co budzi Przewodniczącego komisji.
+    * Komisja zarządza przepustowością sali poprzez semafor liczby wolnych miejsc.
+    * **Fix:** Dziekan na starcie czyści stare semafory (`sem_unlink`), co rozwiązuje problem "widmowych kandydatów" (przetwarzania ID -1) po restarcie programu.
+
+2.  **Struktura i Logika Stanowiska:**
+    * Zaimplementowano strukturę `Stanowisko` przypisaną do każdego fizycznego miejsca w sali, co pozwala na równoległą obsługę wielu kandydatów.
+    * **Unikalność pytań:** Wprowadzono tablicę `kto_pytal`, która gwarantuje, że każdy z egzaminatorów (wątków) zada dokładnie jedno, unikalne pytanie danemu kandydatowi.
+    * **Flagi synchronizacji:** Dodano pole `gotowe` (zapobiega wyścigom wątków przed wpisaniem danych kandydata) oraz `zajete`.
+    * **Ocenianie:** Dodano zmienną `suma_ocen`, która agreguje punkty od wszystkich członków komisji w celu wyliczenia średniej przez Przewodniczącego.
+
+3.  **Konfiguracja:**
+    * Zdefiniowano zmienne czasowe `GODZINA_T` oraz `GODZINA_Ti` do symulacji upływu czasu.
+
+### Plan na następny commit:
+
+* **Interakcja z Kandydatem:** Implementacja logiki oczekiwania kandydata na komplet pytań przed udzieleniem odpowiedz.
+* **Dwukierunkowa komunikacja:** Opracowanie mechanizmu, w którym Kandydat jest "świadomy" treści pytania i odsyła odpowiedź do konkretnego egzaminatora.
+* **Nowa struktura danych:** Stworzenie struktury odpowiedzialnej za wymianę danych na linii: Egzaminator (Pytanie) -> Kandydat (Odpowiedź) -> Egzaminator (Ocena).
+
+### Napotkane problemy i ewolucja rozwiązania (Proces myślowy)
+
+Podczas implementacji natrafiłem na kilka istotnych wyzwań związanych ze współbieżnością, które wymusiły zmianę mojego podejścia do synchronizacji:
+
+1.  **Wyścig wątków ("Kandydat -1"**)
+    Moim głównym problemem było to, że wątki członków komisji okazywały się "zbyt szybkie". Po obudzeniu semaforem potrafiły wejść do sekcji krytycznej i próbować egzaminować kandydata, zanim Przewodniczący zdążył w ogóle przepisać jego dane z pamięci dzielonej (SHM) do struktury stolika. Skutkowało to logami z `PID: -1`.
+    * **Rozwiązanie:** Zrozumiałem, że sam Mutex to za mało. Wprowadziłem więc dodatkową flagę `gotowe` w strukturze `Stanowisko`. Działa ona jak "bramka" – Przewodniczący otwiera ją (ustawia na 1) dopiero w momencie, gdy fizycznie posadzi kandydata i uzupełni jego papiery. Dopiero wtedy reszta wątków może ruszyć do pracy.
+
+2.  **Trwałość semaforów**
+    Zauważyłem, że gdy przerywam program (Ctrl+C), semafory systemowe nie zerują się same. Przy kolejnym uruchomieniu aplikacja myślała, że w kolejce wciąż czekają ludzie (stare wartości semafora), podczas gdy pamięć dzielona była pusta. To powodowało chaos na starcie.
+    * **Rozwiązanie:** Dodałem "twardy reset" (`sem_unlink`) na samym początku kodu Dziekana. Teraz każde uruchomienie programu gwarantuje start z czystą kartą, niezależnie od tego, jak zakończyło się poprzednie.
+
+3.  **Logistyka pytań (Kto już pytał?):**
+    Musiałem też wymyślić sposób, aby zagwarantować, że przy jednym studencie każdy egzaminator zada *dokładnie jedno* pytanie. Bez tego, szybsze wątki mogłyby "ukraść" pytania wolniejszym i zdominować egzamin.
+    * **Rozwiązanie:** Zastosowałem tablicę `kto_pytal` przy każdym stanowisku. Działa to jak lista obecności przy konkretnym stole – wątek sprawdza, czy już tu pytał. Jeśli tak, ustępuje miejsca innym. Dopiero gdy licznik pytań osiągnie `MAX - 1`, do gry wkracza Przewodniczący z ostatnim, decydującym pytaniem.
