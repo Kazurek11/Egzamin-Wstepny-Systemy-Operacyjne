@@ -103,3 +103,36 @@ Podczas implementacji natrafiłem na kilka istotnych wyzwań związanych ze wsp�
 3.  **Logistyka pytań (Kto już pytał?):**
     Musiałem też wymyślić sposób, aby zagwarantować, że przy jednym studencie każdy egzaminator zada *dokładnie jedno* pytanie. Bez tego, szybsze wątki mogłyby "ukraść" pytania wolniejszym i zdominować egzamin.
     * **Rozwiązanie:** Zastosowałem tablicę `kto_pytal` przy każdym stanowisku. Działa to jak lista obecności przy konkretnym stole – wątek sprawdza, czy już tu pytał. Jeśli tak, ustępuje miejsca innym. Dopiero gdy licznik pytań osiągnie `MAX - 1`, do gry wkracza Przewodniczący z ostatnim, decydującym pytaniem.
+  
+### Aktualizacja prac (Commit 4): Logika Kandydata i pełna synchronizacja egzaminu
+
+W tym etapie skupiłem się na domknięciu pętli komunikacyjnej. Proces `Kandydat` przestał być tylko "generatorem zgłoszeń" do kolejki FIFO, a stał się aktywnym uczestnikiem egzaminu, który reaguje na polecenia Komisji i udziela odpowiedzi w czasie rzeczywistym.
+
+**Zrealizowane zmiany:**
+
+1.  **Aktywny proces Kandydata (`kandydat.c`)**
+    Zmodyfikowałem kod tak, aby proces nie kończył działania zaraz po wysłaniu PID. Teraz:
+    * Mapuje pamięć dzieloną (SHM).
+    * Odnajduje swój rekord w tablicy studentów.
+    * Aktywnie oczekuje na nadejście pytań od komisji.
+    * Symuluje "myślenie" (`usleep`) i wpisuje odpowiedzi do struktury.
+
+2.  **Protokół komunikacji (Maszyna Stanów)**
+    Zamiast komplikować kod kolejnymi mutexami międzyprocesowymi, oparłem synchronizację na prostej fladze stanu `status_arkusza` w pamięci dzielonej. Działa to jak prosta maszyna stanów:
+    * **Stan `0` (Zadawanie):** Komisja wpisuje pytania, kandydat czeka.
+    * **Stan `1` (Odpowiadanie):** Przewodniczący zmienia flagę. Komisja czeka, Kandydat przetwarza pytania i wpisuje odpowiedzi.
+    * **Stan `2` (Ocenianie):** Kandydat kończy pisać, Komisja sprawdza i wystawia oceny.
+
+3.  **Logika dla osób powtarzających (Retakers)**
+    Doprecyzowałem przepływ dla studentów, którzy mają już zaliczoną teorię.
+    * Trafiają oni normalnie do sali Komisji A.
+    * Przewodniczący wykrywa flagę `zdana_teoria`.
+    * Faza zadawania pytań jest **pomijana**.
+    * Student jest natychmiast przekierowywany do kolejki przed Komisją B.
+
+4.  **Fix: Problem "Widmowego Kandydata" (ID -1)**
+    Rozwiązałem krytyczny błąd wyścigu (race condition), gdzie wątki egzaminatorów budziły się szybciej, niż Przewodniczący zdążył wpisać dane studenta do struktury stolika.
+    * **Rozwiązanie:** Dodałem walidację indeksów oraz "twardy reset" semaforów (`sem_unlink`) przy starcie procesu Dziekana. Dzięki temu restart aplikacji nie powoduje już błędów segmentacji na start.
+
+**Napotkane problemy i wnioski:**
+Największym wyzwaniem było zsynchronizowanie momentu przejścia z zadawania pytań do odpowiadania. Początkowo procesy blokowały się nawzajem (deadlock). Rozwiązałem to, czyniąc Przewodniczącego "koordynatorem" sali – to on, po upewnieniu się, że wszyscy członkowie komisji zadali pytania, zmienia stan flagi, dając sygnał procesowi kandydata do rozpoczęcia pracy.
