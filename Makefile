@@ -1,30 +1,20 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -g
+LIBS = -lrt -pthread -lm
 
-# Biblioteki konieczne do linkowania:
-# -lrt:     wymagane przez shm_open, shm_unlink, mmap
-# -pthread: wymagane przez wątki, mutexy ORAZ semafory
-LIBS = -lrt -pthread
-
-# Domyślny cel - kompiluje wszystko
 all: dziekan kandydat komisja
 
-# 1. Dziekan
 dziekan: dziekan.c common.h
-	$(CC) $(CFLAGS) dziekan.c -o dziekan $(LIBS)
+	$(CC) $(CFLAGS) -o dziekan dziekan.c $(LIBS)
 
-# 2. Kandydat (tu wystarczy samo CFLAGS, ale LIBS nie zaszkodzi)
 kandydat: kandydat.c common.h
-	$(CC) $(CFLAGS) kandydat.c -o kandydat
+	$(CC) $(CFLAGS) -o kandydat kandydat.c $(LIBS)
 
-# 3. Komisja
 komisja: komisja.c common.h
-	$(CC) $(CFLAGS) komisja.c -o komisja $(LIBS)
+	$(CC) $(CFLAGS) -o komisja komisja.c $(LIBS)
 
-# Czyszczenie plików binarnych i logów
 clean:
-	rm -f dziekan kandydat komisja lista_przyjetych.txt lista_odrzuconych.txt
+	rm -f dziekan kandydat komisja *.txt
 
-# Uruchamianie (najpierw czyści, potem kompiluje, potem uruchamia)
 run: clean all
 	./dziekan

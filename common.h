@@ -1,7 +1,6 @@
 #ifndef COMMON_H
 #define COMMON_H
 
-// Odblokowanie definicji POSIX (dla barier i nanosleep)
 #define _XOPEN_SOURCE 700 
 #define _POSIX_C_SOURCE 199309L
 
@@ -14,12 +13,22 @@
 #include <time.h>
 #include <errno.h>
 #include <pthread.h>
+#include <math.h>
+#include <sys/syscall.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <sys/mman.h> 
+#include <semaphore.h>    
+#include <signal.h> 
+#include <string.h>      
 
 #define GODZINA_T 3         
-#define GODZINA_Ti 500
+#define GODZINA_Ti 100
 
-#define MAX_KANDYDATOW 1500
-#define LICZBA_KANDYDATOW 200 
+#define MAX_KANDYDATOW 600
+#define LICZBA_KANDYDATOW 20 
+#define CHETNI_NA_MIEJSCE 10
+#define LIMIT_PRZYJEC (LICZBA_KANDYDATOW / CHETNI_NA_MIEJSCE)
 #define SZANSA_NA_BRAK_MATURY 2 
 #define SZANSA_NA_ZDANA_TEORIE 2 
 
@@ -48,8 +57,8 @@ typedef struct {
     pid_t id;
     int zdana_matura;
     int zdana_teoria_wczesniej;
-    int punkty_teoria;   
-    int punkty_praktyka; 
+    double punkty_teoria;   
+    double punkty_praktyka; 
     int status;          
     int czy_przyjety;    
 

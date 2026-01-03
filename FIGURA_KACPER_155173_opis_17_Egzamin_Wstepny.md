@@ -136,3 +136,29 @@ W tym etapie skupiłem się na domknięciu pętli komunikacyjnej. Proces `Kandyd
 
 **Napotkane problemy i wnioski:**
 Największym wyzwaniem było zsynchronizowanie momentu przejścia z zadawania pytań do odpowiadania. Początkowo procesy blokowały się nawzajem (deadlock). Rozwiązałem to, czyniąc Przewodniczącego "koordynatorem" sali – to on, po upewnieniu się, że wszyscy członkowie komisji zadali pytania, zmienia stan flagi, dając sygnał procesowi kandydata do rozpoczęcia pracy.
+
+### Aktualizacja Postępów – 03.01.2026 "Poprawienie logiki oraz testowanie wydajnosci symulacji w systemie"
+
+**1. Logika biznesowa i raportowanie**
+
+* **Poprawa logiki i logów:** Uszczelniłem logikę przepływu kandydatów oraz formatowanie logów. Każdy wpis w logach zawiera teraz precyzyjne identyfikatory **PID** procesu oraz **TID** wątku, co znacznie ułatwia debugowanie.
+* **Listy rankingowe:** Proces *Dziekan* poprawnie generuje finalną listę rankingową oraz listę osób przyjętych.
+* **Algorytm selekcji:** Zaimplementowałem własny algorytm sortowania, który odpowiada za selekcję kandydatów na podstawie wyników.
+* **System oceniania:** Zgodnie z wytycznymi, ocena końcowa jest średnią arytmetyczną z obu komisji: `(Ocena A + Ocena B) / 2`.
+* **Współczynnik przyjęć:** System trzyma się założenia logicznego, w którym średnio co 10. kandydat otrzymuje miejsce na roku.
+
+**2. Wydajność i zarządzanie zasobami (WSL)**
+
+* Przeprowadziłem analizę procesów (aktywne, śpiące, zombie) przy użyciu narzędzia `htop`.
+* Mimo że samo środowisko WSL (Windows Subsystem for Linux) rezerwuje sporo zasobów, sama symulacja jest bardzo lekka i zużywa jedynie **ok. 2% mocy procesora**.
+* **Brak procesów zombie:** Przy obecnej architekturze ("rozbite" pliki binarne uruchamiane przez `execl`) procesy są poprawnie sprzątane i nie tworzą się tzw. *zombie processes*.
+
+**3. Napotkane problemy i rozwiązania**
+
+* Podjąłem próbę przeniesienia całej symulacji do jednego pliku `main.c` (odpowiedzialnego za inicjalizację IPC i tworzenie procesów potomnych). Niestety, skutkowało to masowym powstawaniem procesów zombie (liczba zombie równała się liczbie kandydatów).
+* **Decyzja:** Pozostałem przy pierwotnej, sprawdzonej implementacji z podziałem na osobne pliki wykonywalne (`dziekan`, `komisja`, `kandydat`), która działa stabilnie i poprawnie zarządza cyklem życia procesów.
+
+** Plany na kolejne kroki:**
+* Utworzenie dokumentacji technicznej.
+* Uporządkowanie kodu (linkowanie funkcji/nagłówki).
+* Implementacja przekierowania logów do osobnych plików tekstowych dla Dziekana, Kandydata i Komisji (zamiast wspólnego wyjścia na `stdout`).

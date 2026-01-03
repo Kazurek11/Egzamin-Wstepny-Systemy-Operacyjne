@@ -1,16 +1,9 @@
+#define _GNU_SOURCE
 #include "common.h"
-#include <sys/wait.h>
-#include <sys/mman.h> 
-#include <semaphore.h>
-#include <errno.h>
-#include <time.h>   
-#include <unistd.h> 
-#include <signal.h> 
 
 int main() {
     srand(time(NULL) ^ getpid());
 
-    // 1. Sprzątanie
     sem_unlink(KOLEJKA_KOMISJA_A);
     sem_unlink(KOLEJKA_KOMISJA_B);
     sem_unlink(WOLNE_MIEJSCA_KOMISJA_A);
@@ -24,7 +17,6 @@ int main() {
     mkfifo(FIFO_WEJSCIE, 0600);
     shm_unlink(SHM_NAME);
 
-    // 2. Inicjalizacja SHM
     int shm_fd = shm_open(SHM_NAME, O_CREAT | O_RDWR, 0600);
     if (shm_fd == -1) {
         return 4;
@@ -34,10 +26,10 @@ int main() {
     EgzaminPamiecDzielona *egzamin = mmap(NULL, sizeof(EgzaminPamiecDzielona), 
                                           PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
     if (egzamin == MAP_FAILED) {
+        perror("[Dziekan] Błąd mmap");
         return 4;
     }
     
-    // --- IPC Inicjalizacja ---
     pthread_mutexattr_t mattr;
     pthread_condattr_t cattr;
     
@@ -56,13 +48,17 @@ int main() {
     pthread_mutexattr_destroy(&mattr);
     pthread_condattr_destroy(&cattr);
 
-    // 3. Inicjalizacja Semaforów
     sem_t *sem_kolejka_A = sem_open(KOLEJKA_KOMISJA_A, O_CREAT, 0600, 0);
     sem_t *sem_kolejka_B = sem_open(KOLEJKA_KOMISJA_B, O_CREAT, 0600, 0);
     sem_t *sem_miejsce_A = sem_open(WOLNE_MIEJSCA_KOMISJA_A, O_CREAT, 0600, 3);
     sem_t *sem_miejsce_B = sem_open(WOLNE_MIEJSCA_KOMISJA_B, O_CREAT, 0600, 3);
     
     if (sem_kolejka_A == SEM_FAILED || sem_kolejka_B == SEM_FAILED) {
+        perror("[Dziekan] Błąd semaforow kolejkowych");
+        return 6;
+    }
+    if (sem_miejsce_A == SEM_FAILED || sem_miejsce_B == SEM_FAILED) {
+        perror("[Dziekan] Błąd semaforow wolnych miejsc");
         return 6;
     }
     
@@ -71,7 +67,7 @@ int main() {
 
     egzamin->liczba_kandydatow = 0;
 
-    printf("[Dziekan] Rekrutacja otwarta. Generuję komisje i kandydatów \n");
+    printf("[Dziekan] [PID: %d] Rekrutacja otwarta. Generuję komisje i kandydatów \n", (int)getpid());
 
     pid_t komisje_pids[LICZBA_KOMISJI];
 
@@ -90,13 +86,13 @@ int main() {
             execl("./kandydat", "kandydat", NULL);
             return 6;
         }
-        sleep_ms(5); // Zmiana z usleep(5000)
+        sleep_ms(5); 
     }
 
-    printf("[Dziekan] Wszyscy kandydaci (%d) czekają.\n", LICZBA_KANDYDATOW);
-    printf("[Dziekan] Czekam na godzinę T %d...\n", GODZINA_T);
+    printf("[Dziekan] [PID: %d] Wszyscy kandydaci (%d) czekają.\n", (int)getpid(), LICZBA_KANDYDATOW);
+    printf("[Dziekan] [PID: %d] Czekam na godzinę T %d...\n", (int)getpid(), GODZINA_T);
     sleep(GODZINA_T); 
-    printf("[Dziekan] Godzina T wybija! Otwieram drzwi (FIFO).\n");
+    printf("[Dziekan] [PID: %d] Godzina T wybija! Otwieram drzwi (FIFO).\n", (int)getpid());
     
     int fd = open(FIFO_WEJSCIE, O_RDONLY);
     
@@ -135,11 +131,15 @@ int main() {
                     
                     egzamin->lista[idx].status = 1; 
                     sem_post(sem_kolejka_A); 
-                    printf("[Dziekan] Kandydat %d (Stary) -> Skierowany do A (info).\n", buf.id);
+                    
+                    printf("[Dziekan] [PID: %d] Kandydat [PID: %d] skierowany do komisji A [PID: %d] |\t Kandydat zdał teorię wcześniej\n", 
+                           (int)getpid(), buf.id, komisje_pids[0]);
                 } else {
                     egzamin->lista[idx].status = 1; 
                     sem_post(sem_kolejka_A);
-                    printf("[Dziekan] Kandydat %d (Nowy) -> Skierowany na Teorię.\n", buf.id);
+                    
+                    printf("[Dziekan] [PID: %d] Kandydat [PID: %d] skierowany do komisji A [PID: %d]\n", 
+                           (int)getpid(), buf.id, komisje_pids[0]);
                 }
                 egzamin->liczba_kandydatow++; 
             }
@@ -147,7 +147,7 @@ int main() {
             if (plik_rekrutacja_odrzuceni) {
                 fprintf(plik_rekrutacja_odrzuceni, "%d\n", buf.id);
             }
-            printf("[Dziekan] Kandydat %d ODRZUCONY (Brak matury).\n", buf.id);
+            printf("[Dziekan] [PID: %d] Kandydat [PID: %d] odrzucony z powodu braku matury.\n", (int)getpid(), buf.id);
         }
     }
 
@@ -161,13 +161,13 @@ int main() {
     close(fd);
     unlink(FIFO_WEJSCIE);
     
-    printf("[Dziekan] Zakończono wpuszczanie. Czekam aż wszyscy studenci wyjdą...\n");
+    printf("[Dziekan] [PID: %d] Zakończono wpuszczanie. Czekam aż wszyscy studenci wyjdą...\n", (int)getpid());
 
     for (int i = 0; i < LICZBA_KANDYDATOW; i++) {
         wait(NULL); 
     }
     
-    printf("[Dziekan] Wszyscy kandydaci opuścili system. Zamykam komisje.\n");
+    printf("[Dziekan] [PID: %d] Wszyscy kandydaci opuścili system. Zamykam komisje.\n", (int)getpid());
     for (int i = 0; i < LICZBA_KOMISJI; i++) {
         kill(komisje_pids[i], SIGTERM);
     }
@@ -175,47 +175,79 @@ int main() {
     wait(NULL); 
     wait(NULL);
 
-    printf("\n[Dziekan] Generuję listy rankingowe...\n");
+    printf("\n[Dziekan] [PID: %d] Generuję listy rankingowe...\n", (int)getpid());
     
-    FILE *plik_przyjec = fopen("lista_przyjetych.txt", "w"); 
-    FILE *plik_odrzucen = fopen("lista_odrzuconych.txt", "w");
-
-    if (plik_przyjec) {
-        fprintf(plik_przyjec, "PID\tTeoria\tPraktyka\n");
-    }
-    if (plik_odrzucen) {
-        fprintf(plik_odrzucen, "PID\tTeoria\tPraktyka\tPowód\n");
+    int liczba_uczestnikow = egzamin->liczba_kandydatow;
+    Student *kopia_studentow = malloc(sizeof(Student) * liczba_uczestnikow);
+    
+    for (int i = 0; i < liczba_uczestnikow; i++) {
+        kopia_studentow[i] = egzamin->lista[i];
     }
 
-    for (int i = 0; i < egzamin->liczba_kandydatow; i++) {
-        Student s = egzamin->lista[i];
-        
-        if (s.zaliczona_A == 1 && s.zaliczona_B == 1) {
-            if (plik_przyjec) {
-                fprintf(plik_przyjec, "%d\t%d\t%d\n", s.id, s.punkty_teoria, s.punkty_praktyka);
-            }
-        } else {
-            if (plik_odrzucen) {
-                fprintf(plik_odrzucen, "%d\t%d\t%d\t", s.id, s.punkty_teoria, s.punkty_praktyka);
-                if (s.zaliczona_A == 0) {
-                    fprintf(plik_odrzucen, "Oblana Teoria\n");
-                } else if (s.zaliczona_B == 0) {
-                    fprintf(plik_odrzucen, "Oblana Praktyka\n");
-                } else {
-                    fprintf(plik_odrzucen, "Inny\n");
-                }
+    for (int i = 0; i < liczba_uczestnikow - 1; i++) {
+        for (int j = 0; j < liczba_uczestnikow - i - 1; j++) {
+            double suma1 = kopia_studentow[j].punkty_teoria + kopia_studentow[j].punkty_praktyka;
+            double suma2 = kopia_studentow[j+1].punkty_teoria + kopia_studentow[j+1].punkty_praktyka;
+
+            if (suma1 < suma2) {
+                Student temp = kopia_studentow[j];
+                kopia_studentow[j] = kopia_studentow[j+1];
+                kopia_studentow[j+1] = temp;
             }
         }
     }
 
-    if (plik_przyjec) {
-        fclose(plik_przyjec);
-    }
-    if (plik_odrzucen) {
-        fclose(plik_odrzucen);
+    FILE *plik_ranking = fopen("lista_rankingowa.txt", "w");
+    if (plik_ranking) {
+        fprintf(plik_ranking, "PID | OCENA A | OCENA B | OGOLNA OCENA | STATUS\n");
+        
+        int licznik_zakwalifikowanych = 0; 
+
+        for (int i = 0; i < liczba_uczestnikow; i++) {
+            Student s = kopia_studentow[i];
+            double ogolna = (s.punkty_teoria + s.punkty_praktyka) / 2.0;
+            
+            char *status = "OBLAL";
+
+            if (s.zaliczona_A == 1 && s.zaliczona_B == 1) {
+                if (licznik_zakwalifikowanych < LIMIT_PRZYJEC) {
+                    status = "ZDAL_EGZAMIN_PRZYJETY";
+                    licznik_zakwalifikowanych++; 
+                } else {
+                    status = "ZDAL_EGZAMIN_BRAK_MIEJSC"; 
+                }
+            }
+            
+            fprintf(plik_ranking, "%d | %.2lf | %.2lf | %.2lf | %s\n", 
+                    s.id, s.punkty_teoria, s.punkty_praktyka, ogolna, status);
+        }
+        fclose(plik_ranking);
     }
 
-    printf("[Dziekan] Raporty gotowe.\n");
+    FILE *plik_przyjec = fopen("lista_przyjetych.txt", "w");
+    if (plik_przyjec) {
+        fprintf(plik_przyjec, "PID | OCENA A | OCENA B | OGOLNA OCENA\n");
+        
+        int licznik_przyjetych = 0;
+        
+        for (int i = 0; i < liczba_uczestnikow; i++) {
+            Student s = kopia_studentow[i];
+            
+            if (s.zaliczona_A == 1 && s.zaliczona_B == 1) {
+                if (licznik_przyjetych < LIMIT_PRZYJEC) {
+                    double ogolna = (s.punkty_teoria + s.punkty_praktyka) / 2.0;
+                    fprintf(plik_przyjec, "%d | %.2lf | %.2lf | %.2lf\n", 
+                            s.id, s.punkty_teoria, s.punkty_praktyka, ogolna);
+                    licznik_przyjetych++;
+                }
+            }
+        }
+        fclose(plik_przyjec);
+    }
+
+    free(kopia_studentow);
+
+    printf("[Dziekan] [PID: %d] Raporty gotowe (Limit przyjęć: %d).\n", (int)getpid(), LIMIT_PRZYJEC);
     
     shm_unlink(SHM_NAME); 
     return 0;

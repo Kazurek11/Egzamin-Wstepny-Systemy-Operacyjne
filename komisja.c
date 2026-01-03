@@ -1,10 +1,14 @@
+#define _GNU_SOURCE
 #include "common.h"
 #include <pthread.h>
-#include <string.h>
-#include <semaphore.h> 
+#include <semaphore.h>
 #include <sys/mman.h>
-#include <fcntl.h>     
-#include <unistd.h> 
+#include <fcntl.h>
+#include <unistd.h>
+#include <sys/syscall.h>
+#include <math.h>     
+#include <stdlib.h>   
+#include <time.h>     
 
 EgzaminPamiecDzielona *egzamin;
 Stanowisko stanowiska[MAX_MIEJSC]; 
@@ -31,14 +35,14 @@ int znajdz_wolne_stanowisko() {
     return znaleziony;
 }
 
-int wylosuj_unikalne_pytanie(int nr_stanowiska) {
+int wylosuj_unikalne_pytanie(int stolik) {
     int unikalne = 0;
     int pytanie;
     while (!unikalne) {
         pytanie = (rand() % 50) + 1;
         unikalne = 1;
-        for (int i = 0; i < stanowiska[nr_stanowiska].liczba_zadanych_pytan; i++) {
-            if (stanowiska[nr_stanowiska].pytania[i] == pytanie) {
+        for (int i = 0; i < stanowiska[stolik].liczba_zadanych_pytan; i++) {
+            if (stanowiska[stolik].pytania[i] == pytanie) {
                 unikalne = 0; 
                 break;
             }
@@ -57,7 +61,7 @@ void pracuj_jako_czlonek(int stolik, int id, char rola, char komisja) {
     stanowiska[stolik].pytania[idx] = pyt;
     stanowiska[stolik].liczba_zadanych_pytan++;
     
-    int pid_kandydata = stanowiska[stolik].id_kandydata;
+    int pid_kandydata = stanowiska[stolik].id_kandydata; // Pobieramy PID kandydata
     int shm_idx = -1;
     for (int k = 0; k < egzamin->liczba_kandydatow; k++) {
         if (egzamin->lista[k].id == pid_kandydata) {
@@ -70,7 +74,15 @@ void pracuj_jako_czlonek(int stolik, int id, char rola, char komisja) {
         egzamin->lista[shm_idx].id_egzaminatora[idx] = id;
     }
     
-    printf("[Komisja] Egzaminator [%c] %d (%c) zadał pytanie %d.\n", rola, id, komisja, pyt);
+    printf("[Komisja %c] [PID: %d] |\t Pytanie nr: %d |\t Egzaminator [%c] [TID: %ld] [ID: %d] |\t Zadał kandydatowi [PID: %d] treść nr: %d\n",
+       komisja,
+       (int)getpid(),
+       idx + 1,
+       rola,
+       (long)syscall(SYS_gettid),
+       id,
+       pid_kandydata,
+       pyt);
     
     pthread_mutex_unlock(&stanowiska[stolik].mutex);
 
@@ -82,9 +94,17 @@ void pracuj_jako_czlonek(int stolik, int id, char rola, char komisja) {
         Student *s = &egzamin->lista[shm_idx];
         for (int k = 0; k < 5; k++) {
             if (s->id_egzaminatora[k] == id && s->oceny[k] == -1) {
-                int ocena = (rand() % 100) - 20;
+                int ocena = (rand() % 101);
                 s->oceny[k] = ocena;
-                printf("[Komisja] Egzaminator [%c] %d (%c) ocenił. Wynik: %d.\n", rola, id, komisja, ocena);
+                
+                printf("[Komisja %c] [PID: %d] |\t Egzaminator [%c] [TID: %ld] [ID: %d] |\t Ocenił kandydata [PID: %d] |\t Wynik cząstkowy: %d\n",
+                       komisja,
+                       (int)getpid(),
+                       rola,
+                       (long)syscall(SYS_gettid),
+                       id,
+                       s->id,
+                       ocena);
             }
         }
     }
@@ -95,7 +115,7 @@ void pracuj_jako_czlonek(int stolik, int id, char rola, char komisja) {
 void* przewodniczacy_komisji_A(void* arg){
     int P_id = *(int*)arg;
     free(arg); 
-    printf("[Komisja] [P] Przewodniczący %d w komisji A: Rozpoczynam pracę.\n", P_id);
+    printf("[Komisja A] [P] Przewodniczący %d w komisji A: Rozpoczynam pracę.\n", P_id);
 
     while (1) {
         sem_wait(sem_kolejka_komisji); 
@@ -124,7 +144,9 @@ void* przewodniczacy_komisji_A(void* arg){
         }
 
         if (egzamin->lista[id_kandydata_PD].zdana_teoria_wczesniej == 1) {
-            printf("[Komisja] [P] Kandydat %d (Stary) -> Przekierowanie do B.\n", kandydat_pid);
+            printf("[Komisja A] [PID: %d] |\t Kandydat [PID: %d] (Stary) |\t ZALICZONA A (Wcześniej) |\t Przekierowanie do B\n", 
+                   (int)getpid(), kandydat_pid);
+            
             egzamin->lista[id_kandydata_PD].zaliczona_A = 1;
             egzamin->lista[id_kandydata_PD].status = 2; 
             sem_post(sem_kolejka_przyszlosci); 
@@ -161,7 +183,14 @@ void* przewodniczacy_komisji_A(void* arg){
         egzamin->lista[id_kandydata_PD].pytania[idx] = pyt;
         egzamin->lista[id_kandydata_PD].id_egzaminatora[idx] = P_id;
         
-        printf("[Komisja] Egzaminator [P] %d (A) zadał pytanie %d.\n", P_id, pyt);
+        printf("[Komisja A] [PID: %d] |\t Pytanie nr: %d |\t Egzaminator [P] [TID: %ld] [ID: %d] |\t Zadał kandydatowi [PID: %d] treść nr: %d\n",
+            (int)getpid(),
+            idx + 1,
+            (long)syscall(SYS_gettid),
+            P_id,
+            kandydat_pid,
+            pyt);
+
         pthread_mutex_unlock(&stanowiska[stolik].mutex);
 
         pthread_barrier_wait(&stanowiska[stolik].bariera);
@@ -180,7 +209,15 @@ void* przewodniczacy_komisji_A(void* arg){
         Student *s = &egzamin->lista[id_kandydata_PD];
         for (int k = 0; k < 5; k++) {
             if (s->id_egzaminatora[k] == P_id && s->oceny[k] == -1) {
-                s->oceny[k] = (rand() % 51) + 50;
+                int ocena = (rand() % 101);
+                s->oceny[k] = ocena;
+                
+                printf("[Komisja A] [PID: %d] |\t Egzaminator [P] [TID: %ld] [ID: %d] |\t Ocenił kandydata [PID: %d] |\t Wynik cząstkowy: %d\n",
+                       (int)getpid(),
+                       (long)syscall(SYS_gettid),
+                       P_id,
+                       s->id,
+                       ocena);
             }
         }
 
@@ -190,18 +227,22 @@ void* przewodniczacy_komisji_A(void* arg){
         for (int k = 0; k < LICZBA_EGZAMINATOROW_A; k++) {
             suma += egzamin->lista[id_kandydata_PD].oceny[k];
         }
-        double srednia = (double)suma / LICZBA_EGZAMINATOROW_A;
-        egzamin->lista[id_kandydata_PD].punkty_teoria = (int)srednia;
+        double srednia = round(((double)suma / LICZBA_EGZAMINATOROW_A) * 100.0) / 100.0;
+        egzamin->lista[id_kandydata_PD].punkty_teoria = srednia;
         
         pthread_mutex_lock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
-        if ((int)srednia >= 30) {
+        if (srednia >= 30.0) {
             egzamin->lista[id_kandydata_PD].zaliczona_A = 1; 
-            printf("[Komisja] KANDYDAT %d ZDAŁ A (%d pkt) -> idzie do B.\n", kandydat_pid, (int)srednia);
+            printf("[Komisja A] [PID: %d] |\t Kandydat [PID: %d] |\t ZDAŁ A (-> B) |\t Wynik: %.2lf pkt\n", 
+                   (int)getpid(), kandydat_pid, srednia);
+                   
             egzamin->lista[id_kandydata_PD].status = 2; 
             sem_post(sem_kolejka_przyszlosci);
         } else {
             egzamin->lista[id_kandydata_PD].zaliczona_A = 0; 
-            printf("[Komisja] KANDYDAT %d OBLAŁ A (%d pkt) -> koniec.\n", kandydat_pid, (int)srednia);
+            printf("[Komisja A] [PID: %d] |\t Kandydat [PID: %d] |\t OBLAŁ A (Koniec) |\t Wynik: %.2lf pkt\n", 
+                   (int)getpid(), kandydat_pid, srednia);
+                   
             egzamin->lista[id_kandydata_PD].status = 3; 
         }
         pthread_cond_signal(&egzamin->lista[id_kandydata_PD].cond_ipc); 
@@ -243,7 +284,7 @@ void* czlonek_komisji_A(void* arg){
 void* przewodniczacy_komisji_B(void* arg){
     int P_id = *(int*)arg;
     free(arg); 
-    printf("[Komisja] [P] Przewodniczący %d w komisji B: Rozpoczynam pracę.\n", P_id);
+    printf("[Komisja B] [P] Przewodniczący %d w komisji B: Rozpoczynam pracę.\n", P_id);
 
     while (1) {
         sem_wait(sem_kolejka_komisji); 
@@ -267,6 +308,7 @@ void* przewodniczacy_komisji_B(void* arg){
             stanowiska[stolik].zajete = 0;
             pthread_mutex_unlock(&stanowiska[stolik].mutex);
             sem_post(sem_miejsca_komisji);
+            sem_post(sem_kolejka_komisji); 
             continue;
         }
 
@@ -294,7 +336,15 @@ void* przewodniczacy_komisji_B(void* arg){
         stanowiska[stolik].liczba_zadanych_pytan++;
         egzamin->lista[id_kandydata_PD].pytania[idx] = pyt;
         egzamin->lista[id_kandydata_PD].id_egzaminatora[idx] = P_id;
-        printf("[Komisja] Egzaminator [P] %d (B) zadał pytanie %d.\n", P_id, pyt);
+        
+        printf("[Komisja B] [PID: %d] |\t Pytanie nr: %d |\t Egzaminator [P] [TID: %ld] [ID: %d] |\t Zadał kandydatowi [PID: %d] treść nr: %d\n",
+            (int)getpid(),
+            idx + 1,
+            (long)syscall(SYS_gettid),
+            P_id,
+            kandydat_pid,
+            pyt);
+
         pthread_mutex_unlock(&stanowiska[stolik].mutex);
 
         pthread_barrier_wait(&stanowiska[stolik].bariera);
@@ -313,7 +363,15 @@ void* przewodniczacy_komisji_B(void* arg){
         Student *s = &egzamin->lista[id_kandydata_PD];
         for (int k = 0; k < 5; k++) {
             if (s->id_egzaminatora[k] == P_id && s->oceny[k] == -1) {
-                s->oceny[k] = (rand() % 100) - 20;
+                int ocena = (rand() % 100);
+                s->oceny[k] = ocena;
+                
+                printf("[Komisja B] [PID: %d] |\t Egzaminator [P] [TID: %ld] [ID: %d] |\t Ocenił kandydata [PID: %d] |\t Wynik cząstkowy: %d\n",
+                       (int)getpid(),
+                       (long)syscall(SYS_gettid),
+                       P_id,
+                       s->id,
+                       ocena);
             }
         }
 
@@ -323,17 +381,20 @@ void* przewodniczacy_komisji_B(void* arg){
         for (int k = 0; k < LICZBA_EGZAMINATOROW_B; k++) {
             suma += egzamin->lista[id_kandydata_PD].oceny[k];
         }
-        double srednia = (double)suma / LICZBA_EGZAMINATOROW_B;
-        egzamin->lista[id_kandydata_PD].punkty_praktyka = (int)srednia;
+        double srednia = round(((double)suma / LICZBA_EGZAMINATOROW_B) * 100.0) / 100.0;
+        egzamin->lista[id_kandydata_PD].punkty_praktyka = srednia;
         egzamin->lista[id_kandydata_PD].status = 3; 
         
         pthread_mutex_lock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
-        if ((int)srednia >= 30) {
+        if (srednia >= 30.0) {
             egzamin->lista[id_kandydata_PD].zaliczona_B = 1; 
-            printf("[Komisja] KANDYDAT %d ZDAŁ B (%d pkt).\n", stanowiska[stolik].id_kandydata, (int)srednia);
+            printf("[Komisja B] [PID: %d] |\t Kandydat [PID: %d] |\t ZDAŁ B |\t Wynik: %.2lf pkt\n", 
+                   (int)getpid(), stanowiska[stolik].id_kandydata, srednia);
+                   
         } else {
             egzamin->lista[id_kandydata_PD].zaliczona_B = 0; 
-            printf("[Komisja] KANDYDAT %d OBLAŁ B (%d pkt).\n", stanowiska[stolik].id_kandydata, (int)srednia);
+            printf("[Komisja B] [PID: %d] |\t Kandydat [PID: %d] |\t OBLAŁ B |\t Wynik: %.2lf pkt\n", 
+                   (int)getpid(), stanowiska[stolik].id_kandydata, srednia);
         }
         pthread_cond_signal(&egzamin->lista[id_kandydata_PD].cond_ipc);
         pthread_mutex_unlock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
@@ -371,6 +432,8 @@ void* czlonek_komisji_B(void* arg){
 }
 
 int main(int argc, char* argv[]){
+    srand(time(NULL) ^ getpid());
+
     if (argc < 2) {
         return 1;
     }
