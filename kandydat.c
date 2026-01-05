@@ -1,6 +1,12 @@
 #include "common.h"
 
-int main() {
+int main(int argc, char *argv[]) {
+    const char* nazwa_pliku = (argc > 1) ? argv[1] : "kandydat_error";
+    FILE *plik_logu = otworz_log(nazwa_pliku, "a");
+
+    sem_t *sem_log = sem_open(SEM_LOG_KEY, O_CREAT, 0600, 1);
+    sem_t *sem_sync = sem_open(SEM_SYNC_START, 0);
+
     srand(getpid()); 
     
     Zgloszenie zgloszenie_kandydat;
@@ -17,31 +23,53 @@ int main() {
             zgloszenie_kandydat.zdana_matura = 1;
         }
     }
+
+    if (sem_log) sem_wait(sem_log);
     if (zgloszenie_kandydat.zdana_matura == 1 ){
-        printf("[Kandydat] [PID: %d]\t Zostałem utworzony i mam zdaną mature.\n",(int)getpid());
+        dodaj_do_loggera(plik_logu, "[Kandydat] [PID: %d]\t Zostałem utworzony i mam zdaną mature.\n",(int)getpid());
     }else{
-        printf("[Kandydat] [PID: %d]\t Zostałem utworzony i nie mam zdanej matury.\n",(int)getpid());
+        dodaj_do_loggera(plik_logu, "[Kandydat] [PID: %d]\t Zostałem utworzony i nie mam zdanej matury.\n",(int)getpid());
     }
+    if (sem_log) sem_post(sem_log);
     
     int file_descriptor = open(FIFO_WEJSCIE, O_WRONLY);
     if (file_descriptor == -1) {
-        perror("[Kandydat] Nie mogę wejść do kolejki");
+        if (sem_log) sem_wait(sem_log);
+        perror("[Kandydat] Nie mogę wejść do kolejki"); 
+        if (sem_log) sem_post(sem_log);
+
+        if (sem_sync) sem_post(sem_sync);
+        if (sem_sync) sem_close(sem_sync);
+
+        if (plik_logu) fclose(plik_logu);
         return 1;
     }
 
     if (write(file_descriptor, &zgloszenie_kandydat, sizeof(Zgloszenie)) == -1) {
         perror("[Kandydat] Błąd wysyłania zgłoszenia");
+        
+        if (sem_sync) sem_post(sem_sync);
+        if (sem_sync) sem_close(sem_sync);
+        
+        if (plik_logu) fclose(plik_logu);
         return 2;
     }
     close(file_descriptor);
 
+    if (sem_sync) {
+        sem_post(sem_sync);
+        sem_close(sem_sync);
+    }
+
     if (zgloszenie_kandydat.zdana_matura == 0) {
+        if (plik_logu) fclose(plik_logu);
         return 0;
     }
 
     int shm_fd = shm_open(SHM_NAME, O_RDWR, 0600);
     if (shm_fd == -1) {
         perror("[Kandydat] Błąd utowrzenia shm_fd (identyfikator)");
+        if (plik_logu) fclose(plik_logu);
         return 1; 
     }
     
@@ -49,12 +77,12 @@ int main() {
     PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
     if (egzamin == MAP_FAILED) {
         perror("[Kandydat] Błąd odblokowania pamieci dzielonej");
+        if (plik_logu) fclose(plik_logu);
         return 1;
     }
 
     int moj_index = -1;
     int timeout = 0;
-    // teamt do konsultacji nie usuwaj tego
     while (moj_index == -1 && timeout < 1000) {
         for (int i = 0; i < egzamin->liczba_kandydatow; i++) {
             if (egzamin->lista[i].id == getpid()) {
@@ -69,6 +97,7 @@ int main() {
     }
 
     if (moj_index == -1) {
+        if (plik_logu) fclose(plik_logu);
         return 0; 
     }
     Student *kandydat = &egzamin->lista[moj_index];
@@ -95,7 +124,9 @@ int main() {
                 limit_pytan = LICZBA_EGZAMINATOROW_B;
             }
 
-            printf("[Kandydat] [PID: %d] \t Otrzymałem %d pytań! Odpowiadam...\n", getpid(), limit_pytan);
+            if (sem_log) sem_wait(sem_log);
+            dodaj_do_loggera(plik_logu, "[Kandydat] [PID: %d] \t Otrzymałem %d pytań! Odpowiadam...\n", getpid(), limit_pytan);
+            if (sem_log) sem_post(sem_log);
             
             sleep_ms(GODZINA_Ti); 
 
@@ -112,5 +143,7 @@ int main() {
         pthread_mutex_unlock(&kandydat->mutex_ipc);
     }
 
+    if (sem_log) sem_close(sem_log);
+    if (plik_logu) fclose(plik_logu);
     return 0;
 }

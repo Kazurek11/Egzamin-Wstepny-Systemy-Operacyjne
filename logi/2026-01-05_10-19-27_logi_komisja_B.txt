@@ -1,0 +1,799 @@
+[Czas: 10:19:27.449]	[Komisja B] [P] Przewodniczący 0 w komisji B: Rozpoczynam pracę.
+[Czas: 10:19:33.840]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13380] treść nr: 41
+[Czas: 10:19:33.840]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13380] treść nr: 45
+[Czas: 10:19:33.840]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13380] treść nr: 35
+[Czas: 10:19:34.040]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13380] |	 Wynik cząstkowy: 82
+[Czas: 10:19:34.041]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13380] |	 Wynik cząstkowy: 2
+[Czas: 10:19:34.041]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13380] |	 Wynik cząstkowy: 24
+[Czas: 10:19:34.183]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13380] |	 ZDAŁ B |	 Wynik: 36.00 pkt
+[Czas: 10:19:34.183]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13381] treść nr: 35
+[Czas: 10:19:34.184]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13381] treść nr: 49
+[Czas: 10:19:34.184]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13381] treść nr: 4
+[Czas: 10:19:34.384]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13381] |	 Wynik cząstkowy: 11
+[Czas: 10:19:34.384]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13381] |	 Wynik cząstkowy: 88
+[Czas: 10:19:34.384]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13381] |	 Wynik cząstkowy: 56
+[Czas: 10:19:34.384]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13381] |	 ZDAŁ B |	 Wynik: 51.67 pkt
+[Czas: 10:19:34.385]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13382] treść nr: 2
+[Czas: 10:19:34.385]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13382] treść nr: 41
+[Czas: 10:19:34.385]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13382] treść nr: 6
+[Czas: 10:19:34.586]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13382] |	 Wynik cząstkowy: 89
+[Czas: 10:19:34.586]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13382] |	 Wynik cząstkowy: 80
+[Czas: 10:19:34.586]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13382] |	 Wynik cząstkowy: 55
+[Czas: 10:19:34.586]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13382] |	 ZDAŁ B |	 Wynik: 74.67 pkt
+[Czas: 10:19:34.586]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13383] treść nr: 9
+[Czas: 10:19:34.586]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13383] treść nr: 3
+[Czas: 10:19:34.586]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13383] treść nr: 18
+[Czas: 10:19:34.787]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13383] |	 Wynik cząstkowy: 11
+[Czas: 10:19:34.787]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13383] |	 Wynik cząstkowy: 91
+[Czas: 10:19:34.787]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13383] |	 Wynik cząstkowy: 53
+[Czas: 10:19:34.787]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13383] |	 ZDAŁ B |	 Wynik: 51.67 pkt
+[Czas: 10:19:34.787]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13384] treść nr: 5
+[Czas: 10:19:34.787]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13384] treść nr: 14
+[Czas: 10:19:34.787]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13384] treść nr: 43
+[Czas: 10:19:34.988]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13384] |	 Wynik cząstkowy: 93
+[Czas: 10:19:34.988]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13384] |	 Wynik cząstkowy: 84
+[Czas: 10:19:34.988]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13384] |	 Wynik cząstkowy: 69
+[Czas: 10:19:34.988]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13384] |	 ZDAŁ B |	 Wynik: 82.00 pkt
+[Czas: 10:19:34.989]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13385] treść nr: 48
+[Czas: 10:19:34.989]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13385] treść nr: 44
+[Czas: 10:19:34.989]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13385] treść nr: 26
+[Czas: 10:19:35.189]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13385] |	 Wynik cząstkowy: 34
+[Czas: 10:19:35.189]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13385] |	 Wynik cząstkowy: 86
+[Czas: 10:19:35.189]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13385] |	 Wynik cząstkowy: 29
+[Czas: 10:19:35.189]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13385] |	 ZDAŁ B |	 Wynik: 49.67 pkt
+[Czas: 10:19:35.190]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13386] treść nr: 43
+[Czas: 10:19:35.190]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13386] treść nr: 11
+[Czas: 10:19:35.190]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13386] treść nr: 4
+[Czas: 10:19:35.390]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13386] |	 Wynik cząstkowy: 48
+[Czas: 10:19:35.390]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13386] |	 Wynik cząstkowy: 95
+[Czas: 10:19:35.390]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13386] |	 Wynik cząstkowy: 78
+[Czas: 10:19:35.390]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13386] |	 ZDAŁ B |	 Wynik: 73.67 pkt
+[Czas: 10:19:35.391]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13387] treść nr: 3
+[Czas: 10:19:35.391]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13387] treść nr: 26
+[Czas: 10:19:35.391]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13387] treść nr: 5
+[Czas: 10:19:35.591]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13387] |	 Wynik cząstkowy: 7
+[Czas: 10:19:35.591]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13387] |	 Wynik cząstkowy: 4
+[Czas: 10:19:35.591]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13387] |	 Wynik cząstkowy: 75
+[Czas: 10:19:35.592]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13387] |	 OBLAŁ B |	 Wynik: 28.67 pkt
+[Czas: 10:19:35.592]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13388] treść nr: 49
+[Czas: 10:19:35.592]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13388] treść nr: 17
+[Czas: 10:19:35.592]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13388] treść nr: 40
+[Czas: 10:19:35.793]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13388] |	 Wynik cząstkowy: 18
+[Czas: 10:19:35.793]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13388] |	 Wynik cząstkowy: 53
+[Czas: 10:19:35.793]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13388] |	 Wynik cząstkowy: 74
+[Czas: 10:19:35.793]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13388] |	 ZDAŁ B |	 Wynik: 48.33 pkt
+[Czas: 10:19:35.793]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13389] treść nr: 2
+[Czas: 10:19:35.793]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13389] treść nr: 35
+[Czas: 10:19:35.793]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13389] treść nr: 47
+[Czas: 10:19:35.994]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13389] |	 Wynik cząstkowy: 57
+[Czas: 10:19:35.994]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13389] |	 Wynik cząstkowy: 29
+[Czas: 10:19:35.994]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13389] |	 Wynik cząstkowy: 85
+[Czas: 10:19:35.994]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13389] |	 ZDAŁ B |	 Wynik: 57.00 pkt
+[Czas: 10:19:35.994]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13390] treść nr: 27
+[Czas: 10:19:35.994]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13390] treść nr: 30
+[Czas: 10:19:35.994]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13390] treść nr: 44
+[Czas: 10:19:36.195]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13390] |	 Wynik cząstkowy: 75
+[Czas: 10:19:36.195]	[Czas: 10:19:36.195]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13390] |	 Wynik cząstkowy: 75
+[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13390] |	 Wynik cząstkowy: 13
+[Czas: 10:19:36.195]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13390] |	 ZDAŁ B |	 Wynik: 54.33 pkt
+[Czas: 10:19:36.195]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13391] treść nr: 10
+[Czas: 10:19:36.195]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13391] treść nr: 8
+[Czas: 10:19:36.196]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13391] treść nr: 32
+[Czas: 10:19:36.396]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13391] |	 Wynik cząstkowy: 15
+[Czas: 10:19:36.396]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13391] |	 Wynik cząstkowy: 14
+[Czas: 10:19:36.396]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13391] |	 Wynik cząstkowy: 15
+[Czas: 10:19:36.396]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13391] |	 OBLAŁ B |	 Wynik: 14.67 pkt
+[Czas: 10:19:36.396]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13392] treść nr: 31
+[Czas: 10:19:36.397]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13392] treść nr: 10
+[Czas: 10:19:36.397]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13392] treść nr: 36
+[Czas: 10:19:36.597]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13392] |	 Wynik cząstkowy: 18
+[Czas: 10:19:36.597]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13392] |	 Wynik cząstkowy: 86
+[Czas: 10:19:36.597]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13392] |	 Wynik cząstkowy: 44
+[Czas: 10:19:36.597]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13392] |	 ZDAŁ B |	 Wynik: 49.33 pkt
+[Czas: 10:19:36.597]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13393] treść nr: 20
+[Czas: 10:19:36.597]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13393] treść nr: 5
+[Czas: 10:19:36.597]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13393] treść nr: 15
+[Czas: 10:19:36.798]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13393] |	 Wynik cząstkowy: 83
+[Czas: 10:19:36.798]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13393] |	 Wynik cząstkowy: 33
+[Czas: 10:19:36.798]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13393] |	 Wynik cząstkowy: 79
+[Czas: 10:19:36.798]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13393] |	 ZDAŁ B |	 Wynik: 65.00 pkt
+[Czas: 10:19:36.798]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13394] treść nr: 41
+[Czas: 10:19:36.798]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13394] treść nr: 20
+[Czas: 10:19:36.798]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13394] treść nr: 44
+[Czas: 10:19:36.999]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13394] |	 Wynik cząstkowy: 18
+[Czas: 10:19:36.999]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13394] |	 Wynik cząstkowy: 51
+[Czas: 10:19:36.999]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13394] |	 Wynik cząstkowy: 49
+[Czas: 10:19:36.999]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13394] |	 ZDAŁ B |	 Wynik: 39.33 pkt
+[Czas: 10:19:36.999]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13395] treść nr: 13
+[Czas: 10:19:36.999]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13395] treść nr: 29
+[Czas: 10:19:36.999]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13395] treść nr: 36
+[Czas: 10:19:37.200]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13395] |	 Wynik cząstkowy: 66
+[Czas: 10:19:37.200]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13395] |	 Wynik cząstkowy: 73
+[Czas: 10:19:37.200]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13395] |	 Wynik cząstkowy: 4
+[Czas: 10:19:37.200]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13395] |	 ZDAŁ B |	 Wynik: 47.67 pkt
+[Czas: 10:19:37.200]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13396] treść nr: 28
+[Czas: 10:19:37.200]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13396] treść nr: 1
+[Czas: 10:19:37.200]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13396] treść nr: 39
+[Czas: 10:19:37.401]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13396] |	 Wynik cząstkowy: 41
+[Czas: 10:19:37.401]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13396] |	 Wynik cząstkowy: 97
+[Czas: 10:19:37.401]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13396] |	 Wynik cząstkowy: 41
+[Czas: 10:19:37.401]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13396] |	 ZDAŁ B |	 Wynik: 59.67 pkt
+[Czas: 10:19:37.401]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13397] treść nr: 23
+[Czas: 10:19:37.401]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13397] treść nr: 18
+[Czas: 10:19:37.401]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13397] treść nr: 10
+[Czas: 10:19:37.602]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13397] |	 Wynik cząstkowy: 39
+[Czas: 10:19:37.602]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13397] |	 Wynik cząstkowy: 60
+[Czas: 10:19:37.602]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13397] |	 Wynik cząstkowy: 77
+[Czas: 10:19:37.602]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13397] |	 ZDAŁ B |	 Wynik: 58.67 pkt
+[Czas: 10:19:37.602]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13398] treść nr: 8
+[Czas: 10:19:37.602]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13398] treść nr: 17
+[Czas: 10:19:37.602]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13398] treść nr: 48
+[Czas: 10:19:37.803]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13398] |	 Wynik cząstkowy: 53
+[Czas: 10:19:37.803]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13398] |	 Wynik cząstkowy: 46
+[Czas: 10:19:37.803]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13398] |	 Wynik cząstkowy: 90
+[Czas: 10:19:37.803]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13398] |	 ZDAŁ B |	 Wynik: 63.00 pkt
+[Czas: 10:19:37.803]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13399] treść nr: 37
+[Czas: 10:19:37.803]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13399] treść nr: 20
+[Czas: 10:19:37.803]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13399] treść nr: 40
+[Czas: 10:19:38.003]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13399] |	 Wynik cząstkowy: 8
+[Czas: 10:19:38.003]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13399] |	 Wynik cząstkowy: 42
+[Czas: 10:19:38.003]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13399] |	 Wynik cząstkowy: 20
+[Czas: 10:19:38.004]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13399] |	 OBLAŁ B |	 Wynik: 23.33 pkt
+[Czas: 10:19:38.004]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13400] treść nr: 34
+[Czas: 10:19:38.004]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13400] treść nr: 1
+[Czas: 10:19:38.004]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13400] treść nr: 20
+[Czas: 10:19:38.204]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13400] |	 Wynik cząstkowy: 0
+[Czas: 10:19:38.204]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13400] |	 Wynik cząstkowy: 77
+[Czas: 10:19:38.204]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13400] |	 Wynik cząstkowy: 93
+[Czas: 10:19:38.204]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13400] |	 ZDAŁ B |	 Wynik: 56.67 pkt
+[Czas: 10:19:38.204]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13401] treść nr: 27
+[Czas: 10:19:38.205]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13401] treść nr: 46
+[Czas: 10:19:38.205]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13401] treść nr: 15
+[Czas: 10:19:38.405]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13401] |	 Wynik cząstkowy: 20
+[Czas: 10:19:38.405]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13401] |	 Wynik cząstkowy: 20
+[Czas: 10:19:38.405]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13401] |	 Wynik cząstkowy: 9
+[Czas: 10:19:38.406]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13401] |	 OBLAŁ B |	 Wynik: 16.33 pkt
+[Czas: 10:19:38.406]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13402] treść nr: 43
+[Czas: 10:19:38.406]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13402] treść nr: 24
+[Czas: 10:19:38.406]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13402] treść nr: 32
+[Czas: 10:19:38.607]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13402] |	 Wynik cząstkowy: 53
+[Czas: 10:19:38.607]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13402] |	 Wynik cząstkowy: 12
+[Czas: 10:19:38.607]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13402] |	 Wynik cząstkowy: 30
+[Czas: 10:19:38.607]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13402] |	 ZDAŁ B |	 Wynik: 31.67 pkt
+[Czas: 10:19:38.607]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13404] treść nr: 39
+[Czas: 10:19:38.608]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13404] treść nr: 19
+[Czas: 10:19:38.608]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13404] treść nr: 10
+[Czas: 10:19:38.808]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13404] |	 Wynik cząstkowy: 86
+[Czas: 10:19:38.808]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13404] |	 Wynik cząstkowy: 80
+[Czas: 10:19:38.808]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13404] |	 Wynik cząstkowy: 50
+[Czas: 10:19:38.809]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13404] |	 ZDAŁ B |	 Wynik: 72.00 pkt
+[Czas: 10:19:38.809]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13405] treść nr: 35
+[Czas: 10:19:38.809]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13405] treść nr: 1
+[Czas: 10:19:38.809]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13405] treść nr: 31
+[Czas: 10:19:39.010]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13405] |	 Wynik cząstkowy: 74
+[Czas: 10:19:39.010]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13405] |	 Wynik cząstkowy: 45
+[Czas: 10:19:39.010]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13405] |	 Wynik cząstkowy: 83
+[Czas: 10:19:39.010]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13405] |	 ZDAŁ B |	 Wynik: 67.33 pkt
+[Czas: 10:19:39.011]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13407] treść nr: 9
+[Czas: 10:19:39.011]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13407] treść nr: 8
+[Czas: 10:19:39.011]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13407] treść nr: 3
+[Czas: 10:19:39.211]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13407] |	 Wynik cząstkowy: 77
+[Czas: 10:19:39.212]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13407] |	 Wynik cząstkowy: 63
+[Czas: 10:19:39.212]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13407] |	 Wynik cząstkowy: 64
+[Czas: 10:19:39.212]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13407] |	 ZDAŁ B |	 Wynik: 68.00 pkt
+[Czas: 10:19:39.414]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13409] treść nr: 4
+[Czas: 10:19:39.414]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13409] treść nr: 36
+[Czas: 10:19:39.414]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13409] treść nr: 43
+[Czas: 10:19:39.614]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13409] |	 Wynik cząstkowy: 7
+[Czas: 10:19:39.614]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13409] |	 Wynik cząstkowy: 75
+[Czas: 10:19:39.614]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13409] |	 Wynik cząstkowy: 55
+[Czas: 10:19:39.615]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13409] |	 ZDAŁ B |	 Wynik: 45.67 pkt
+[Czas: 10:19:39.615]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13410] treść nr: 28
+[Czas: 10:19:39.615]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13410] treść nr: 50
+[Czas: 10:19:39.615]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13410] treść nr: 24
+[Czas: 10:19:39.816]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13410] |	 Wynik cząstkowy: 8
+[Czas: 10:19:39.816]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13410] |	 Wynik cząstkowy: 20
+[Czas: 10:19:39.816]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13410] |	 Wynik cząstkowy: 96
+[Czas: 10:19:39.816]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13410] |	 ZDAŁ B |	 Wynik: 41.33 pkt
+[Czas: 10:19:39.817]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13411] treść nr: 5
+[Czas: 10:19:39.817]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13411] treść nr: 41
+[Czas: 10:19:39.817]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13411] treść nr: 14
+[Czas: 10:19:40.017]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13411] |	 Wynik cząstkowy: 28
+[Czas: 10:19:40.017]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13411] |	 Wynik cząstkowy: 31
+[Czas: 10:19:40.017]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13411] |	 Wynik cząstkowy: 90
+[Czas: 10:19:40.018]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13411] |	 ZDAŁ B |	 Wynik: 49.67 pkt
+[Czas: 10:19:40.018]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13412] treść nr: 14
+[Czas: 10:19:40.018]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13412] treść nr: 23
+[Czas: 10:19:40.018]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13412] treść nr: 7
+[Czas: 10:19:40.219]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13412] |	 Wynik cząstkowy: 39
+[Czas: 10:19:40.219]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13412] |	 Wynik cząstkowy: 71
+[Czas: 10:19:40.219]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13412] |	 Wynik cząstkowy: 4
+[Czas: 10:19:40.219]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13412] |	 ZDAŁ B |	 Wynik: 38.00 pkt
+[Czas: 10:19:40.220]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13413] treść nr: 48
+[Czas: 10:19:40.220]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13413] treść nr: 3
+[Czas: 10:19:40.220]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13413] treść nr: 13
+[Czas: 10:19:40.421]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13413] |	 Wynik cząstkowy: 74
+[Czas: 10:19:40.421]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13413] |	 Wynik cząstkowy: 63
+[Czas: 10:19:40.421]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13413] |	 Wynik cząstkowy: 88
+[Czas: 10:19:40.421]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13413] |	 ZDAŁ B |	 Wynik: 75.00 pkt
+[Czas: 10:19:40.421]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13414] treść nr: 31
+[Czas: 10:19:40.421]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13414] treść nr: 47
+[Czas: 10:19:40.421]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13414] treść nr: 5
+[Czas: 10:19:40.622]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13414] |	 Wynik cząstkowy: 49
+[Czas: 10:19:40.622]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13414] |	 Wynik cząstkowy: 5
+[Czas: 10:19:40.622]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13414] |	 Wynik cząstkowy: 16
+[Czas: 10:19:40.622]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13414] |	 OBLAŁ B |	 Wynik: 23.33 pkt
+[Czas: 10:19:40.623]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13415] treść nr: 27
+[Czas: 10:19:40.623]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13415] treść nr: 1
+[Czas: 10:19:40.623]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13415] treść nr: 28
+[Czas: 10:19:40.824]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13415] |	 Wynik cząstkowy: 37
+[Czas: 10:19:40.824]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13415] |	 Wynik cząstkowy: 43
+[Czas: 10:19:40.824]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13415] |	 Wynik cząstkowy: 41
+[Czas: 10:19:40.824]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13415] |	 ZDAŁ B |	 Wynik: 40.33 pkt
+[Czas: 10:19:40.825]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13416] treść nr: 42
+[Czas: 10:19:40.825]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13416] treść nr: 47
+[Czas: 10:19:40.825]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13416] treść nr: 18
+[Czas: 10:19:41.026]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13416] |	 Wynik cząstkowy: 6
+[Czas: 10:19:41.026]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13416] |	 Wynik cząstkowy: 10
+[Czas: 10:19:41.026]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13416] |	 Wynik cząstkowy: 76
+[Czas: 10:19:41.026]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13416] |	 ZDAŁ B |	 Wynik: 30.67 pkt
+[Czas: 10:19:41.026]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13417] treść nr: 32
+[Czas: 10:19:41.026]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13417] treść nr: 41
+[Czas: 10:19:41.026]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13417] treść nr: 10
+[Czas: 10:19:41.227]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13417] |	 Wynik cząstkowy: 39
+[Czas: 10:19:41.227]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13417] |	 Wynik cząstkowy: 53
+[Czas: 10:19:41.227]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13417] |	 Wynik cząstkowy: 72
+[Czas: 10:19:41.227]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13417] |	 ZDAŁ B |	 Wynik: 54.67 pkt
+[Czas: 10:19:41.228]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13418] treść nr: 1
+[Czas: 10:19:41.228]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13418] treść nr: 29
+[Czas: 10:19:41.228]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13418] treść nr: 10
+[Czas: 10:19:41.428]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13418] |	 Wynik cząstkowy: 34
+[Czas: 10:19:41.428]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13418] |	 Wynik cząstkowy: 64
+[Czas: 10:19:41.428]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13418] |	 Wynik cząstkowy: 90
+[Czas: 10:19:41.429]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13418] |	 ZDAŁ B |	 Wynik: 62.67 pkt
+[Czas: 10:19:41.430]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13419] treść nr: 27
+[Czas: 10:19:41.430]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13419] treść nr: 35
+[Czas: 10:19:41.430]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13419] treść nr: 17
+[Czas: 10:19:41.630]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13419] |	 Wynik cząstkowy: 82
+[Czas: 10:19:41.630]	[Czas: 10:19:41.630]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13419] |	 Wynik cząstkowy: 6
+[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13419] |	 Wynik cząstkowy: 42
+[Czas: 10:19:41.630]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13419] |	 ZDAŁ B |	 Wynik: 43.33 pkt
+[Czas: 10:19:41.631]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13420] treść nr: 39
+[Czas: 10:19:41.631]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13420] treść nr: 13
+[Czas: 10:19:41.631]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13420] treść nr: 22
+[Czas: 10:19:41.831]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13420] |	 Wynik cząstkowy: 68
+[Czas: 10:19:41.831]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13420] |	 Wynik cząstkowy: 15
+[Czas: 10:19:41.831]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13420] |	 Wynik cząstkowy: 6
+[Czas: 10:19:41.832]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13420] |	 OBLAŁ B |	 Wynik: 29.67 pkt
+[Czas: 10:19:41.832]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13421] treść nr: 31
+[Czas: 10:19:41.832]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13421] treść nr: 43
+[Czas: 10:19:41.832]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13421] treść nr: 22
+[Czas: 10:19:42.033]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13421] |	 Wynik cząstkowy: 47
+[Czas: 10:19:42.033]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13421] |	 Wynik cząstkowy: 29
+[Czas: 10:19:42.033]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13421] |	 Wynik cząstkowy: 84
+[Czas: 10:19:42.034]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13421] |	 ZDAŁ B |	 Wynik: 53.33 pkt
+[Czas: 10:19:42.034]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13422] treść nr: 37
+[Czas: 10:19:42.034]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13422] treść nr: 33
+[Czas: 10:19:42.035]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13422] treść nr: 43
+[Czas: 10:19:42.235]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13422] |	 Wynik cząstkowy: 95
+[Czas: 10:19:42.235]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13422] |	 Wynik cząstkowy: 16
+[Czas: 10:19:42.235]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13422] |	 Wynik cząstkowy: 76
+[Czas: 10:19:42.235]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13422] |	 ZDAŁ B |	 Wynik: 62.33 pkt
+[Czas: 10:19:42.236]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13423] treść nr: 2
+[Czas: 10:19:42.236]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13423] treść nr: 26
+[Czas: 10:19:42.236]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13423] treść nr: 11
+[Czas: 10:19:42.437]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13423] |	 Wynik cząstkowy: 91
+[Czas: 10:19:42.437]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13423] |	 Wynik cząstkowy: 89
+[Czas: 10:19:42.437]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13423] |	 Wynik cząstkowy: 90
+[Czas: 10:19:42.437]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13423] |	 ZDAŁ B |	 Wynik: 90.00 pkt
+[Czas: 10:19:42.438]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13424] treść nr: 19
+[Czas: 10:19:42.438]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13424] treść nr: 43
+[Czas: 10:19:42.438]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13424] treść nr: 49
+[Czas: 10:19:42.639]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13424] |	 Wynik cząstkowy: 50
+[Czas: 10:19:42.639]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13424] |	 Wynik cząstkowy: 98
+[Czas: 10:19:42.639]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13424] |	 Wynik cząstkowy: 58
+[Czas: 10:19:42.640]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13424] |	 ZDAŁ B |	 Wynik: 68.67 pkt
+[Czas: 10:19:42.640]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13425] treść nr: 41
+[Czas: 10:19:42.640]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13425] treść nr: 42
+[Czas: 10:19:42.640]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13425] treść nr: 39
+[Czas: 10:19:42.841]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13425] |	 Wynik cząstkowy: 55
+[Czas: 10:19:42.841]	[Czas: 10:19:42.841]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13425] |	 Wynik cząstkowy: 35
+[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13425] |	 Wynik cząstkowy: 58
+[Czas: 10:19:42.841]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13425] |	 ZDAŁ B |	 Wynik: 49.33 pkt
+[Czas: 10:19:42.841]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13426] treść nr: 36
+[Czas: 10:19:42.841]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13426] treść nr: 38
+[Czas: 10:19:42.841]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13426] treść nr: 40
+[Czas: 10:19:43.042]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13426] |	 Wynik cząstkowy: 34
+[Czas: 10:19:43.042]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13426] |	 Wynik cząstkowy: 15
+[Czas: 10:19:43.042]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13426] |	 Wynik cząstkowy: 24
+[Czas: 10:19:43.042]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13426] |	 OBLAŁ B |	 Wynik: 24.33 pkt
+[Czas: 10:19:43.043]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13427] treść nr: 21
+[Czas: 10:19:43.043]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13427] treść nr: 23
+[Czas: 10:19:43.043]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13427] treść nr: 33
+[Czas: 10:19:43.243]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13427] |	 Wynik cząstkowy: 17
+[Czas: 10:19:43.243]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13427] |	 Wynik cząstkowy: 14
+[Czas: 10:19:43.243]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13427] |	 Wynik cząstkowy: 34
+[Czas: 10:19:43.244]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13427] |	 OBLAŁ B |	 Wynik: 21.67 pkt
+[Czas: 10:19:43.244]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13429] treść nr: 21
+[Czas: 10:19:43.244]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13429] treść nr: 24
+[Czas: 10:19:43.244]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13429] treść nr: 10
+[Czas: 10:19:43.445]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13429] |	 Wynik cząstkowy: 3
+[Czas: 10:19:43.445]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13429] |	 Wynik cząstkowy: 1
+[Czas: 10:19:43.445]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13429] |	 Wynik cząstkowy: 83
+[Czas: 10:19:43.445]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13429] |	 OBLAŁ B |	 Wynik: 29.00 pkt
+[Czas: 10:19:43.446]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13430] treść nr: 16
+[Czas: 10:19:43.446]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13430] treść nr: 34
+[Czas: 10:19:43.446]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13430] treść nr: 12
+[Czas: 10:19:43.646]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13430] |	 Wynik cząstkowy: 64
+[Czas: 10:19:43.646]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13430] |	 Wynik cząstkowy: 11
+[Czas: 10:19:43.646]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13430] |	 Wynik cząstkowy: 76
+[Czas: 10:19:43.647]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13430] |	 ZDAŁ B |	 Wynik: 50.33 pkt
+[Czas: 10:19:43.647]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13431] treść nr: 34
+[Czas: 10:19:43.647]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13431] treść nr: 26
+[Czas: 10:19:43.647]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13431] treść nr: 25
+[Czas: 10:19:43.848]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13431] |	 Wynik cząstkowy: 2
+[Czas: 10:19:43.848]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13431] |	 Wynik cząstkowy: 82
+[Czas: 10:19:43.848]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13431] |	 Wynik cząstkowy: 39
+[Czas: 10:19:43.848]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13431] |	 ZDAŁ B |	 Wynik: 41.00 pkt
+[Czas: 10:19:43.849]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13432] treść nr: 20
+[Czas: 10:19:43.849]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13432] treść nr: 17
+[Czas: 10:19:43.849]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13432] treść nr: 29
+[Czas: 10:19:44.050]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13432] |	 Wynik cząstkowy: 3
+[Czas: 10:19:44.050]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13432] |	 Wynik cząstkowy: 50
+[Czas: 10:19:44.050]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13432] |	 Wynik cząstkowy: 24
+[Czas: 10:19:44.050]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13432] |	 OBLAŁ B |	 Wynik: 25.67 pkt
+[Czas: 10:19:44.051]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13433] treść nr: 26
+[Czas: 10:19:44.051]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13433] treść nr: 29
+[Czas: 10:19:44.051]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13433] treść nr: 3
+[Czas: 10:19:44.252]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13433] |	 Wynik cząstkowy: 10
+[Czas: 10:19:44.252]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13433] |	 Wynik cząstkowy: 69
+[Czas: 10:19:44.252]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13433] |	 Wynik cząstkowy: 94
+[Czas: 10:19:44.252]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13433] |	 ZDAŁ B |	 Wynik: 57.67 pkt
+[Czas: 10:19:44.455]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13435] treść nr: 17
+[Czas: 10:19:44.455]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13435] treść nr: 2
+[Czas: 10:19:44.455]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13435] treść nr: 19
+[Czas: 10:19:44.656]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13435] |	 Wynik cząstkowy: 49
+[Czas: 10:19:44.656]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13435] |	 Wynik cząstkowy: 49
+[Czas: 10:19:44.656]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13435] |	 Wynik cząstkowy: 56
+[Czas: 10:19:44.656]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13435] |	 ZDAŁ B |	 Wynik: 51.33 pkt
+[Czas: 10:19:44.656]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13436] treść nr: 18
+[Czas: 10:19:44.656]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13436] treść nr: 50
+[Czas: 10:19:44.657]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13436] treść nr: 34
+[Czas: 10:19:44.857]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13436] |	 Wynik cząstkowy: 34
+[Czas: 10:19:44.857]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13436] |	 Wynik cząstkowy: 59
+[Czas: 10:19:44.857]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13436] |	 Wynik cząstkowy: 8
+[Czas: 10:19:44.857]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13436] |	 ZDAŁ B |	 Wynik: 33.67 pkt
+[Czas: 10:19:44.858]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13437] treść nr: 12
+[Czas: 10:19:44.858]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13437] treść nr: 25
+[Czas: 10:19:44.858]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13437] treść nr: 41
+[Czas: 10:19:45.058]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13437] |	 Wynik cząstkowy: 43
+[Czas: 10:19:45.058]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13437] |	 Wynik cząstkowy: 73
+[Czas: 10:19:45.058]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13437] |	 Wynik cząstkowy: 84
+[Czas: 10:19:45.059]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13437] |	 ZDAŁ B |	 Wynik: 66.67 pkt
+[Czas: 10:19:45.059]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13438] treść nr: 13
+[Czas: 10:19:45.059]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13438] treść nr: 21
+[Czas: 10:19:45.059]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13438] treść nr: 11
+[Czas: 10:19:45.259]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13438] |	 Wynik cząstkowy: 42
+[Czas: 10:19:45.259]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13438] |	 Wynik cząstkowy: 67
+[Czas: 10:19:45.259]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13438] |	 Wynik cząstkowy: 22
+[Czas: 10:19:45.260]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13438] |	 ZDAŁ B |	 Wynik: 43.67 pkt
+[Czas: 10:19:45.260]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13439] treść nr: 43
+[Czas: 10:19:45.260]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13439] treść nr: 8
+[Czas: 10:19:45.260]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13439] treść nr: 33
+[Czas: 10:19:45.461]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13439] |	 Wynik cząstkowy: 12
+[Czas: 10:19:45.461]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13439] |	 Wynik cząstkowy: 38
+[Czas: 10:19:45.461]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13439] |	 Wynik cząstkowy: 61
+[Czas: 10:19:45.461]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13439] |	 ZDAŁ B |	 Wynik: 37.00 pkt
+[Czas: 10:19:45.462]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13440] treść nr: 5
+[Czas: 10:19:45.462]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13440] treść nr: 37
+[Czas: 10:19:45.462]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13440] treść nr: 13
+[Czas: 10:19:45.663]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13440] |	 Wynik cząstkowy: 6
+[Czas: 10:19:45.663]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13440] |	 Wynik cząstkowy: 76
+[Czas: 10:19:45.663]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13440] |	 Wynik cząstkowy: 2
+[Czas: 10:19:45.663]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13440] |	 OBLAŁ B |	 Wynik: 28.00 pkt
+[Czas: 10:19:45.664]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13441] treść nr: 24
+[Czas: 10:19:45.664]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13441] treść nr: 4
+[Czas: 10:19:45.664]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13441] treść nr: 50
+[Czas: 10:19:45.865]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13441] |	 Wynik cząstkowy: 56
+[Czas: 10:19:45.865]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13441] |	 Wynik cząstkowy: 58
+[Czas: 10:19:45.865]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13441] |	 Wynik cząstkowy: 83
+[Czas: 10:19:45.865]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13441] |	 ZDAŁ B |	 Wynik: 65.67 pkt
+[Czas: 10:19:45.866]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13442] treść nr: 25
+[Czas: 10:19:45.866]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13442] treść nr: 49
+[Czas: 10:19:45.866]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13442] treść nr: 15
+[Czas: 10:19:46.067]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13442] |	 Wynik cząstkowy: 67
+[Czas: 10:19:46.067]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13442] |	 Wynik cząstkowy: 10
+[Czas: 10:19:46.067]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13442] |	 Wynik cząstkowy: 90
+[Czas: 10:19:46.067]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13442] |	 ZDAŁ B |	 Wynik: 55.67 pkt
+[Czas: 10:19:46.068]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13443] treść nr: 50
+[Czas: 10:19:46.068]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13443] treść nr: 6
+[Czas: 10:19:46.068]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13443] treść nr: 38
+[Czas: 10:19:46.269]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13443] |	 Wynik cząstkowy: 61
+[Czas: 10:19:46.269]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13443] |	 Wynik cząstkowy: 37
+[Czas: 10:19:46.269]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13443] |	 Wynik cząstkowy: 26
+[Czas: 10:19:46.269]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13443] |	 ZDAŁ B |	 Wynik: 41.33 pkt
+[Czas: 10:19:46.270]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13444] treść nr: 45
+[Czas: 10:19:46.270]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13444] treść nr: 17
+[Czas: 10:19:46.270]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13444] treść nr: 24
+[Czas: 10:19:46.470]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13444] |	 Wynik cząstkowy: 28
+[Czas: 10:19:46.470]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13444] |	 Wynik cząstkowy: 48
+[Czas: 10:19:46.470]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13444] |	 Wynik cząstkowy: 41
+[Czas: 10:19:46.470]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13444] |	 ZDAŁ B |	 Wynik: 39.00 pkt
+[Czas: 10:19:46.471]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13445] treść nr: 23
+[Czas: 10:19:46.471]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13445] treść nr: 11
+[Czas: 10:19:46.471]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13445] treść nr: 47
+[Czas: 10:19:46.671]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13445] |	 Wynik cząstkowy: 85
+[Czas: 10:19:46.671]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13445] |	 Wynik cząstkowy: 47
+[Czas: 10:19:46.671]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13445] |	 Wynik cząstkowy: 63
+[Czas: 10:19:46.671]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13445] |	 ZDAŁ B |	 Wynik: 65.00 pkt
+[Czas: 10:19:46.672]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13446] treść nr: 36
+[Czas: 10:19:46.672]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13446] treść nr: 44
+[Czas: 10:19:46.672]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13446] treść nr: 4
+[Czas: 10:19:46.873]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13446] |	 Wynik cząstkowy: 84
+[Czas: 10:19:46.873]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13446] |	 Wynik cząstkowy: 5
+[Czas: 10:19:46.873]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13446] |	 Wynik cząstkowy: 44
+[Czas: 10:19:46.873]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13446] |	 ZDAŁ B |	 Wynik: 44.33 pkt
+[Czas: 10:19:46.874]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13447] treść nr: 25
+[Czas: 10:19:46.874]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13447] treść nr: 27
+[Czas: 10:19:46.874]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13447] treść nr: 43
+[Czas: 10:19:47.074]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13447] |	 Wynik cząstkowy: 88
+[Czas: 10:19:47.075]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13447] |	 Wynik cząstkowy: 56
+[Czas: 10:19:47.075]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13447] |	 Wynik cząstkowy: 40
+[Czas: 10:19:47.075]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13447] |	 ZDAŁ B |	 Wynik: 61.33 pkt
+[Czas: 10:19:47.076]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13448] treść nr: 6
+[Czas: 10:19:47.076]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13448] treść nr: 47
+[Czas: 10:19:47.076]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13448] treść nr: 41
+[Czas: 10:19:47.277]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13448] |	 Wynik cząstkowy: 45
+[Czas: 10:19:47.277]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13448] |	 Wynik cząstkowy: 93
+[Czas: 10:19:47.277]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13448] |	 Wynik cząstkowy: 3
+[Czas: 10:19:47.277]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13448] |	 ZDAŁ B |	 Wynik: 47.00 pkt
+[Czas: 10:19:47.278]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13449] treść nr: 12
+[Czas: 10:19:47.278]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13449] treść nr: 4
+[Czas: 10:19:47.278]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13449] treść nr: 33
+[Czas: 10:19:47.479]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13449] |	 Wynik cząstkowy: 36
+[Czas: 10:19:47.479]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13449] |	 Wynik cząstkowy: 57
+[Czas: 10:19:47.479]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13449] |	 Wynik cząstkowy: 82
+[Czas: 10:19:47.479]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13449] |	 ZDAŁ B |	 Wynik: 58.33 pkt
+[Czas: 10:19:47.480]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13450] treść nr: 47
+[Czas: 10:19:47.480]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13450] treść nr: 7
+[Czas: 10:19:47.480]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13450] treść nr: 1
+[Czas: 10:19:47.681]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13450] |	 Wynik cząstkowy: 80
+[Czas: 10:19:47.681]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13450] |	 Wynik cząstkowy: 94
+[Czas: 10:19:47.681]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13450] |	 Wynik cząstkowy: 81
+[Czas: 10:19:47.681]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13450] |	 ZDAŁ B |	 Wynik: 85.00 pkt
+[Czas: 10:19:47.682]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13451] treść nr: 47
+[Czas: 10:19:47.682]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13451] treść nr: 29
+[Czas: 10:19:47.682]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13451] treść nr: 13
+[Czas: 10:19:47.883]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13451] |	 Wynik cząstkowy: 49
+[Czas: 10:19:47.883]	[Czas: 10:19:47.883]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13451] |	 Wynik cząstkowy: 53
+[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13451] |	 Wynik cząstkowy: 9
+[Czas: 10:19:47.883]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13451] |	 ZDAŁ B |	 Wynik: 37.00 pkt
+[Czas: 10:19:47.884]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13452] treść nr: 44
+[Czas: 10:19:47.884]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13452] treść nr: 37
+[Czas: 10:19:47.884]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13452] treść nr: 43
+[Czas: 10:19:48.085]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13452] |	 Wynik cząstkowy: 35
+[Czas: 10:19:48.085]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13452] |	 Wynik cząstkowy: 77
+[Czas: 10:19:48.085]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13452] |	 Wynik cząstkowy: 58
+[Czas: 10:19:48.085]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13452] |	 ZDAŁ B |	 Wynik: 56.67 pkt
+[Czas: 10:19:48.086]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13453] treść nr: 21
+[Czas: 10:19:48.086]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13453] treść nr: 33
+[Czas: 10:19:48.086]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13453] treść nr: 36
+[Czas: 10:19:48.287]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13453] |	 Wynik cząstkowy: 73
+[Czas: 10:19:48.287]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13453] |	 Wynik cząstkowy: 79
+[Czas: 10:19:48.287]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13453] |	 Wynik cząstkowy: 77
+[Czas: 10:19:48.287]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13453] |	 ZDAŁ B |	 Wynik: 76.33 pkt
+[Czas: 10:19:48.288]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13454] treść nr: 29
+[Czas: 10:19:48.288]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13454] treść nr: 41
+[Czas: 10:19:48.288]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13454] treść nr: 49
+[Czas: 10:19:48.489]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13454] |	 Wynik cząstkowy: 10
+[Czas: 10:19:48.489]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13454] |	 Wynik cząstkowy: 40
+[Czas: 10:19:48.489]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13454] |	 Wynik cząstkowy: 100
+[Czas: 10:19:48.489]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13454] |	 ZDAŁ B |	 Wynik: 50.00 pkt
+[Czas: 10:19:48.490]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13455] treść nr: 49
+[Czas: 10:19:48.490]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13455] treść nr: 25
+[Czas: 10:19:48.490]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13455] treść nr: 41
+[Czas: 10:19:48.690]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13455] |	 Wynik cząstkowy: 20
+[Czas: 10:19:48.690]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13455] |	 Wynik cząstkowy: 0
+[Czas: 10:19:48.690]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13455] |	 Wynik cząstkowy: 69
+[Czas: 10:19:48.691]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13455] |	 OBLAŁ B |	 Wynik: 29.67 pkt
+[Czas: 10:19:48.691]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13456] treść nr: 20
+[Czas: 10:19:48.691]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13456] treść nr: 17
+[Czas: 10:19:48.691]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13456] treść nr: 11
+[Czas: 10:19:48.892]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13456] |	 Wynik cząstkowy: 34
+[Czas: 10:19:48.892]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13456] |	 Wynik cząstkowy: 32
+[Czas: 10:19:48.892]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13456] |	 Wynik cząstkowy: 66
+[Czas: 10:19:48.892]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13456] |	 ZDAŁ B |	 Wynik: 44.00 pkt
+[Czas: 10:19:48.892]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13457] treść nr: 1
+[Czas: 10:19:48.892]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13457] treść nr: 11
+[Czas: 10:19:48.892]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13457] treść nr: 12
+[Czas: 10:19:49.093]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13457] |	 Wynik cząstkowy: 92
+[Czas: 10:19:49.093]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13457] |	 Wynik cząstkowy: 38
+[Czas: 10:19:49.093]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13457] |	 Wynik cząstkowy: 99
+[Czas: 10:19:49.094]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13457] |	 ZDAŁ B |	 Wynik: 76.33 pkt
+[Czas: 10:19:49.094]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13458] treść nr: 32
+[Czas: 10:19:49.094]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13458] treść nr: 18
+[Czas: 10:19:49.094]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13458] treść nr: 21
+[Czas: 10:19:49.294]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13458] |	 Wynik cząstkowy: 16
+[Czas: 10:19:49.294]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13458] |	 Wynik cząstkowy: 87
+[Czas: 10:19:49.294]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13458] |	 Wynik cząstkowy: 50
+[Czas: 10:19:49.295]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13458] |	 ZDAŁ B |	 Wynik: 51.00 pkt
+[Czas: 10:19:49.295]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13459] treść nr: 11
+[Czas: 10:19:49.295]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13459] treść nr: 10
+[Czas: 10:19:49.295]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13459] treść nr: 40
+[Czas: 10:19:49.496]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13459] |	 Wynik cząstkowy: 10
+[Czas: 10:19:49.496]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13459] |	 Wynik cząstkowy: 52
+[Czas: 10:19:49.496]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13459] |	 Wynik cząstkowy: 88
+[Czas: 10:19:49.496]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13459] |	 ZDAŁ B |	 Wynik: 50.00 pkt
+[Czas: 10:19:49.496]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13460] treść nr: 45
+[Czas: 10:19:49.496]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13460] treść nr: 20
+[Czas: 10:19:49.497]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13460] treść nr: 42
+[Czas: 10:19:49.697]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13460] |	 Wynik cząstkowy: 69
+[Czas: 10:19:49.697]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13460] |	 Wynik cząstkowy: 56
+[Czas: 10:19:49.697]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13460] |	 Wynik cząstkowy: 35
+[Czas: 10:19:49.697]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13460] |	 ZDAŁ B |	 Wynik: 53.33 pkt
+[Czas: 10:19:49.698]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13461] treść nr: 20
+[Czas: 10:19:49.698]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13461] treść nr: 44
+[Czas: 10:19:49.698]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13461] treść nr: 30
+[Czas: 10:19:49.898]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13461] |	 Wynik cząstkowy: 79
+[Czas: 10:19:49.898]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13461] |	 Wynik cząstkowy: 24
+[Czas: 10:19:49.898]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13461] |	 Wynik cząstkowy: 32
+[Czas: 10:19:49.899]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13461] |	 ZDAŁ B |	 Wynik: 45.00 pkt
+[Czas: 10:19:49.899]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13462] treść nr: 7
+[Czas: 10:19:49.899]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13462] treść nr: 28
+[Czas: 10:19:49.899]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13462] treść nr: 19
+[Czas: 10:19:50.100]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13462] |	 Wynik cząstkowy: 12
+[Czas: 10:19:50.100]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13462] |	 Wynik cząstkowy: 71
+[Czas: 10:19:50.100]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13462] |	 Wynik cząstkowy: 54
+[Czas: 10:19:50.100]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13462] |	 ZDAŁ B |	 Wynik: 45.67 pkt
+[Czas: 10:19:50.100]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13464] treść nr: 3
+[Czas: 10:19:50.101]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13464] treść nr: 23
+[Czas: 10:19:50.101]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13464] treść nr: 29
+[Czas: 10:19:50.301]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13464] |	 Wynik cząstkowy: 68
+[Czas: 10:19:50.301]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13464] |	 Wynik cząstkowy: 33
+[Czas: 10:19:50.301]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13464] |	 Wynik cząstkowy: 89
+[Czas: 10:19:50.302]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13464] |	 ZDAŁ B |	 Wynik: 63.33 pkt
+[Czas: 10:19:50.302]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13465] treść nr: 31
+[Czas: 10:19:50.302]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13465] treść nr: 15
+[Czas: 10:19:50.302]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13465] treść nr: 19
+[Czas: 10:19:50.503]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13465] |	 Wynik cząstkowy: 41
+[Czas: 10:19:50.503]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13465] |	 Wynik cząstkowy: 48
+[Czas: 10:19:50.503]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13465] |	 Wynik cząstkowy: 23
+[Czas: 10:19:50.503]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13465] |	 ZDAŁ B |	 Wynik: 37.33 pkt
+[Czas: 10:19:50.503]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13466] treść nr: 36
+[Czas: 10:19:50.503]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13466] treść nr: 7
+[Czas: 10:19:50.503]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13466] treść nr: 29
+[Czas: 10:19:50.704]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13466] |	 Wynik cząstkowy: 20
+[Czas: 10:19:50.704]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13466] |	 Wynik cząstkowy: 91
+[Czas: 10:19:50.704]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13466] |	 Wynik cząstkowy: 43
+[Czas: 10:19:50.705]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13466] |	 ZDAŁ B |	 Wynik: 51.33 pkt
+[Czas: 10:19:50.705]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13467] treść nr: 40
+[Czas: 10:19:50.705]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13467] treść nr: 21
+[Czas: 10:19:50.705]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13467] treść nr: 22
+[Czas: 10:19:50.906]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13467] |	 Wynik cząstkowy: 53
+[Czas: 10:19:50.906]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13467] |	 Wynik cząstkowy: 99
+[Czas: 10:19:50.906]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13467] |	 Wynik cząstkowy: 7
+[Czas: 10:19:50.907]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13467] |	 ZDAŁ B |	 Wynik: 53.00 pkt
+[Czas: 10:19:50.907]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13469] treść nr: 29
+[Czas: 10:19:50.907]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13469] treść nr: 27
+[Czas: 10:19:50.907]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13469] treść nr: 48
+[Czas: 10:19:51.109]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13469] |	 Wynik cząstkowy: 49
+[Czas: 10:19:51.109]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13469] |	 Wynik cząstkowy: 62
+[Czas: 10:19:51.109]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13469] |	 Wynik cząstkowy: 94
+[Czas: 10:19:51.109]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13469] |	 ZDAŁ B |	 Wynik: 68.33 pkt
+[Czas: 10:19:51.110]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13470] treść nr: 4
+[Czas: 10:19:51.110]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13470] treść nr: 36
+[Czas: 10:19:51.110]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13470] treść nr: 22
+[Czas: 10:19:51.311]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13470] |	 Wynik cząstkowy: 58
+[Czas: 10:19:51.311]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13470] |	 Wynik cząstkowy: 85
+[Czas: 10:19:51.311]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13470] |	 Wynik cząstkowy: 95
+[Czas: 10:19:51.311]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13470] |	 ZDAŁ B |	 Wynik: 79.33 pkt
+[Czas: 10:19:51.312]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13471] treść nr: 23
+[Czas: 10:19:51.312]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13471] treść nr: 33
+[Czas: 10:19:51.312]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13471] treść nr: 48
+[Czas: 10:19:51.513]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13471] |	 Wynik cząstkowy: 57
+[Czas: 10:19:51.513]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13471] |	 Wynik cząstkowy: 9
+[Czas: 10:19:51.513]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13471] |	 Wynik cząstkowy: 63
+[Czas: 10:19:51.513]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13471] |	 ZDAŁ B |	 Wynik: 43.00 pkt
+[Czas: 10:19:51.514]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13472] treść nr: 14
+[Czas: 10:19:51.514]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13472] treść nr: 50
+[Czas: 10:19:51.514]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13472] treść nr: 6
+[Czas: 10:19:51.716]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13472] |	 Wynik cząstkowy: 99
+[Czas: 10:19:51.716]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13472] |	 Wynik cząstkowy: 42
+[Czas: 10:19:51.716]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13472] |	 Wynik cząstkowy: 93
+[Czas: 10:19:51.716]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13472] |	 ZDAŁ B |	 Wynik: 78.00 pkt
+[Czas: 10:19:51.717]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13473] treść nr: 14
+[Czas: 10:19:51.717]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13473] treść nr: 13
+[Czas: 10:19:51.717]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13473] treść nr: 20
+[Czas: 10:19:51.917]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13473] |	 Wynik cząstkowy: 14
+[Czas: 10:19:51.917]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13473] |	 Wynik cząstkowy: 75
+[Czas: 10:19:51.917]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13473] |	 Wynik cząstkowy: 22
+[Czas: 10:19:51.918]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13473] |	 ZDAŁ B |	 Wynik: 37.00 pkt
+[Czas: 10:19:51.918]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13474] treść nr: 44
+[Czas: 10:19:51.919]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13474] treść nr: 7
+[Czas: 10:19:51.919]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13474] treść nr: 49
+[Czas: 10:19:52.120]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13474] |	 Wynik cząstkowy: 63
+[Czas: 10:19:52.120]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13474] |	 Wynik cząstkowy: 87
+[Czas: 10:19:52.120]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13474] |	 Wynik cząstkowy: 59
+[Czas: 10:19:52.120]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13474] |	 ZDAŁ B |	 Wynik: 69.67 pkt
+[Czas: 10:19:52.121]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13475] treść nr: 47
+[Czas: 10:19:52.121]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13475] treść nr: 43
+[Czas: 10:19:52.121]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13475] treść nr: 42
+[Czas: 10:19:52.322]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13475] |	 Wynik cząstkowy: 69
+[Czas: 10:19:52.322]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13475] |	 Wynik cząstkowy: 6
+[Czas: 10:19:52.322]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13475] |	 Wynik cząstkowy: 66
+[Czas: 10:19:52.322]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13475] |	 ZDAŁ B |	 Wynik: 47.00 pkt
+[Czas: 10:19:52.323]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13476] treść nr: 26
+[Czas: 10:19:52.323]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13476] treść nr: 23
+[Czas: 10:19:52.323]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13476] treść nr: 43
+[Czas: 10:19:52.524]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13476] |	 Wynik cząstkowy: 22
+[Czas: 10:19:52.524]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13476] |	 Wynik cząstkowy: 89
+[Czas: 10:19:52.524]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13476] |	 Wynik cząstkowy: 2
+[Czas: 10:19:52.524]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13476] |	 ZDAŁ B |	 Wynik: 37.67 pkt
+[Czas: 10:19:52.525]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13477] treść nr: 8
+[Czas: 10:19:52.525]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13477] treść nr: 45
+[Czas: 10:19:52.525]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13477] treść nr: 12
+[Czas: 10:19:52.725]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13477] |	 Wynik cząstkowy: 64
+[Czas: 10:19:52.725]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13477] |	 Wynik cząstkowy: 52
+[Czas: 10:19:52.725]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13477] |	 Wynik cząstkowy: 11
+[Czas: 10:19:52.725]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13477] |	 ZDAŁ B |	 Wynik: 42.33 pkt
+[Czas: 10:19:52.726]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13478] treść nr: 11
+[Czas: 10:19:52.726]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13478] treść nr: 3
+[Czas: 10:19:52.726]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13478] treść nr: 17
+[Czas: 10:19:52.927]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13478] |	 Wynik cząstkowy: 32
+[Czas: 10:19:52.927]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13478] |	 Wynik cząstkowy: 13
+[Czas: 10:19:52.927]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13478] |	 Wynik cząstkowy: 20
+[Czas: 10:19:52.927]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13478] |	 OBLAŁ B |	 Wynik: 21.67 pkt
+[Czas: 10:19:52.927]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13479] treść nr: 32
+[Czas: 10:19:52.927]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13479] treść nr: 12
+[Czas: 10:19:52.927]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13479] treść nr: 8
+[Czas: 10:19:53.128]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13479] |	 Wynik cząstkowy: 58
+[Czas: 10:19:53.128]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13479] |	 Wynik cząstkowy: 50
+[Czas: 10:19:53.128]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13479] |	 Wynik cząstkowy: 54
+[Czas: 10:19:53.129]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13479] |	 ZDAŁ B |	 Wynik: 54.00 pkt
+[Czas: 10:19:53.129]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13480] treść nr: 36
+[Czas: 10:19:53.129]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13480] treść nr: 3
+[Czas: 10:19:53.129]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13480] treść nr: 40
+[Czas: 10:19:53.330]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13480] |	 Wynik cząstkowy: 79
+[Czas: 10:19:53.330]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13480] |	 Wynik cząstkowy: 14
+[Czas: 10:19:53.330]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13480] |	 Wynik cząstkowy: 2
+[Czas: 10:19:53.330]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13480] |	 ZDAŁ B |	 Wynik: 31.67 pkt
+[Czas: 10:19:53.330]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13481] treść nr: 38
+[Czas: 10:19:53.330]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13481] treść nr: 50
+[Czas: 10:19:53.330]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13481] treść nr: 13
+[Czas: 10:19:53.531]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13481] |	 Wynik cząstkowy: 29
+[Czas: 10:19:53.531]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13481] |	 Wynik cząstkowy: 31
+[Czas: 10:19:53.531]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13481] |	 Wynik cząstkowy: 73
+[Czas: 10:19:53.531]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13481] |	 ZDAŁ B |	 Wynik: 44.33 pkt
+[Czas: 10:19:53.531]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13482] treść nr: 44
+[Czas: 10:19:53.532]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13482] treść nr: 31
+[Czas: 10:19:53.532]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13482] treść nr: 41
+[Czas: 10:19:53.733]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13482] |	 Wynik cząstkowy: 55
+[Czas: 10:19:53.733]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13482] |	 Wynik cząstkowy: 82
+[Czas: 10:19:53.733]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13482] |	 Wynik cząstkowy: 31
+[Czas: 10:19:53.733]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13482] |	 ZDAŁ B |	 Wynik: 56.00 pkt
+[Czas: 10:19:53.734]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13483] treść nr: 12
+[Czas: 10:19:53.734]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13483] treść nr: 6
+[Czas: 10:19:53.734]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13483] treść nr: 34
+[Czas: 10:19:53.935]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13483] |	 Wynik cząstkowy: 27
+[Czas: 10:19:53.935]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13483] |	 Wynik cząstkowy: 43
+[Czas: 10:19:53.935]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13483] |	 Wynik cząstkowy: 68
+[Czas: 10:19:53.936]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13483] |	 ZDAŁ B |	 Wynik: 46.00 pkt
+[Czas: 10:19:53.937]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13484] treść nr: 27
+[Czas: 10:19:53.937]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13484] treść nr: 21
+[Czas: 10:19:53.937]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13484] treść nr: 14
+[Czas: 10:19:54.138]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13484] |	 Wynik cząstkowy: 33
+[Czas: 10:19:54.138]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13484] |	 Wynik cząstkowy: 51
+[Czas: 10:19:54.138]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13484] |	 Wynik cząstkowy: 76
+[Czas: 10:19:54.138]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13484] |	 ZDAŁ B |	 Wynik: 53.33 pkt
+[Czas: 10:19:54.138]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13485] treść nr: 32
+[Czas: 10:19:54.138]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13485] treść nr: 40
+[Czas: 10:19:54.138]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13485] treść nr: 22
+[Czas: 10:19:54.339]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13485] |	 Wynik cząstkowy: 3
+[Czas: 10:19:54.339]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13485] |	 Wynik cząstkowy: 70
+[Czas: 10:19:54.339]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13485] |	 Wynik cząstkowy: 50
+[Czas: 10:19:54.340]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13485] |	 ZDAŁ B |	 Wynik: 41.00 pkt
+[Czas: 10:19:54.341]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13486] treść nr: 13
+[Czas: 10:19:54.341]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13486] treść nr: 8
+[Czas: 10:19:54.341]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13486] treść nr: 47
+[Czas: 10:19:54.542]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13486] |	 Wynik cząstkowy: 41
+[Czas: 10:19:54.542]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13486] |	 Wynik cząstkowy: 25
+[Czas: 10:19:54.542]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13486] |	 Wynik cząstkowy: 12
+[Czas: 10:19:54.542]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13486] |	 OBLAŁ B |	 Wynik: 26.00 pkt
+[Czas: 10:19:54.543]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13487] treść nr: 22
+[Czas: 10:19:54.543]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13487] treść nr: 33
+[Czas: 10:19:54.543]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13487] treść nr: 1
+[Czas: 10:19:54.744]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13487] |	 Wynik cząstkowy: 40
+[Czas: 10:19:54.744]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13487] |	 Wynik cząstkowy: 23
+[Czas: 10:19:54.744]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13487] |	 Wynik cząstkowy: 63
+[Czas: 10:19:54.745]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13487] |	 ZDAŁ B |	 Wynik: 42.00 pkt
+[Czas: 10:19:54.745]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13489] treść nr: 44
+[Czas: 10:19:54.745]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13489] treść nr: 1
+[Czas: 10:19:54.745]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13489] treść nr: 2
+[Czas: 10:19:54.947]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13489] |	 Wynik cząstkowy: 94
+[Czas: 10:19:54.947]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13489] |	 Wynik cząstkowy: 26
+[Czas: 10:19:54.947]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13489] |	 Wynik cząstkowy: 86
+[Czas: 10:19:54.947]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13489] |	 ZDAŁ B |	 Wynik: 68.67 pkt
+[Czas: 10:19:54.947]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13490] treść nr: 29
+[Czas: 10:19:54.948]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13490] treść nr: 7
+[Czas: 10:19:54.948]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13490] treść nr: 13
+[Czas: 10:19:55.149]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13490] |	 Wynik cząstkowy: 42
+[Czas: 10:19:55.150]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13490] |	 Wynik cząstkowy: 42
+[Czas: 10:19:55.150]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13490] |	 Wynik cząstkowy: 35
+[Czas: 10:19:55.150]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13490] |	 ZDAŁ B |	 Wynik: 39.67 pkt
+[Czas: 10:19:55.353]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13492] treść nr: 12
+[Czas: 10:19:55.353]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13492] treść nr: 26
+[Czas: 10:19:55.353]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13492] treść nr: 6
+[Czas: 10:19:55.555]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13492] |	 Wynik cząstkowy: 35
+[Czas: 10:19:55.555]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13492] |	 Wynik cząstkowy: 35
+[Czas: 10:19:55.555]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13492] |	 Wynik cząstkowy: 4
+[Czas: 10:19:55.555]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13492] |	 OBLAŁ B |	 Wynik: 24.67 pkt
+[Czas: 10:19:55.556]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13493] treść nr: 33
+[Czas: 10:19:55.556]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13493] treść nr: 11
+[Czas: 10:19:55.556]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13493] treść nr: 35
+[Czas: 10:19:55.758]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13493] |	 Wynik cząstkowy: 78
+[Czas: 10:19:55.758]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13493] |	 Wynik cząstkowy: 89
+[Czas: 10:19:55.758]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13493] |	 Wynik cząstkowy: 67
+[Czas: 10:19:55.758]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13493] |	 ZDAŁ B |	 Wynik: 78.00 pkt
+[Czas: 10:19:55.759]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13494] treść nr: 50
+[Czas: 10:19:55.759]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13494] treść nr: 11
+[Czas: 10:19:55.759]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13494] treść nr: 5
+[Czas: 10:19:55.961]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13494] |	 Wynik cząstkowy: 31
+[Czas: 10:19:55.961]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13494] |	 Wynik cząstkowy: 49
+[Czas: 10:19:55.961]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13494] |	 Wynik cząstkowy: 15
+[Czas: 10:19:55.962]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13494] |	 ZDAŁ B |	 Wynik: 31.67 pkt
+[Czas: 10:19:55.962]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13495] treść nr: 47
+[Czas: 10:19:55.962]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13495] treść nr: 17
+[Czas: 10:19:55.962]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13495] treść nr: 44
+[Czas: 10:19:56.163]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13495] |	 Wynik cząstkowy: 99
+[Czas: 10:19:56.163]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13495] |	 Wynik cząstkowy: 39
+[Czas: 10:19:56.163]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13495] |	 Wynik cząstkowy: 97
+[Czas: 10:19:56.164]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13495] |	 ZDAŁ B |	 Wynik: 78.33 pkt
+[Czas: 10:19:56.164]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13496] treść nr: 41
+[Czas: 10:19:56.164]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13496] treść nr: 24
+[Czas: 10:19:56.164]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13496] treść nr: 30
+[Czas: 10:19:56.365]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13496] |	 Wynik cząstkowy: 2
+[Czas: 10:19:56.365]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13496] |	 Wynik cząstkowy: 49
+[Czas: 10:19:56.365]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13496] |	 Wynik cząstkowy: 23
+[Czas: 10:19:56.365]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13496] |	 OBLAŁ B |	 Wynik: 24.67 pkt
+[Czas: 10:19:56.366]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13497] treść nr: 21
+[Czas: 10:19:56.366]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13497] treść nr: 30
+[Czas: 10:19:56.366]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13497] treść nr: 49
+[Czas: 10:19:56.567]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13497] |	 Wynik cząstkowy: 14
+[Czas: 10:19:56.567]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13497] |	 Wynik cząstkowy: 30
+[Czas: 10:19:56.567]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13497] |	 Wynik cząstkowy: 14
+[Czas: 10:19:56.567]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13497] |	 OBLAŁ B |	 Wynik: 19.33 pkt
+[Czas: 10:19:56.567]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13498] treść nr: 3
+[Czas: 10:19:56.567]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13498] treść nr: 49
+[Czas: 10:19:56.567]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13498] treść nr: 8
+[Czas: 10:19:56.768]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13498] |	 Wynik cząstkowy: 36
+[Czas: 10:19:56.768]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13498] |	 Wynik cząstkowy: 61
+[Czas: 10:19:56.768]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13498] |	 Wynik cząstkowy: 89
+[Czas: 10:19:56.769]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13498] |	 ZDAŁ B |	 Wynik: 62.00 pkt
+[Czas: 10:19:56.769]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13499] treść nr: 10
+[Czas: 10:19:56.769]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13499] treść nr: 28
+[Czas: 10:19:56.769]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13499] treść nr: 7
+[Czas: 10:19:56.971]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13499] |	 Wynik cząstkowy: 64
+[Czas: 10:19:56.971]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13499] |	 Wynik cząstkowy: 77
+[Czas: 10:19:56.971]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13499] |	 Wynik cząstkowy: 66
+[Czas: 10:19:56.971]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13499] |	 ZDAŁ B |	 Wynik: 69.00 pkt
+[Czas: 10:19:56.972]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13500] treść nr: 10
+[Czas: 10:19:56.972]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13500] treść nr: 26
+[Czas: 10:19:56.972]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13500] treść nr: 1
+[Czas: 10:19:57.173]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13500] |	 Wynik cząstkowy: 2
+[Czas: 10:19:57.173]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13500] |	 Wynik cząstkowy: 37
+[Czas: 10:19:57.173]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13500] |	 Wynik cząstkowy: 36
+[Czas: 10:19:57.173]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13500] |	 OBLAŁ B |	 Wynik: 25.00 pkt
+[Czas: 10:19:57.174]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13501] treść nr: 26
+[Czas: 10:19:57.174]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13501] treść nr: 15
+[Czas: 10:19:57.174]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13501] treść nr: 22
+[Czas: 10:19:57.376]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13501] |	 Wynik cząstkowy: 6
+[Czas: 10:19:57.376]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13501] |	 Wynik cząstkowy: 29
+[Czas: 10:19:57.376]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13501] |	 Wynik cząstkowy: 4
+[Czas: 10:19:57.376]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13501] |	 OBLAŁ B |	 Wynik: 13.00 pkt
+[Czas: 10:19:57.377]	[Komisja B] [PID: 13371] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Zadał kandydatowi [PID: 13502] treść nr: 30
+[Czas: 10:19:57.377]	[Komisja B] [PID: 13371] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Zadał kandydatowi [PID: 13502] treść nr: 40
+[Czas: 10:19:57.377]	[Komisja B] [PID: 13371] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Zadał kandydatowi [PID: 13502] treść nr: 20
+[Czas: 10:19:57.579]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13375] [ID: 1] |	 Ocenił kandydata [PID: 13502] |	 Wynik cząstkowy: 49
+[Czas: 10:19:57.579]	[Komisja B] [PID: 13371] |	 Egzaminator [P] [TID: 13373] [ID: 0] |	 Ocenił kandydata [PID: 13502] |	 Wynik cząstkowy: 79
+[Czas: 10:19:57.579]	[Komisja B] [PID: 13371] |	 Egzaminator [C] [TID: 13376] [ID: 2] |	 Ocenił kandydata [PID: 13502] |	 Wynik cząstkowy: 68
+[Czas: 10:19:57.579]	[Komisja B] [PID: 13371] |	 Kandydat [PID: 13502] |	 ZDAŁ B |	 Wynik: 65.33 pkt

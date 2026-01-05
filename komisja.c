@@ -10,6 +10,8 @@
 #include <stdlib.h>   
 #include <time.h>     
 
+FILE *plik_logu;
+
 EgzaminPamiecDzielona *egzamin;
 Stanowisko stanowiska[MAX_MIEJSC]; 
 
@@ -61,7 +63,7 @@ void pracuj_jako_czlonek(int stolik, int id, char rola, char komisja) {
     stanowiska[stolik].pytania[idx] = pyt;
     stanowiska[stolik].liczba_zadanych_pytan++;
     
-    int pid_kandydata = stanowiska[stolik].id_kandydata; // Pobieramy PID kandydata
+    int pid_kandydata = stanowiska[stolik].id_kandydata;
     int shm_idx = -1;
     for (int k = 0; k < egzamin->liczba_kandydatow; k++) {
         if (egzamin->lista[k].id == pid_kandydata) {
@@ -74,7 +76,7 @@ void pracuj_jako_czlonek(int stolik, int id, char rola, char komisja) {
         egzamin->lista[shm_idx].id_egzaminatora[idx] = id;
     }
     
-    printf("[Komisja %c] [PID: %d] |\t Pytanie nr: %d |\t Egzaminator [%c] [TID: %ld] [ID: %d] |\t Zadał kandydatowi [PID: %d] treść nr: %d\n",
+    dodaj_do_loggera(plik_logu, "[Komisja %c] [PID: %d] |\t Pytanie nr: %d |\t Egzaminator [%c] [TID: %ld] [ID: %d] |\t Zadał kandydatowi [PID: %d] treść nr: %d\n",
        komisja,
        (int)getpid(),
        idx + 1,
@@ -97,7 +99,7 @@ void pracuj_jako_czlonek(int stolik, int id, char rola, char komisja) {
                 int ocena = (rand() % 101);
                 s->oceny[k] = ocena;
                 
-                printf("[Komisja %c] [PID: %d] |\t Egzaminator [%c] [TID: %ld] [ID: %d] |\t Ocenił kandydata [PID: %d] |\t Wynik cząstkowy: %d\n",
+                dodaj_do_loggera(plik_logu, "[Komisja %c] [PID: %d] |\t Egzaminator [%c] [TID: %ld] [ID: %d] |\t Ocenił kandydata [PID: %d] |\t Wynik cząstkowy: %d\n",
                        komisja,
                        (int)getpid(),
                        rola,
@@ -115,7 +117,7 @@ void pracuj_jako_czlonek(int stolik, int id, char rola, char komisja) {
 void* przewodniczacy_komisji_A(void* arg){
     int P_id = *(int*)arg;
     free(arg); 
-    printf("[Komisja A] [P] Przewodniczący %d w komisji A: Rozpoczynam pracę.\n", P_id);
+    dodaj_do_loggera(plik_logu, "[Komisja A] [P] Przewodniczący %d w komisji A: Rozpoczynam pracę.\n", P_id);
 
     while (1) {
         sem_wait(sem_kolejka_komisji); 
@@ -144,7 +146,7 @@ void* przewodniczacy_komisji_A(void* arg){
         }
 
         if (egzamin->lista[id_kandydata_PD].zdana_teoria_wczesniej == 1) {
-            printf("[Komisja A] [PID: %d] |\t Kandydat [PID: %d] (Stary) |\t ZALICZONA A (Wcześniej) |\t Przekierowanie do B\n", 
+            dodaj_do_loggera(plik_logu, "[Komisja A] [PID: %d] |\t Kandydat [PID: %d] (Stary) |\t ZALICZONA A (Wcześniej) |\t Przekierowanie do B\n", 
                    (int)getpid(), kandydat_pid);
             
             egzamin->lista[id_kandydata_PD].zaliczona_A = 1;
@@ -183,7 +185,7 @@ void* przewodniczacy_komisji_A(void* arg){
         egzamin->lista[id_kandydata_PD].pytania[idx] = pyt;
         egzamin->lista[id_kandydata_PD].id_egzaminatora[idx] = P_id;
         
-        printf("[Komisja A] [PID: %d] |\t Pytanie nr: %d |\t Egzaminator [P] [TID: %ld] [ID: %d] |\t Zadał kandydatowi [PID: %d] treść nr: %d\n",
+        dodaj_do_loggera(plik_logu, "[Komisja A] [PID: %d] |\t Pytanie nr: %d |\t Egzaminator [P] [TID: %ld] [ID: %d] |\t Zadał kandydatowi [PID: %d] treść nr: %d\n",
             (int)getpid(),
             idx + 1,
             (long)syscall(SYS_gettid),
@@ -212,7 +214,7 @@ void* przewodniczacy_komisji_A(void* arg){
                 int ocena = (rand() % 101);
                 s->oceny[k] = ocena;
                 
-                printf("[Komisja A] [PID: %d] |\t Egzaminator [P] [TID: %ld] [ID: %d] |\t Ocenił kandydata [PID: %d] |\t Wynik cząstkowy: %d\n",
+                dodaj_do_loggera(plik_logu, "[Komisja A] [PID: %d] |\t Egzaminator [P] [TID: %ld] [ID: %d] |\t Ocenił kandydata [PID: %d] |\t Wynik cząstkowy: %d\n",
                        (int)getpid(),
                        (long)syscall(SYS_gettid),
                        P_id,
@@ -233,14 +235,14 @@ void* przewodniczacy_komisji_A(void* arg){
         pthread_mutex_lock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
         if (srednia >= 30.0) {
             egzamin->lista[id_kandydata_PD].zaliczona_A = 1; 
-            printf("[Komisja A] [PID: %d] |\t Kandydat [PID: %d] |\t ZDAŁ A (-> B) |\t Wynik: %.2lf pkt\n", 
+            dodaj_do_loggera(plik_logu, "[Komisja A] [PID: %d] |\t Kandydat [PID: %d] |\t ZDAŁ A (-> B) |\t Wynik: %.2lf pkt\n", 
                    (int)getpid(), kandydat_pid, srednia);
                    
             egzamin->lista[id_kandydata_PD].status = 2; 
             sem_post(sem_kolejka_przyszlosci);
         } else {
             egzamin->lista[id_kandydata_PD].zaliczona_A = 0; 
-            printf("[Komisja A] [PID: %d] |\t Kandydat [PID: %d] |\t OBLAŁ A (Koniec) |\t Wynik: %.2lf pkt\n", 
+            dodaj_do_loggera(plik_logu, "[Komisja A] [PID: %d] |\t Kandydat [PID: %d] |\t OBLAŁ A (Koniec) |\t Wynik: %.2lf pkt\n", 
                    (int)getpid(), kandydat_pid, srednia);
                    
             egzamin->lista[id_kandydata_PD].status = 3; 
@@ -284,7 +286,7 @@ void* czlonek_komisji_A(void* arg){
 void* przewodniczacy_komisji_B(void* arg){
     int P_id = *(int*)arg;
     free(arg); 
-    printf("[Komisja B] [P] Przewodniczący %d w komisji B: Rozpoczynam pracę.\n", P_id);
+    dodaj_do_loggera(plik_logu, "[Komisja B] [P] Przewodniczący %d w komisji B: Rozpoczynam pracę.\n", P_id);
 
     while (1) {
         sem_wait(sem_kolejka_komisji); 
@@ -337,7 +339,7 @@ void* przewodniczacy_komisji_B(void* arg){
         egzamin->lista[id_kandydata_PD].pytania[idx] = pyt;
         egzamin->lista[id_kandydata_PD].id_egzaminatora[idx] = P_id;
         
-        printf("[Komisja B] [PID: %d] |\t Pytanie nr: %d |\t Egzaminator [P] [TID: %ld] [ID: %d] |\t Zadał kandydatowi [PID: %d] treść nr: %d\n",
+        dodaj_do_loggera(plik_logu, "[Komisja B] [PID: %d] |\t Pytanie nr: %d |\t Egzaminator [P] [TID: %ld] [ID: %d] |\t Zadał kandydatowi [PID: %d] treść nr: %d\n",
             (int)getpid(),
             idx + 1,
             (long)syscall(SYS_gettid),
@@ -366,7 +368,7 @@ void* przewodniczacy_komisji_B(void* arg){
                 int ocena = (rand() % 100);
                 s->oceny[k] = ocena;
                 
-                printf("[Komisja B] [PID: %d] |\t Egzaminator [P] [TID: %ld] [ID: %d] |\t Ocenił kandydata [PID: %d] |\t Wynik cząstkowy: %d\n",
+                dodaj_do_loggera(plik_logu, "[Komisja B] [PID: %d] |\t Egzaminator [P] [TID: %ld] [ID: %d] |\t Ocenił kandydata [PID: %d] |\t Wynik cząstkowy: %d\n",
                        (int)getpid(),
                        (long)syscall(SYS_gettid),
                        P_id,
@@ -388,12 +390,12 @@ void* przewodniczacy_komisji_B(void* arg){
         pthread_mutex_lock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
         if (srednia >= 30.0) {
             egzamin->lista[id_kandydata_PD].zaliczona_B = 1; 
-            printf("[Komisja B] [PID: %d] |\t Kandydat [PID: %d] |\t ZDAŁ B |\t Wynik: %.2lf pkt\n", 
+            dodaj_do_loggera(plik_logu, "[Komisja B] [PID: %d] |\t Kandydat [PID: %d] |\t ZDAŁ B |\t Wynik: %.2lf pkt\n", 
                    (int)getpid(), stanowiska[stolik].id_kandydata, srednia);
                    
         } else {
             egzamin->lista[id_kandydata_PD].zaliczona_B = 0; 
-            printf("[Komisja B] [PID: %d] |\t Kandydat [PID: %d] |\t OBLAŁ B |\t Wynik: %.2lf pkt\n", 
+            dodaj_do_loggera(plik_logu, "[Komisja B] [PID: %d] |\t Kandydat [PID: %d] |\t OBLAŁ B |\t Wynik: %.2lf pkt\n", 
                    (int)getpid(), stanowiska[stolik].id_kandydata, srednia);
         }
         pthread_cond_signal(&egzamin->lista[id_kandydata_PD].cond_ipc);
@@ -437,6 +439,11 @@ int main(int argc, char* argv[]){
     if (argc < 2) {
         return 1;
     }
+    
+    char nazwa_pliku_logu[32];
+    snprintf(nazwa_pliku_logu, sizeof(nazwa_pliku_logu), "komisja_%c", argv[1][0]);
+    plik_logu = otworz_log(nazwa_pliku_logu, "w");
+
     char typ_komisji = argv[1][0];
     int liczba_czlonkow = 0;
     pthread_t *egzaminatorzy;
@@ -452,6 +459,7 @@ int main(int argc, char* argv[]){
 
     int shm_fd = shm_open(SHM_NAME,O_RDWR,0600);
     if (shm_fd == -1) {
+        if (plik_logu) fclose(plik_logu);
         return 4;
     }
     egzamin = mmap(NULL,sizeof(EgzaminPamiecDzielona), PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
@@ -467,6 +475,7 @@ int main(int argc, char* argv[]){
     }
 
     if (sem_kolejka_komisji == SEM_FAILED || sem_miejsca_komisji == SEM_FAILED) {
+        if (plik_logu) fclose(plik_logu);
         return 6;
     }
 
@@ -506,5 +515,7 @@ int main(int argc, char* argv[]){
     if (sem_kolejka_przyszlosci != NULL) {
         sem_close(sem_kolejka_przyszlosci);
     }
+
+    if (plik_logu) fclose(plik_logu);
     return 0;
 }

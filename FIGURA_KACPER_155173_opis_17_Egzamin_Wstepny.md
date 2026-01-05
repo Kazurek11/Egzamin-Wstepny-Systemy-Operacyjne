@@ -159,6 +159,18 @@ Największym wyzwaniem było zsynchronizowanie momentu przejścia z zadawania py
 * **Decyzja:** Pozostałem przy pierwotnej, sprawdzonej implementacji z podziałem na osobne pliki wykonywalne (`dziekan`, `komisja`, `kandydat`), która działa stabilnie i poprawnie zarządza cyklem życia procesów.
 
 ** Plany na kolejne kroki:**
+
 * Utworzenie dokumentacji technicznej.
 * Uporządkowanie kodu (linkowanie funkcji/nagłówki).
 * Implementacja przekierowania logów do osobnych plików tekstowych dla Dziekana, Kandydata i Komisji (zamiast wspólnego wyjścia na `stdout`).
+
+### Aktualizacja Postępów – 05.01.2026 "Implementacja pełnego systemu logowania i optymalizacja synchronizacji Dziekana"
+
+* **System logowania:** Wdrożono precyzyjne logowanie zdarzeń ze znacznikami czasu (timestamp) dla każdego kluczowego momentu działania procesów i wątków.
+* **Separacja logów:** W `common.h` zaimplementowano funkcje generujące cztery niezależne pliki logów (dla Dziekana, Kandydata, Komisji A oraz Komisji B), co ułatwia analizę współbieżności.
+* **Logika Dziekana:** Zmodyfikowano zapis do pamięci współdzielonej. Proces Dziekana wykorzystuje teraz pętlę iterującą ściśle po liczbie kandydatów (`i < Liczba_Kandydatów`).
+* **Synchronizacja kolejki:** Zapewniono determinizm kolejności – sekwencja zapisu plików przez Dziekana odpowiada teraz faktycznej kolejności zgłaszania się kandydatów do kolejki (eliminacja potencjalnych wyścigów przy inicjalizacji).
+* **Czyszczenie projektu:** Usunięto przestarzałe pliki wyjściowe (`rekrutacja_przyjeci.txt`, `rekrutacja_odrzuceni.txt`), które nie są już częścią wymagań.
+* **Makefile:** Rozbudowano plik budowania o nowe reguły:
+* `make help`: Wyświetla dostępne komendy.
+* `make clean_logger`: Automatycznie usuwa stare pliki logów przed nową symulacją.
