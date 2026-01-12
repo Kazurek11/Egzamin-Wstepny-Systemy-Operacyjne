@@ -35,7 +35,7 @@
 #define SZANSA_NA_ZDANA_TEORIE 2 
 
 #define FIFO_WEJSCIE "kolejka_przed_wydzialem"
-#define SHM_NAME "/egzamin_shm_v1"
+#define SHM_NAME "/egzamin_shm_final_v3"
 
 #define KOLEJKA_KOMISJA_A "/sem_kolejka_a" 
 #define KOLEJKA_KOMISJA_B "/sem_kolejka_b" 
@@ -44,6 +44,10 @@
 
 #define SEM_LOG_KEY "/sem_logger_synchronizacja"
 #define SEM_SYNC_START "/sem_sync_kolejnosc"
+
+// --- SEMAFOR ZAPOBIEGAJĄCY DEADLOCKOWI DZIEKANA ---
+// Służy do zliczania kandydatów, którzy definitywnie zakończyli proces rekrutacji
+#define SEM_LICZNIK_KONCA "/sem_licznik_zakonczonych_spraw"
 
 static inline void sleep_ms(int ms) {
     struct timespec ts;
@@ -63,34 +67,26 @@ static inline void pobierz_czas(char *buffer, size_t size) {
     struct timeval tv;
     gettimeofday(&tv, NULL);
     struct tm *tm_info = localtime(&tv.tv_sec);
-    
     int millis = tv.tv_usec / 1000;
-    
     snprintf(buffer, size, "%02d:%02d:%02d.%03d", 
              tm_info->tm_hour, tm_info->tm_min, tm_info->tm_sec, millis);
 }
 
 static inline FILE* otworz_log(const char *nazwa_bazowa, const char *tryb) {
     utworz_folder("logi");
-    
     char nazwa_pelna[256];
-
     if (strncmp(nazwa_bazowa, "logi/", 5) == 0) {
         snprintf(nazwa_pelna, sizeof(nazwa_pelna), "%s", nazwa_bazowa);
     } else {
         time_t t = time(NULL);
         struct tm tm = *localtime(&t);
-        
         snprintf(nazwa_pelna, sizeof(nazwa_pelna), "logi/%04d-%02d-%02d_%02d-%02d-%02d_logi_%s.txt",
                  tm.tm_year + 1900, tm.tm_mon + 1, tm.tm_mday,
                  tm.tm_hour, tm.tm_min, tm.tm_sec, nazwa_bazowa);
     }
-             
     FILE *fp = fopen(nazwa_pelna, tryb);
     if (!fp) {
-        char err_buf[300];
-        snprintf(err_buf, sizeof(err_buf), "Błąd otwierania logu: %s", nazwa_pelna);
-        perror(err_buf);
+        perror("Błąd otwierania logu");
         return NULL;
     }
     return fp;
@@ -99,20 +95,20 @@ static inline FILE* otworz_log(const char *nazwa_bazowa, const char *tryb) {
 static inline void dodaj_do_loggera(FILE *plik, const char *format, ...) {
     char czas[32];
     pobierz_czas(czas, sizeof(czas));
-
     va_list args;
-
+    
+    // Wypisanie na ekran
     printf("[Czas: %s]\t", czas);
     va_start(args, format);
     vprintf(format, args);
     va_end(args);
 
+    // Wypisanie do pliku
     if (plik) {
         fprintf(plik, "[Czas: %s]\t", czas);
         va_start(args, format);
         vfprintf(plik, format, args);
         va_end(args);
-        
         fflush(plik); 
     }
 }
@@ -131,17 +127,15 @@ typedef struct {
     double punkty_praktyka; 
     int status;          
     int czy_przyjety;    
-
     int pytania[5];             
     int id_egzaminatora[5];     
     int odpowiedzi[5];          
     int oceny[5];               
-    
     int status_arkusza; 
-    
     int zaliczona_A; 
     int zaliczona_B; 
-
+    
+    // Synchronizacja IPC
     pthread_mutex_t mutex_ipc;
     pthread_cond_t  cond_ipc;
 } Student;
@@ -149,6 +143,9 @@ typedef struct {
 typedef struct {
     Student lista[MAX_KANDYDATOW];
     int liczba_kandydatow;
+    
+    pthread_mutex_t mutex_rejestracji;
+    pthread_cond_t  cond_rejestracji;
 } EgzaminPamiecDzielona;
 
 #define MAX_MIEJSC 3 
@@ -161,9 +158,7 @@ typedef struct {
     int pytania[5];                
     int liczba_zadanych_pytan;     
     int zajete;                    
-    
     int potrzebni_czlonkowie; 
-
     pthread_mutex_t mutex;         
     pthread_barrier_t bariera;     
 } Stanowisko;

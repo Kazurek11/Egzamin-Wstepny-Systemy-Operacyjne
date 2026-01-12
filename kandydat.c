@@ -4,7 +4,6 @@ int main(int argc, char *argv[]) {
     const char* nazwa_pliku = (argc > 1) ? argv[1] : "kandydat_error";
     FILE *plik_logu = otworz_log(nazwa_pliku, "a");
 
-    sem_t *sem_log = sem_open(SEM_LOG_KEY, O_CREAT, 0600, 1);
     sem_t *sem_sync = sem_open(SEM_SYNC_START, 0);
 
     srand(getpid()); 
@@ -24,19 +23,15 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    if (sem_log) sem_wait(sem_log);
     if (zgloszenie_kandydat.zdana_matura == 1 ){
         dodaj_do_loggera(plik_logu, "[Kandydat] [PID: %d]\t Zostałem utworzony i mam zdaną mature.\n",(int)getpid());
     }else{
         dodaj_do_loggera(plik_logu, "[Kandydat] [PID: %d]\t Zostałem utworzony i nie mam zdanej matury.\n",(int)getpid());
     }
-    if (sem_log) sem_post(sem_log);
     
     int file_descriptor = open(FIFO_WEJSCIE, O_WRONLY);
     if (file_descriptor == -1) {
-        if (sem_log) sem_wait(sem_log);
         perror("[Kandydat] Nie mogę wejść do kolejki"); 
-        if (sem_log) sem_post(sem_log);
 
         if (sem_sync) sem_post(sem_sync);
         if (sem_sync) sem_close(sem_sync);
@@ -82,8 +77,10 @@ int main(int argc, char *argv[]) {
     }
 
     int moj_index = -1;
-    int timeout = 0;
-    while (moj_index == -1 && timeout < 1000) {
+
+    // --- BEZPIECZNE OCZEKIWANIE NA WPISANIE NA LISTĘ ---
+    pthread_mutex_lock(&egzamin->mutex_rejestracji);
+    while (moj_index == -1) {
         for (int i = 0; i < egzamin->liczba_kandydatow; i++) {
             if (egzamin->lista[i].id == getpid()) {
                 moj_index = i;
@@ -91,15 +88,12 @@ int main(int argc, char *argv[]) {
             }
         }
         if (moj_index == -1) {
-            sleep_ms(5); 
-            timeout++;
+            pthread_cond_wait(&egzamin->cond_rejestracji, &egzamin->mutex_rejestracji);
         }
     }
+    pthread_mutex_unlock(&egzamin->mutex_rejestracji);
+    // ---------------------------------------------------
 
-    if (moj_index == -1) {
-        if (plik_logu) fclose(plik_logu);
-        return 0; 
-    }
     Student *kandydat = &egzamin->lista[moj_index];
 
     while (1) {
@@ -124,9 +118,7 @@ int main(int argc, char *argv[]) {
                 limit_pytan = LICZBA_EGZAMINATOROW_B;
             }
 
-            if (sem_log) sem_wait(sem_log);
             dodaj_do_loggera(plik_logu, "[Kandydat] [PID: %d] \t Otrzymałem %d pytań! Odpowiadam...\n", getpid(), limit_pytan);
-            if (sem_log) sem_post(sem_log);
             
             sleep_ms(GODZINA_Ti); 
 
@@ -136,14 +128,13 @@ int main(int argc, char *argv[]) {
                 kandydat->odpowiedzi[i] = odpowiedz;
             }
 
-            kandydat->status_arkusza = 2;
-            pthread_cond_signal(&kandydat->cond_ipc);
+            kandydat->status_arkusza = 2; // Gotowe
+            pthread_cond_signal(&kandydat->cond_ipc); // Budzimy komisję
         }
 
         pthread_mutex_unlock(&kandydat->mutex_ipc);
     }
 
-    if (sem_log) sem_close(sem_log);
     if (plik_logu) fclose(plik_logu);
     return 0;
 }
