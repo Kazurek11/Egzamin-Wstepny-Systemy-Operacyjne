@@ -27,12 +27,12 @@
 #define GODZINA_T 2         
 #define GODZINA_Ti 200
 
-#define MAX_KANDYDATOW 1500
-#define LICZBA_KANDYDATOW 1200
+#define MAX_KANDYDATOW 2000
+#define LICZBA_KANDYDATOW 1800
 #define CHETNI_NA_MIEJSCE 10
 #define LIMIT_PRZYJEC (LICZBA_KANDYDATOW / CHETNI_NA_MIEJSCE)
-#define SZANSA_NA_BRAK_MATURY 2 
-#define SZANSA_NA_ZDANA_TEORIE 2 
+#define SZANSA_NA_BRAK_MATURY 2
+#define SZANSA_NA_ZDANA_TEORIE 2
 
 #define FIFO_WEJSCIE "kolejka_przed_wydzialem"
 #define SHM_NAME "/egzamin_shm_final_v3"
@@ -45,9 +45,17 @@
 #define SEM_LOG_KEY "/sem_logger_synchronizacja"
 #define SEM_SYNC_START "/sem_sync_kolejnosc"
 
-// --- SEMAFOR ZAPOBIEGAJĄCY DEADLOCKOWI DZIEKANA ---
-// Służy do zliczania kandydatów, którzy definitywnie zakończyli proces rekrutacji
 #define SEM_LICZNIK_KONCA "/sem_licznik_zakonczonych_spraw"
+
+#define ANSI_COLOR_RED     "\x1b[31m"
+#define ANSI_COLOR_GREEN   "\x1b[32m"
+#define ANSI_COLOR_YELLOW  "\x1b[33m"
+#define ANSI_COLOR_BLUE    "\x1b[34m"
+#define ANSI_COLOR_MAGENTA "\x1b[35m"
+#define ANSI_COLOR_CYAN    "\x1b[36m"
+#define ANSI_COLOR_RESET   "\x1b[0m"
+
+static char *AKTUALNY_KOLOR_LOGU = ANSI_COLOR_RESET;
 
 static inline void sleep_ms(int ms) {
     struct timespec ts;
@@ -97,16 +105,20 @@ static inline void dodaj_do_loggera(FILE *plik, const char *format, ...) {
     pobierz_czas(czas, sizeof(czas));
     va_list args;
     
-    // Wypisanie na ekran
-    printf("[Czas: %s]\t", czas);
+    // --- WYPISANIE NA EKRAN (KOLOROWE) ---
+    printf("%s[Czas: %s]\t", AKTUALNY_KOLOR_LOGU, czas);
+    
     va_start(args, format);
     vprintf(format, args);
     va_end(args);
+    
+    printf("%s", ANSI_COLOR_RESET);
+    fflush(stdout); 
 
-    // Wypisanie do pliku
+    // --- WYPISANIE DO PLIKU (CZYSTE, BEZ KOLORÓW) ---
     if (plik) {
         fprintf(plik, "[Czas: %s]\t", czas);
-        va_start(args, format);
+        va_start(args, format); 
         vfprintf(plik, format, args);
         va_end(args);
         fflush(plik); 
@@ -135,7 +147,6 @@ typedef struct {
     int zaliczona_A; 
     int zaliczona_B; 
     
-    // Synchronizacja IPC
     pthread_mutex_t mutex_ipc;
     pthread_cond_t  cond_ipc;
 } Student;

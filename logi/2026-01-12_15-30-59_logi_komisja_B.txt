@@ -1,0 +1,186 @@
+[Czas: 15:30:59.180]	[Komisja B] [P] Przewodniczący 0 w komisji B: Rozpoczynam pracę.
+[Czas: 15:31:02.253]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784747] treść nr: 29
+[Czas: 15:31:02.253]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784747] treść nr: 3
+[Czas: 15:31:02.253]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784747] treść nr: 7
+[Czas: 15:31:02.455]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784747] |	 Wynik cząstkowy: 57
+[Czas: 15:31:02.455]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784747] |	 Wynik cząstkowy: 40
+[Czas: 15:31:02.455]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784747] |	 Wynik cząstkowy: 12
+[Czas: 15:31:02.455]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784747] |	 ZDAŁ B |	 Wynik: 36.33 pkt
+[Czas: 15:31:02.456]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784748] treść nr: 6
+[Czas: 15:31:02.456]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784748] treść nr: 41
+[Czas: 15:31:02.456]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784748] treść nr: 18
+[Czas: 15:31:02.657]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784748] |	 Wynik cząstkowy: 44
+[Czas: 15:31:02.657]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784748] |	 Wynik cząstkowy: 73
+[Czas: 15:31:02.657]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784748] |	 Wynik cząstkowy: 52
+[Czas: 15:31:02.658]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784748] |	 ZDAŁ B |	 Wynik: 56.33 pkt
+[Czas: 15:31:02.862]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784750] treść nr: 4
+[Czas: 15:31:02.863]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784750] treść nr: 47
+[Czas: 15:31:02.863]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784750] treść nr: 45
+[Czas: 15:31:03.064]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784750] |	 Wynik cząstkowy: 53
+[Czas: 15:31:03.064]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784750] |	 Wynik cząstkowy: 9
+[Czas: 15:31:03.064]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784750] |	 Wynik cząstkowy: 93
+[Czas: 15:31:03.064]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784750] |	 ZDAŁ B |	 Wynik: 51.67 pkt
+[Czas: 15:31:03.065]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784751] treść nr: 19
+[Czas: 15:31:03.065]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784751] treść nr: 50
+[Czas: 15:31:03.065]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784751] treść nr: 27
+[Czas: 15:31:03.266]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784751] |	 Wynik cząstkowy: 54
+[Czas: 15:31:03.266]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784751] |	 Wynik cząstkowy: 97
+[Czas: 15:31:03.266]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784751] |	 Wynik cząstkowy: 5
+[Czas: 15:31:03.267]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784751] |	 ZDAŁ B |	 Wynik: 52.00 pkt
+[Czas: 15:31:03.268]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784752] treść nr: 23
+[Czas: 15:31:03.268]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784752] treść nr: 25
+[Czas: 15:31:03.268]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784752] treść nr: 36
+[Czas: 15:31:03.469]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784752] |	 Wynik cząstkowy: 64
+[Czas: 15:31:03.469]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784752] |	 Wynik cząstkowy: 26
+[Czas: 15:31:03.469]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784752] |	 Wynik cząstkowy: 75
+[Czas: 15:31:03.470]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784752] |	 ZDAŁ B |	 Wynik: 55.00 pkt
+[Czas: 15:31:03.470]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784753] treść nr: 46
+[Czas: 15:31:03.470]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784753] treść nr: 11
+[Czas: 15:31:03.470]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784753] treść nr: 7
+[Czas: 15:31:03.671]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784753] |	 Wynik cząstkowy: 15
+[Czas: 15:31:03.671]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784753] |	 Wynik cząstkowy: 3
+[Czas: 15:31:03.671]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784753] |	 Wynik cząstkowy: 14
+[Czas: 15:31:03.672]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784753] |	 OBLAŁ B |	 Wynik: 10.67 pkt
+[Czas: 15:31:03.672]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784754] treść nr: 50
+[Czas: 15:31:03.673]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784754] treść nr: 11
+[Czas: 15:31:03.673]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784754] treść nr: 9
+[Czas: 15:31:03.874]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784754] |	 Wynik cząstkowy: 16
+[Czas: 15:31:03.874]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784754] |	 Wynik cząstkowy: 5
+[Czas: 15:31:03.874]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784754] |	 Wynik cząstkowy: 87
+[Czas: 15:31:03.874]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784754] |	 ZDAŁ B |	 Wynik: 36.00 pkt
+[Czas: 15:31:03.875]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784755] treść nr: 44
+[Czas: 15:31:03.875]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784755] treść nr: 8
+[Czas: 15:31:03.876]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784755] treść nr: 31
+[Czas: 15:31:04.077]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784755] |	 Wynik cząstkowy: 38
+[Czas: 15:31:04.077]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784755] |	 Wynik cząstkowy: 68
+[Czas: 15:31:04.077]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784755] |	 Wynik cząstkowy: 75
+[Czas: 15:31:04.077]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784755] |	 ZDAŁ B |	 Wynik: 60.33 pkt
+[Czas: 15:31:04.078]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784756] treść nr: 4
+[Czas: 15:31:04.079]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784756] treść nr: 31
+[Czas: 15:31:04.079]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784756] treść nr: 45
+[Czas: 15:31:04.279]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784756] |	 Wynik cząstkowy: 80
+[Czas: 15:31:04.279]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784756] |	 Wynik cząstkowy: 79
+[Czas: 15:31:04.280]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784756] |	 Wynik cząstkowy: 98
+[Czas: 15:31:04.280]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784756] |	 ZDAŁ B |	 Wynik: 85.67 pkt
+[Czas: 15:31:04.281]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784757] treść nr: 41
+[Czas: 15:31:04.281]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784757] treść nr: 10
+[Czas: 15:31:04.281]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784757] treść nr: 49
+[Czas: 15:31:04.482]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784757] |	 Wynik cząstkowy: 8
+[Czas: 15:31:04.482]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784757] |	 Wynik cząstkowy: 98
+[Czas: 15:31:04.482]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784757] |	 Wynik cząstkowy: 74
+[Czas: 15:31:04.493]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784757] |	 ZDAŁ B |	 Wynik: 60.00 pkt
+[Czas: 15:31:04.493]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784758] treść nr: 33
+[Czas: 15:31:04.494]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784758] treść nr: 22
+[Czas: 15:31:04.494]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784758] treść nr: 41
+[Czas: 15:31:04.695]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784758] |	 Wynik cząstkowy: 50
+[Czas: 15:31:04.695]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784758] |	 Wynik cząstkowy: 13
+[Czas: 15:31:04.695]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784758] |	 Wynik cząstkowy: 74
+[Czas: 15:31:04.695]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784758] |	 ZDAŁ B |	 Wynik: 45.67 pkt
+[Czas: 15:31:04.696]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784759] treść nr: 7
+[Czas: 15:31:04.696]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784759] treść nr: 24
+[Czas: 15:31:04.697]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784759] treść nr: 4
+[Czas: 15:31:04.898]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784759] |	 Wynik cząstkowy: 88
+[Czas: 15:31:04.898]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784759] |	 Wynik cząstkowy: 42
+[Czas: 15:31:04.898]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784759] |	 Wynik cząstkowy: 66
+[Czas: 15:31:04.898]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784759] |	 ZDAŁ B |	 Wynik: 65.33 pkt
+[Czas: 15:31:04.899]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784760] treść nr: 3
+[Czas: 15:31:04.899]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784760] treść nr: 36
+[Czas: 15:31:04.899]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784760] treść nr: 18
+[Czas: 15:31:05.100]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784760] |	 Wynik cząstkowy: 33
+[Czas: 15:31:05.100]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784760] |	 Wynik cząstkowy: 55
+[Czas: 15:31:05.100]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784760] |	 Wynik cząstkowy: 15
+[Czas: 15:31:05.101]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784760] |	 ZDAŁ B |	 Wynik: 34.33 pkt
+[Czas: 15:31:05.102]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784761] treść nr: 31
+[Czas: 15:31:05.102]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784761] treść nr: 29
+[Czas: 15:31:05.102]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784761] treść nr: 11
+[Czas: 15:31:05.303]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784761] |	 Wynik cząstkowy: 35
+[Czas: 15:31:05.303]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784761] |	 Wynik cząstkowy: 9
+[Czas: 15:31:05.303]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784761] |	 Wynik cząstkowy: 98
+[Czas: 15:31:05.304]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784761] |	 ZDAŁ B |	 Wynik: 47.33 pkt
+[Czas: 15:31:05.305]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784762] treść nr: 2
+[Czas: 15:31:05.305]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784762] treść nr: 8
+[Czas: 15:31:05.305]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784762] treść nr: 50
+[Czas: 15:31:05.507]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784762] |	 Wynik cząstkowy: 15
+[Czas: 15:31:05.507]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784762] |	 Wynik cząstkowy: 80
+[Czas: 15:31:05.507]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784762] |	 Wynik cząstkowy: 50
+[Czas: 15:31:05.507]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784762] |	 ZDAŁ B |	 Wynik: 48.33 pkt
+[Czas: 15:31:05.508]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784763] treść nr: 14
+[Czas: 15:31:05.508]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784763] treść nr: 5
+[Czas: 15:31:05.508]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784763] treść nr: 21
+[Czas: 15:31:05.709]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784763] |	 Wynik cząstkowy: 81
+[Czas: 15:31:05.709]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784763] |	 Wynik cząstkowy: 78
+[Czas: 15:31:05.709]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784763] |	 Wynik cząstkowy: 73
+[Czas: 15:31:05.710]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784763] |	 ZDAŁ B |	 Wynik: 77.33 pkt
+[Czas: 15:31:05.710]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784764] treść nr: 11
+[Czas: 15:31:05.711]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784764] treść nr: 2
+[Czas: 15:31:05.711]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784764] treść nr: 20
+[Czas: 15:31:05.912]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784764] |	 Wynik cząstkowy: 34
+[Czas: 15:31:05.912]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784764] |	 Wynik cząstkowy: 92
+[Czas: 15:31:05.912]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784764] |	 Wynik cząstkowy: 89
+[Czas: 15:31:05.912]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784764] |	 ZDAŁ B |	 Wynik: 71.67 pkt
+[Czas: 15:31:05.914]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784765] treść nr: 32
+[Czas: 15:31:05.914]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784765] treść nr: 30
+[Czas: 15:31:05.914]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784765] treść nr: 50
+[Czas: 15:31:06.115]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784765] |	 Wynik cząstkowy: 0
+[Czas: 15:31:06.115]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784765] |	 Wynik cząstkowy: 63
+[Czas: 15:31:06.115]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784765] |	 Wynik cząstkowy: 4
+[Czas: 15:31:06.116]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784765] |	 OBLAŁ B |	 Wynik: 22.33 pkt
+[Czas: 15:31:06.117]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784766] treść nr: 47
+[Czas: 15:31:06.117]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784766] treść nr: 33
+[Czas: 15:31:06.117]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784766] treść nr: 42
+[Czas: 15:31:06.318]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784766] |	 Wynik cząstkowy: 29
+[Czas: 15:31:06.318]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784766] |	 Wynik cząstkowy: 75
+[Czas: 15:31:06.318]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784766] |	 Wynik cząstkowy: 20
+[Czas: 15:31:06.318]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784766] |	 ZDAŁ B |	 Wynik: 41.33 pkt
+[Czas: 15:31:06.320]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784767] treść nr: 27
+[Czas: 15:31:06.320]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784767] treść nr: 46
+[Czas: 15:31:06.320]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784767] treść nr: 49
+[Czas: 15:31:06.522]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784767] |	 Wynik cząstkowy: 28
+[Czas: 15:31:06.522]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784767] |	 Wynik cząstkowy: 100
+[Czas: 15:31:06.522]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784767] |	 Wynik cząstkowy: 12
+[Czas: 15:31:06.522]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784767] |	 ZDAŁ B |	 Wynik: 46.67 pkt
+[Czas: 15:31:06.523]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784768] treść nr: 11
+[Czas: 15:31:06.523]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784768] treść nr: 40
+[Czas: 15:31:06.523]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784768] treść nr: 38
+[Czas: 15:31:06.724]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784768] |	 Wynik cząstkowy: 57
+[Czas: 15:31:06.724]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784768] |	 Wynik cząstkowy: 40
+[Czas: 15:31:06.724]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784768] |	 Wynik cząstkowy: 52
+[Czas: 15:31:06.725]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784768] |	 ZDAŁ B |	 Wynik: 49.67 pkt
+[Czas: 15:31:06.728]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784769] treść nr: 49
+[Czas: 15:31:06.728]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784769] treść nr: 3
+[Czas: 15:31:06.728]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784769] treść nr: 21
+[Czas: 15:31:06.929]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784769] |	 Wynik cząstkowy: 80
+[Czas: 15:31:06.929]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784769] |	 Wynik cząstkowy: 24
+[Czas: 15:31:06.929]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784769] |	 Wynik cząstkowy: 31
+[Czas: 15:31:06.929]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784769] |	 ZDAŁ B |	 Wynik: 45.00 pkt
+[Czas: 15:31:06.930]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784771] treść nr: 50
+[Czas: 15:31:06.930]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784771] treść nr: 13
+[Czas: 15:31:06.930]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784771] treść nr: 43
+[Czas: 15:31:07.131]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784771] |	 Wynik cząstkowy: 61
+[Czas: 15:31:07.131]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784771] |	 Wynik cząstkowy: 66
+[Czas: 15:31:07.131]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784771] |	 Wynik cząstkowy: 30
+[Czas: 15:31:07.132]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784771] |	 ZDAŁ B |	 Wynik: 52.33 pkt
+[Czas: 15:31:07.132]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784772] treść nr: 30
+[Czas: 15:31:07.132]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784772] treść nr: 27
+[Czas: 15:31:07.132]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784772] treść nr: 32
+[Czas: 15:31:07.333]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784772] |	 Wynik cząstkowy: 75
+[Czas: 15:31:07.333]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784772] |	 Wynik cząstkowy: 38
+[Czas: 15:31:07.333]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784772] |	 Wynik cząstkowy: 4
+[Czas: 15:31:07.334]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784772] |	 ZDAŁ B |	 Wynik: 39.00 pkt
+[Czas: 15:31:07.334]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784773] treść nr: 15
+[Czas: 15:31:07.334]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784773] treść nr: 31
+[Czas: 15:31:07.334]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784773] treść nr: 23
+[Czas: 15:31:07.536]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784773] |	 Wynik cząstkowy: 12
+[Czas: 15:31:07.536]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784773] |	 Wynik cząstkowy: 11
+[Czas: 15:31:07.536]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784773] |	 Wynik cząstkowy: 80
+[Czas: 15:31:07.536]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784773] |	 ZDAŁ B |	 Wynik: 34.33 pkt
+[Czas: 15:31:07.537]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784774] treść nr: 46
+[Czas: 15:31:07.537]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784774] treść nr: 21
+[Czas: 15:31:07.537]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784774] treść nr: 38
+[Czas: 15:31:07.738]	[Komisja B] [PID: 784738] |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Ocenił kandydata [PID: 784774] |	 Wynik cząstkowy: 34
+[Czas: 15:31:07.738]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Ocenił kandydata [PID: 784774] |	 Wynik cząstkowy: 49
+[Czas: 15:31:07.738]	[Komisja B] [PID: 784738] |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Ocenił kandydata [PID: 784774] |	 Wynik cząstkowy: 63
+[Czas: 15:31:07.738]	[Komisja B] [PID: 784738] |	 Kandydat [PID: 784774] |	 ZDAŁ B |	 Wynik: 48.67 pkt
+[Czas: 15:31:07.738]	[Komisja B] [PID: 784738] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 784743] [ID: 0] |	 Zadał kandydatowi [PID: 784775] treść nr: 2
+[Czas: 15:31:07.739]	[Komisja B] [PID: 784738] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 784744] [ID: 1] |	 Zadał kandydatowi [PID: 784775] treść nr: 33
+[Czas: 15:31:07.739]	[Komisja B] [PID: 784738] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 784745] [ID: 2] |	 Zadał kandydatowi [PID: 784775] treść nr: 22

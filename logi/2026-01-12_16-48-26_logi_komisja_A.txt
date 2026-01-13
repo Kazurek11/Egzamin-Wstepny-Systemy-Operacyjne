@@ -1,0 +1,39 @@
+[Czas: 16:48:26.606]	[Komisja A] [P] Przewodniczący 0 w komisji A: Rozpoczynam pracę.
+[Czas: 16:48:29.324]	[Komisja A] [PID: 933689] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 933701] [ID: 4] |	 Zadał kandydatowi [PID: 933691] treść nr: 34
+[Czas: 16:48:29.324]	[Komisja A] [PID: 933689] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 933692] [ID: 0] |	 Zadał kandydatowi [PID: 933691] treść nr: 40
+[Czas: 16:48:29.324]	[Komisja A] [PID: 933689] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 933694] [ID: 1] |	 Zadał kandydatowi [PID: 933691] treść nr: 28
+[Czas: 16:48:29.324]	[Komisja A] [PID: 933689] |	 Pytanie nr: 4 |	 Egzaminator [C] [TID: 933696] [ID: 2] |	 Zadał kandydatowi [PID: 933691] treść nr: 36
+[Czas: 16:48:29.324]	[Komisja A] [PID: 933689] |	 Pytanie nr: 5 |	 Egzaminator [C] [TID: 933700] [ID: 3] |	 Zadał kandydatowi [PID: 933691] treść nr: 38
+[Czas: 16:48:29.572]	[Komisja A] [PID: 933689] |	 Egzaminator [C] [TID: 933701] [ID: 4] |	 Ocenił kandydata [PID: 933691] |	 Wynik cząstkowy: 79
+[Czas: 16:48:29.572]	[Komisja A] [PID: 933689] |	 Egzaminator [C] [TID: 933700] [ID: 3] |	 Ocenił kandydata [PID: 933691] |	 Wynik cząstkowy: 64
+[Czas: 16:48:29.572]	[Komisja A] [PID: 933689] |	 Egzaminator [C] [TID: 933694] [ID: 1] |	 Ocenił kandydata [PID: 933691] |	 Wynik cząstkowy: 97
+[Czas: 16:48:29.572]	[Czas: 16:48:29.572]	[Komisja A] [PID: 933689] |	 Egzaminator [P] [TID: 933692] [ID: 0] |	 Ocenił kandydata [PID: 933691] |	 Wynik cząstkowy: 20
+[Komisja A] [PID: 933689] |	 Egzaminator [C] [TID: 933696] [ID: 2] |	 Ocenił kandydata [PID: 933691] |	 Wynik cząstkowy: 25
+[Czas: 16:48:29.572]	[Komisja A] [PID: 933689] |	 Kandydat [PID: 933691] |	 ZDAŁ A (-> B) |	 Wynik: 57.00 pkt
+[Czas: 16:48:29.573]	[Komisja A] [PID: 933689] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 933696] [ID: 2] |	 Zadał kandydatowi [PID: 933698] treść nr: 18
+[Czas: 16:48:29.573]	[Komisja A] [PID: 933689] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 933692] [ID: 0] |	 Zadał kandydatowi [PID: 933698] treść nr: 32
+[Czas: 16:48:29.573]	[Komisja A] [PID: 933689] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 933694] [ID: 1] |	 Zadał kandydatowi [PID: 933698] treść nr: 46
+[Czas: 16:48:29.573]	[Komisja A] [PID: 933689] |	 Pytanie nr: 4 |	 Egzaminator [C] [TID: 933700] [ID: 3] |	 Zadał kandydatowi [PID: 933698] treść nr: 38
+[Czas: 16:48:29.573]	[Komisja A] [PID: 933689] |	 Pytanie nr: 5 |	 Egzaminator [C] [TID: 933701] [ID: 4] |	 Zadał kandydatowi [PID: 933698] treść nr: 33
+[Czas: 16:48:29.773]	[Komisja A] [PID: 933689] |	 Egzaminator [C] [TID: 933696] [ID: 2] |	 Ocenił kandydata [PID: 933698] |	 Wynik cząstkowy: 28
+[Czas: 16:48:29.773]	[Komisja A] [PID: 933689] |	 Egzaminator [C] [TID: 933701] [ID: 4] |	 Ocenił kandydata [PID: 933698] |	 Wynik cząstkowy: 74
+[Czas: 16:48:29.773]	[Komisja A] [PID: 933689] |	 Egzaminator [C] [TID: 933694] [ID: 1] |	 Ocenił kandydata [PID: 933698] |	 Wynik cząstkowy: 85
+[Czas: 16:48:29.773]	[Komisja A] [PID: 933689] |	 Egzaminator [P] [TID: 933692] [ID: 0] |	 Ocenił kandydata [PID: 933698] |	 Wynik cząstkowy: 92
+[Czas: 16:48:29.773]	[Komisja A] [PID: 933689] |	 Egzaminator [C] [TID: 933700] [ID: 3] |	 Ocenił kandydata [PID: 933698] |	 Wynik cząstkowy: 4
+[Czas: 16:48:29.773]	[Komisja A] [PID: 933689] |	 Kandydat [PID: 933698] |	 ZDAŁ A (-> B) |	 Wynik: 56.60 pkt
+[Czas: 16:48:29.774]	[Komisja A] [PID: 933689] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 933692] [ID: 0] |	 Zadał kandydatowi [PID: 933699] treść nr: 42
+[Czas: 16:48:29.774]	[Komisja A] [PID: 933689] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 933701] [ID: 4] |	 Zadał kandydatowi [PID: 933699] treść nr: 20
+[Czas: 16:48:29.774]	[Komisja A] [PID: 933689] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 933696] [ID: 2] |	 Zadał kandydatowi [PID: 933699] treść nr: 24
+[Czas: 16:48:29.774]	[Komisja A] [PID: 933689] |	 Pytanie nr: 4 |	 Egzaminator [C] [TID: 933694] [ID: 1] |	 Zadał kandydatowi [PID: 933699] treść nr: 7
+[Czas: 16:48:29.774]	[Komisja A] [PID: 933689] |	 Pytanie nr: 5 |	 Egzaminator [C] [TID: 933700] [ID: 3] |	 Zadał kandydatowi [PID: 933699] treść nr: 40
+[Czas: 16:48:29.974]	[Komisja A] [PID: 933689] |	 Egzaminator [P] [TID: 933692] [ID: 0] |	 Ocenił kandydata [PID: 933699] |	 Wynik cząstkowy: 3
+[Czas: 16:48:29.974]	[Komisja A] [PID: 933689] |	 Egzaminator [C] [TID: 933696] [ID: 2] |	 Ocenił kandydata [PID: 933699] |	 Wynik cząstkowy: 31
+[Czas: 16:48:29.974]	[Komisja A] [PID: 933689] |	 Egzaminator [C] [TID: 933700] [ID: 3] |	 Ocenił kandydata [PID: 933699] |	 Wynik cząstkowy: 94
+[Czas: 16:48:29.974]	[Komisja A] [PID: 933689] |	 Egzaminator [C] [TID: 933701] [ID: 4] |	 Ocenił kandydata [PID: 933699] |	 Wynik cząstkowy: 29
+[Czas: 16:48:29.974]	[Komisja A] [PID: 933689] |	 Egzaminator [C] [TID: 933694] [ID: 1] |	 Ocenił kandydata [PID: 933699] |	 Wynik cząstkowy: 17
+[Czas: 16:48:29.974]	[Komisja A] [PID: 933689] |	 Kandydat [PID: 933699] |	 ZDAŁ A (-> B) |	 Wynik: 34.80 pkt
+[Czas: 16:48:29.975]	[Komisja A] [PID: 933689] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 933692] [ID: 0] |	 Zadał kandydatowi [PID: 933703] treść nr: 32
+[Czas: 16:48:29.975]	[Komisja A] [PID: 933689] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 933694] [ID: 1] |	 Zadał kandydatowi [PID: 933703] treść nr: 23
+[Czas: 16:48:29.975]	[Komisja A] [PID: 933689] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 933696] [ID: 2] |	 Zadał kandydatowi [PID: 933703] treść nr: 43
+[Czas: 16:48:29.975]	[Komisja A] [PID: 933689] |	 Pytanie nr: 4 |	 Egzaminator [C] [TID: 933700] [ID: 3] |	 Zadał kandydatowi [PID: 933703] treść nr: 19
+[Czas: 16:48:29.975]	[Komisja A] [PID: 933689] |	 Pytanie nr: 5 |	 Egzaminator [C] [TID: 933701] [ID: 4] |	 Zadał kandydatowi [PID: 933703] treść nr: 10

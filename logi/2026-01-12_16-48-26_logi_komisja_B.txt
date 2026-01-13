@@ -1,0 +1,18 @@
+[Czas: 16:48:26.606]	[Komisja B] [P] Przewodniczący 0 w komisji B: Rozpoczynam pracę.
+[Czas: 16:48:29.573]	[Komisja B] [PID: 933690] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 933697] [ID: 2] |	 Zadał kandydatowi [PID: 933691] treść nr: 5
+[Czas: 16:48:29.573]	[Komisja B] [PID: 933690] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 933693] [ID: 0] |	 Zadał kandydatowi [PID: 933691] treść nr: 22
+[Czas: 16:48:29.573]	[Komisja B] [PID: 933690] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 933695] [ID: 1] |	 Zadał kandydatowi [PID: 933691] treść nr: 21
+[Czas: 16:48:29.773]	[Komisja B] [PID: 933690] |	 Egzaminator [P] [TID: 933693] [ID: 0] |	 Ocenił kandydata [PID: 933691] |	 Wynik cząstkowy: 43
+[Czas: 16:48:29.773]	[Komisja B] [PID: 933690] |	 Egzaminator [C] [TID: 933695] [ID: 1] |	 Ocenił kandydata [PID: 933691] |	 Wynik cząstkowy: 94
+[Czas: 16:48:29.773]	[Komisja B] [PID: 933690] |	 Egzaminator [C] [TID: 933697] [ID: 2] |	 Ocenił kandydata [PID: 933691] |	 Wynik cząstkowy: 84
+[Czas: 16:48:29.773]	[Komisja B] [PID: 933690] |	 Kandydat [PID: 933691] |	 ZDAŁ B |	 Wynik: 73.67 pkt
+[Czas: 16:48:29.774]	[Komisja B] [PID: 933690] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 933695] [ID: 1] |	 Zadał kandydatowi [PID: 933698] treść nr: 12
+[Czas: 16:48:29.774]	[Komisja B] [PID: 933690] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 933697] [ID: 2] |	 Zadał kandydatowi [PID: 933698] treść nr: 10
+[Czas: 16:48:29.774]	[Komisja B] [PID: 933690] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 933693] [ID: 0] |	 Zadał kandydatowi [PID: 933698] treść nr: 19
+[Czas: 16:48:29.974]	[Komisja B] [PID: 933690] |	 Egzaminator [C] [TID: 933697] [ID: 2] |	 Ocenił kandydata [PID: 933698] |	 Wynik cząstkowy: 28
+[Czas: 16:48:29.974]	[Komisja B] [PID: 933690] |	 Egzaminator [P] [TID: 933693] [ID: 0] |	 Ocenił kandydata [PID: 933698] |	 Wynik cząstkowy: 55
+[Czas: 16:48:29.974]	[Komisja B] [PID: 933690] |	 Egzaminator [C] [TID: 933695] [ID: 1] |	 Ocenił kandydata [PID: 933698] |	 Wynik cząstkowy: 25
+[Czas: 16:48:29.974]	[Komisja B] [PID: 933690] |	 Kandydat [PID: 933698] |	 ZDAŁ B |	 Wynik: 36.00 pkt
+[Czas: 16:48:29.975]	[Komisja B] [PID: 933690] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 933693] [ID: 0] |	 Zadał kandydatowi [PID: 933699] treść nr: 20
+[Czas: 16:48:29.975]	[Komisja B] [PID: 933690] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 933695] [ID: 1] |	 Zadał kandydatowi [PID: 933699] treść nr: 12
+[Czas: 16:48:29.975]	[Komisja B] [PID: 933690] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 933697] [ID: 2] |	 Zadał kandydatowi [PID: 933699] treść nr: 3

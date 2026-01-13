@@ -3,8 +3,10 @@
 int main(int argc, char *argv[]) {
     const char* nazwa_pliku = (argc > 1) ? argv[1] : "kandydat_error";
     FILE *plik_logu = otworz_log(nazwa_pliku, "a");
+    AKTUALNY_KOLOR_LOGU = ANSI_COLOR_BLUE;
 
     sem_t *sem_sync = sem_open(SEM_SYNC_START, 0);
+
 
     srand(getpid()); 
     
@@ -120,7 +122,7 @@ int main(int argc, char *argv[]) {
 
             dodaj_do_loggera(plik_logu, "[Kandydat] [PID: %d] \t Otrzymałem %d pytań! Odpowiadam...\n", getpid(), limit_pytan);
             
-            sleep_ms(GODZINA_Ti); 
+            // sleep_ms(GODZINA_Ti); 
 
             for (int i = 0; i < limit_pytan; i++) {
                 int pytanie = kandydat->pytania[i];

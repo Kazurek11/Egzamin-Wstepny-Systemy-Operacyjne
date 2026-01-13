@@ -1,0 +1,187 @@
+[Czas: 16:41:29.430]	[Komisja B] [P] Przewodniczący 0 w komisji B: Rozpoczynam pracę.
+[Czas: 16:41:31.542]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924434] treść nr: 40
+[Czas: 16:41:31.542]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924434] treść nr: 48
+[Czas: 16:41:31.543]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924434] treść nr: 21
+[Czas: 16:41:31.543]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924434] |	 Wynik cząstkowy: 43
+[Czas: 16:41:31.543]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924434] |	 Wynik cząstkowy: 1
+[Czas: 16:41:31.543]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924434] |	 Wynik cząstkowy: 58
+[Czas: 16:41:31.543]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924434] |	 ZDAŁ B |	 Wynik: 34.00 pkt
+[Czas: 16:41:31.559]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924442] treść nr: 19
+[Czas: 16:41:31.559]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924442] treść nr: 45
+[Czas: 16:41:31.559]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924442] treść nr: 6
+[Czas: 16:41:31.559]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924442] |	 Wynik cząstkowy: 23
+[Czas: 16:41:31.559]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924442] |	 Wynik cząstkowy: 16
+[Czas: 16:41:31.559]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924442] |	 Wynik cząstkowy: 75
+[Czas: 16:41:31.559]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924442] |	 ZDAŁ B |	 Wynik: 38.00 pkt
+[Czas: 16:41:31.560]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924443] treść nr: 42
+[Czas: 16:41:31.560]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924443] treść nr: 24
+[Czas: 16:41:31.560]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924443] treść nr: 12
+[Czas: 16:41:31.560]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924443] |	 Wynik cząstkowy: 9
+[Czas: 16:41:31.560]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924443] |	 Wynik cząstkowy: 17
+[Czas: 16:41:31.560]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924443] |	 Wynik cząstkowy: 29
+[Czas: 16:41:31.560]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924443] |	 OBLAŁ B |	 Wynik: 18.33 pkt
+[Czas: 16:41:31.561]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924445] treść nr: 17
+[Czas: 16:41:31.561]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924445] treść nr: 50
+[Czas: 16:41:31.561]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924445] treść nr: 39
+[Czas: 16:41:31.561]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924445] |	 Wynik cząstkowy: 65
+[Czas: 16:41:31.561]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924445] |	 Wynik cząstkowy: 47
+[Czas: 16:41:31.561]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924445] |	 Wynik cząstkowy: 2
+[Czas: 16:41:31.562]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924445] |	 ZDAŁ B |	 Wynik: 38.00 pkt
+[Czas: 16:41:31.562]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924446] treść nr: 22
+[Czas: 16:41:31.562]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924446] treść nr: 20
+[Czas: 16:41:31.562]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924446] treść nr: 40
+[Czas: 16:41:31.563]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924446] |	 Wynik cząstkowy: 2
+[Czas: 16:41:31.563]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924446] |	 Wynik cząstkowy: 59
+[Czas: 16:41:31.563]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924446] |	 Wynik cząstkowy: 62
+[Czas: 16:41:31.563]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924446] |	 ZDAŁ B |	 Wynik: 41.00 pkt
+[Czas: 16:41:31.563]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924447] treść nr: 4
+[Czas: 16:41:31.563]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924447] treść nr: 30
+[Czas: 16:41:31.563]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924447] treść nr: 28
+[Czas: 16:41:31.564]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924447] |	 Wynik cząstkowy: 62
+[Czas: 16:41:31.564]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924447] |	 Wynik cząstkowy: 28
+[Czas: 16:41:31.564]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924447] |	 Wynik cząstkowy: 65
+[Czas: 16:41:31.564]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924447] |	 ZDAŁ B |	 Wynik: 51.67 pkt
+[Czas: 16:41:31.564]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924448] treść nr: 33
+[Czas: 16:41:31.564]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924448] treść nr: 1
+[Czas: 16:41:31.564]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924448] treść nr: 3
+[Czas: 16:41:31.564]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924448] |	 Wynik cząstkowy: 54
+[Czas: 16:41:31.565]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924448] |	 Wynik cząstkowy: 71
+[Czas: 16:41:31.564]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924448] |	 Wynik cząstkowy: 66
+[Czas: 16:41:31.565]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924448] |	 ZDAŁ B |	 Wynik: 63.67 pkt
+[Czas: 16:41:31.565]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924449] treść nr: 31
+[Czas: 16:41:31.565]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924449] treść nr: 40
+[Czas: 16:41:31.566]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924449] treść nr: 15
+[Czas: 16:41:31.566]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924449] |	 Wynik cząstkowy: 71
+[Czas: 16:41:31.566]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924449] |	 Wynik cząstkowy: 83
+[Czas: 16:41:31.566]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924449] |	 Wynik cząstkowy: 35
+[Czas: 16:41:31.566]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924449] |	 ZDAŁ B |	 Wynik: 63.00 pkt
+[Czas: 16:41:31.566]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924450] treść nr: 40
+[Czas: 16:41:31.567]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924450] treść nr: 37
+[Czas: 16:41:31.567]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924450] treść nr: 42
+[Czas: 16:41:31.567]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924450] |	 Wynik cząstkowy: 50
+[Czas: 16:41:31.567]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924450] |	 Wynik cząstkowy: 45
+[Czas: 16:41:31.567]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924450] |	 Wynik cząstkowy: 18
+[Czas: 16:41:31.567]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924450] |	 ZDAŁ B |	 Wynik: 37.67 pkt
+[Czas: 16:41:31.568]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924451] treść nr: 8
+[Czas: 16:41:31.568]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924451] treść nr: 40
+[Czas: 16:41:31.568]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924451] treść nr: 15
+[Czas: 16:41:31.568]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924451] |	 Wynik cząstkowy: 65
+[Czas: 16:41:31.568]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924451] |	 Wynik cząstkowy: 45
+[Czas: 16:41:31.568]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924451] |	 Wynik cząstkowy: 91
+[Czas: 16:41:31.568]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924451] |	 ZDAŁ B |	 Wynik: 67.00 pkt
+[Czas: 16:41:31.569]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924453] treść nr: 30
+[Czas: 16:41:31.569]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924453] treść nr: 50
+[Czas: 16:41:31.569]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924453] treść nr: 6
+[Czas: 16:41:31.569]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924453] |	 Wynik cząstkowy: 78
+[Czas: 16:41:31.569]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924453] |	 Wynik cząstkowy: 63
+[Czas: 16:41:31.569]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924453] |	 Wynik cząstkowy: 3
+[Czas: 16:41:31.569]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924453] |	 ZDAŁ B |	 Wynik: 48.00 pkt
+[Czas: 16:41:31.570]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924454] treść nr: 3
+[Czas: 16:41:31.570]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924454] treść nr: 46
+[Czas: 16:41:31.570]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924454] treść nr: 12
+[Czas: 16:41:31.570]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924454] |	 Wynik cząstkowy: 95
+[Czas: 16:41:31.570]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924454] |	 Wynik cząstkowy: 24
+[Czas: 16:41:31.570]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924454] |	 Wynik cząstkowy: 34
+[Czas: 16:41:31.570]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924454] |	 ZDAŁ B |	 Wynik: 51.00 pkt
+[Czas: 16:41:31.571]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924455] treść nr: 9
+[Czas: 16:41:31.571]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924455] treść nr: 16
+[Czas: 16:41:31.571]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924455] treść nr: 21
+[Czas: 16:41:31.571]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924455] |	 Wynik cząstkowy: 83
+[Czas: 16:41:31.571]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924455] |	 Wynik cząstkowy: 13
+[Czas: 16:41:31.571]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924455] |	 Wynik cząstkowy: 36
+[Czas: 16:41:31.571]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924455] |	 ZDAŁ B |	 Wynik: 44.00 pkt
+[Czas: 16:41:31.572]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924456] treść nr: 18
+[Czas: 16:41:31.572]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924456] treść nr: 26
+[Czas: 16:41:31.572]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924456] treść nr: 30
+[Czas: 16:41:31.572]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924456] |	 Wynik cząstkowy: 42
+[Czas: 16:41:31.572]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924456] |	 Wynik cząstkowy: 49
+[Czas: 16:41:31.572]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924456] |	 Wynik cząstkowy: 52
+[Czas: 16:41:31.573]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924456] |	 ZDAŁ B |	 Wynik: 47.67 pkt
+[Czas: 16:41:31.573]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924457] treść nr: 6
+[Czas: 16:41:31.573]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924457] treść nr: 12
+[Czas: 16:41:31.573]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924457] treść nr: 40
+[Czas: 16:41:31.574]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924457] |	 Wynik cząstkowy: 6
+[Czas: 16:41:31.574]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924457] |	 Wynik cząstkowy: 79
+[Czas: 16:41:31.574]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924457] |	 Wynik cząstkowy: 69
+[Czas: 16:41:31.574]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924457] |	 ZDAŁ B |	 Wynik: 51.33 pkt
+[Czas: 16:41:31.574]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924458] treść nr: 44
+[Czas: 16:41:31.574]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924458] treść nr: 40
+[Czas: 16:41:31.574]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924458] treść nr: 36
+[Czas: 16:41:31.575]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924458] |	 Wynik cząstkowy: 46
+[Czas: 16:41:31.575]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924458] |	 Wynik cząstkowy: 35
+[Czas: 16:41:31.575]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924458] |	 Wynik cząstkowy: 69
+[Czas: 16:41:31.575]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924458] |	 ZDAŁ B |	 Wynik: 50.00 pkt
+[Czas: 16:41:31.577]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924460] treść nr: 11
+[Czas: 16:41:31.577]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924460] treść nr: 2
+[Czas: 16:41:31.577]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924460] treść nr: 44
+[Czas: 16:41:31.577]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924460] |	 Wynik cząstkowy: 75
+[Czas: 16:41:31.577]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924460] |	 Wynik cząstkowy: 6
+[Czas: 16:41:31.577]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924460] |	 Wynik cząstkowy: 73
+[Czas: 16:41:31.578]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924460] |	 ZDAŁ B |	 Wynik: 51.33 pkt
+[Czas: 16:41:31.578]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924461] treść nr: 3
+[Czas: 16:41:31.578]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924461] treść nr: 19
+[Czas: 16:41:31.578]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924461] treść nr: 44
+[Czas: 16:41:31.579]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924461] |	 Wynik cząstkowy: 21
+[Czas: 16:41:31.579]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924461] |	 Wynik cząstkowy: 86
+[Czas: 16:41:31.579]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924461] |	 Wynik cząstkowy: 72
+[Czas: 16:41:31.579]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924461] |	 ZDAŁ B |	 Wynik: 59.67 pkt
+[Czas: 16:41:31.579]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924462] treść nr: 16
+[Czas: 16:41:31.579]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924462] treść nr: 13
+[Czas: 16:41:31.580]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924462] treść nr: 5
+[Czas: 16:41:31.580]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924462] |	 Wynik cząstkowy: 6
+[Czas: 16:41:31.580]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924462] |	 Wynik cząstkowy: 24
+[Czas: 16:41:31.580]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924462] |	 Wynik cząstkowy: 19
+[Czas: 16:41:31.580]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924462] |	 OBLAŁ B |	 Wynik: 16.33 pkt
+[Czas: 16:41:31.580]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924463] treść nr: 43
+[Czas: 16:41:31.580]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924463] treść nr: 30
+[Czas: 16:41:31.581]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924463] treść nr: 23
+[Czas: 16:41:31.581]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924463] |	 Wynik cząstkowy: 49
+[Czas: 16:41:31.581]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924463] |	 Wynik cząstkowy: 18
+[Czas: 16:41:31.581]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924463] |	 Wynik cząstkowy: 78
+[Czas: 16:41:31.581]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924463] |	 ZDAŁ B |	 Wynik: 48.33 pkt
+[Czas: 16:41:31.581]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924464] treść nr: 21
+[Czas: 16:41:31.582]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924464] treść nr: 45
+[Czas: 16:41:31.582]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924464] treść nr: 24
+[Czas: 16:41:31.582]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924464] |	 Wynik cząstkowy: 36
+[Czas: 16:41:31.582]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924464] |	 Wynik cząstkowy: 45
+[Czas: 16:41:31.582]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924464] |	 Wynik cząstkowy: 48
+[Czas: 16:41:31.582]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924464] |	 ZDAŁ B |	 Wynik: 43.00 pkt
+[Czas: 16:41:31.583]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924465] treść nr: 7
+[Czas: 16:41:31.583]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924465] treść nr: 8
+[Czas: 16:41:31.583]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924465] treść nr: 26
+[Czas: 16:41:31.583]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924465] |	 Wynik cząstkowy: 87
+[Czas: 16:41:31.583]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924465] |	 Wynik cząstkowy: 95
+[Czas: 16:41:31.583]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924465] |	 Wynik cząstkowy: 80
+[Czas: 16:41:31.583]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924465] |	 ZDAŁ B |	 Wynik: 87.33 pkt
+[Czas: 16:41:31.584]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924466] treść nr: 30
+[Czas: 16:41:31.584]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924466] treść nr: 33
+[Czas: 16:41:31.584]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924466] treść nr: 4
+[Czas: 16:41:31.584]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924466] |	 Wynik cząstkowy: 24
+[Czas: 16:41:31.584]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924466] |	 Wynik cząstkowy: 9
+[Czas: 16:41:31.584]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924466] |	 Wynik cząstkowy: 1
+[Czas: 16:41:31.584]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924466] |	 OBLAŁ B |	 Wynik: 11.33 pkt
+[Czas: 16:41:31.586]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924468] treść nr: 4
+[Czas: 16:41:31.586]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924468] treść nr: 23
+[Czas: 16:41:31.586]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924468] treść nr: 14
+[Czas: 16:41:31.586]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924468] |	 Wynik cząstkowy: 89
+[Czas: 16:41:31.586]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924468] |	 Wynik cząstkowy: 19
+[Czas: 16:41:31.586]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924468] |	 Wynik cząstkowy: 27
+[Czas: 16:41:31.586]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924468] |	 ZDAŁ B |	 Wynik: 45.00 pkt
+[Czas: 16:41:31.587]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924469] treść nr: 21
+[Czas: 16:41:31.587]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924469] treść nr: 13
+[Czas: 16:41:31.587]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924469] treść nr: 18
+[Czas: 16:41:31.587]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924469] |	 Wynik cząstkowy: 22
+[Czas: 16:41:31.587]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924469] |	 Wynik cząstkowy: 20
+[Czas: 16:41:31.587]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924469] |	 Wynik cząstkowy: 42
+[Czas: 16:41:31.587]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924469] |	 OBLAŁ B |	 Wynik: 28.00 pkt
+[Czas: 16:41:31.588]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924470] treść nr: 27
+[Czas: 16:41:31.588]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924470] treść nr: 18
+[Czas: 16:41:31.588]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924470] treść nr: 16
+[Czas: 16:41:31.588]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Ocenił kandydata [PID: 924470] |	 Wynik cząstkowy: 77
+[Czas: 16:41:31.588]	[Komisja B] [PID: 924433] |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Ocenił kandydata [PID: 924470] |	 Wynik cząstkowy: 67
+[Czas: 16:41:31.588]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924470] |	 Wynik cząstkowy: 25
+[Czas: 16:41:31.588]	[Komisja B] [PID: 924433] |	 Kandydat [PID: 924470] |	 ZDAŁ B |	 Wynik: 56.33 pkt
+[Czas: 16:41:31.589]	[Komisja B] [PID: 924433] |	 Pytanie nr: 1 |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Zadał kandydatowi [PID: 924471] treść nr: 24
+[Czas: 16:41:31.589]	[Komisja B] [PID: 924433] |	 Pytanie nr: 2 |	 Egzaminator [C] [TID: 924436] [ID: 1] |	 Zadał kandydatowi [PID: 924471] treść nr: 32
+[Czas: 16:41:31.589]	[Komisja B] [PID: 924433] |	 Pytanie nr: 3 |	 Egzaminator [C] [TID: 924439] [ID: 2] |	 Zadał kandydatowi [PID: 924471] treść nr: 19
+[Czas: 16:41:31.589]	[Komisja B] [PID: 924433] |	 Egzaminator [P] [TID: 924435] [ID: 0] |	 Ocenił kandydata [PID: 924471] |	 Wynik cząstkowy: 48

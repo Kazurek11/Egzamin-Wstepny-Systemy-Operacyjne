@@ -1,0 +1,8 @@
+[Czas: 16:22:32.927]	[Komisja A] [P] Przewodniczący 0 w komisji A: Rozpoczynam pracę.
+[Czas: 16:22:33.192]	[Komisja A] [PID: 918990] |	 Kandydat [PID: 919116] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:33.197]	[Komisja A] [PID: 918990] |	 Kandydat [PID: 919154] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:33.197]	[Komisja A] [PID: 918990] |	 Kandydat [PID: 919170] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:33.198]	[Komisja A] [PID: 918990] |	 Kandydat [PID: 919205] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:33.201]	[Komisja A] [PID: 918990] |	 Kandydat [PID: 919262] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:33.202]	[Komisja A] [PID: 918990] |	 Kandydat [PID: 919287] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:33.206]	[Komisja A] [PID: 918990] |	 Kandydat [PID: 919389] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B

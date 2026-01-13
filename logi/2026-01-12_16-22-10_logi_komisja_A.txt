@@ -1,0 +1,13 @@
+[Czas: 16:22:10.458]	[Komisja A] [P] Przewodniczący 0 w komisji A: Rozpoczynam pracę.
+[Czas: 16:22:10.738]	[Komisja A] [PID: 918345] |	 Kandydat [PID: 918494] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:10.738]	[Komisja A] [PID: 918345] |	 Kandydat [PID: 918496] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:10.739]	[Komisja A] [PID: 918345] |	 Kandydat [PID: 918517] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:10.740]	[Komisja A] [PID: 918345] |	 Kandydat [PID: 918544] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:10.740]	[Komisja A] [PID: 918345] |	 Kandydat [PID: 918546] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:10.740]	[Komisja A] [PID: 918345] |	 Kandydat [PID: 918548] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:10.740]	[Komisja A] [PID: 918345] |	 Kandydat [PID: 918550] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:10.740]	[Komisja A] [PID: 918345] |	 Kandydat [PID: 918563] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:10.741]	[Komisja A] [PID: 918345] |	 Kandydat [PID: 918573] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:10.744]	[Komisja A] [PID: 918345] |	 Kandydat [PID: 918673] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:10.750]	[Komisja A] [PID: 918345] |	 Kandydat [PID: 918738] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B
+[Czas: 16:22:12.636]	[Komisja A] [PID: 918345] |	 Kandydat [PID: 918810] (Stary) |	 ZALICZONA A (Wcześniej) |	 Przekierowanie do B

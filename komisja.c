@@ -22,7 +22,7 @@ pthread_cond_t cond_wolni_czlonkowie = PTHREAD_COND_INITIALIZER;
 sem_t *sem_kolejka_komisji;
 sem_t *sem_miejsca_komisji;
 sem_t *sem_kolejka_przyszlosci; 
-sem_t *sem_licznik_konca; // Uchwyt do licznika
+sem_t *sem_licznik_konca; 
 
 int znajdz_wolne_stanowisko() {
     int znaleziony = -1;
@@ -91,22 +91,16 @@ void pracuj_jako_czlonek(int stolik, int id, char rola, char komisja) {
 
     pthread_barrier_wait(&stanowiska[stolik].bariera);
 
-    // Czekamy aż kandydat odpowie (Przewodniczący trzyma barierę na wait/timedwait)
     pthread_barrier_wait(&stanowiska[stolik].bariera);
     
     if (shm_idx != -1) {
         Student *s = &egzamin->lista[shm_idx];
-        // Jeśli kandydat nie odpowiedział (timeout) status arkusza może być różny od 2
-        // ale oceniamy to co jest (czyli -1 jeśli brak odpowiedzi)
         for (int k = 0; k < 5; k++) {
             if (s->id_egzaminatora[k] == id && s->oceny[k] == -1) {
-                // Jeśli kandydat odpowiedział - oceniamy losowo
-                // Jeśli kandydat NIE odpowiedział (timeout) - oceniamy na 0
                 int ocena = 0;
                 if (s->status_arkusza == 2) {
                     ocena = (rand() % 101);
                 } else {
-                    // Timeout!
                     ocena = 0;
                 }
                 
@@ -155,6 +149,8 @@ void* przewodniczacy_komisji_A(void* arg){
             stanowiska[stolik].zajete = 0;
             pthread_mutex_unlock(&stanowiska[stolik].mutex);
             sem_post(sem_miejsca_komisji);
+        
+            sem_post(sem_kolejka_komisji);
             continue; 
         }
 
@@ -168,7 +164,6 @@ void* przewodniczacy_komisji_A(void* arg){
             pthread_mutex_unlock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
 
             sem_post(sem_kolejka_przyszlosci); 
-            // Kandydat idzie dalej do B, NIE podbijamy licznika końca
             
             stanowiska[stolik].zajete = 0;
             pthread_mutex_unlock(&stanowiska[stolik].mutex);
@@ -214,10 +209,9 @@ void* przewodniczacy_komisji_A(void* arg){
         egzamin->lista[id_kandydata_PD].status_arkusza = 1; 
         pthread_cond_signal(&egzamin->lista[id_kandydata_PD].cond_ipc); 
         
-        // Zabezpieczenie przed wiecznym czekaniem
         struct timespec ts;
         clock_gettime(CLOCK_REALTIME, &ts);
-        ts.tv_sec += 2; // Czekamy max 2 sekundy
+        ts.tv_sec += 2; // Timeout 2s
 
         int wait_res = 0;
         while (egzamin->lista[id_kandydata_PD].status_arkusza != 2 && wait_res != ETIMEDOUT) {
@@ -228,21 +222,19 @@ void* przewodniczacy_komisji_A(void* arg){
         
         if (wait_res == ETIMEDOUT) {
              dodaj_do_loggera(plik_logu, "[Komisja A] [PID: %d] TIMEOUT! Kandydat [PID: %d] nie odpowiedział. Dyskwalifikacja.\n", (int)getpid(), kandydat_pid);
-             egzamin->lista[id_kandydata_PD].status = 3; // Odrzucamy kandydata
-             // WAŻNE: Timeout to koniec rekrutacji dla tego kandydata
-             // UWAGA: Logika poniżej (else) również obsłuży status=3, ale sem_post dodajemy w bloku else
+             egzamin->lista[id_kandydata_PD].status = 3; 
              pthread_cond_signal(&egzamin->lista[id_kandydata_PD].cond_ipc); 
         }
         pthread_mutex_unlock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
         // -------------------------------------
 
-        pthread_barrier_wait(&stanowiska[stolik].bariera); // Odblokowujemy członków
+        pthread_barrier_wait(&stanowiska[stolik].bariera); 
 
         Student *s = &egzamin->lista[id_kandydata_PD];
         for (int k = 0; k < 5; k++) {
             if (s->id_egzaminatora[k] == P_id && s->oceny[k] == -1) {
                 int ocena = 0;
-                if (s->status_arkusza == 2) ocena = (rand() % 101); // Jeśli odpowiedział
+                if (s->status_arkusza == 2) ocena = (rand() % 101); 
                 s->oceny[k] = ocena;
                 
                 dodaj_do_loggera(plik_logu, "[Komisja A] [PID: %d] |\t Egzaminator [P] [TID: %ld] [ID: %d] |\t Ocenił kandydata [PID: %d] |\t Wynik cząstkowy: %d\n",
@@ -261,26 +253,22 @@ void* przewodniczacy_komisji_A(void* arg){
         
         pthread_mutex_lock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
         
-        // Sprawdzamy czy zdał ORAZ czy nie było timeoutu (status != 3)
-        if (srednia >= 30.0 && s->status != 3) { 
+        if (srednia >= 30.0 && s->status != 3) {
             egzamin->lista[id_kandydata_PD].zaliczona_A = 1; 
             dodaj_do_loggera(plik_logu, "[Komisja A] [PID: %d] |\t Kandydat [PID: %d] |\t ZDAŁ A (-> B) |\t Wynik: %.2lf pkt\n", 
                    (int)getpid(), kandydat_pid, srednia);
                    
             egzamin->lista[id_kandydata_PD].status = 2; 
             sem_post(sem_kolejka_przyszlosci);
-            // NIE podbijamy licznika końca - kandydat wciąż w grze
         } else {
-            // Oblał lub Timeout
             egzamin->lista[id_kandydata_PD].zaliczona_A = 0; 
             dodaj_do_loggera(plik_logu, "[Komisja A] [PID: %d] |\t Kandydat [PID: %d] |\t OBLAŁ A (Koniec) |\t Wynik: %.2lf pkt\n", 
                    (int)getpid(), kandydat_pid, srednia);
                    
             egzamin->lista[id_kandydata_PD].status = 3; 
-            // WAŻNE: Kandydat kończy egzamin
             sem_post(sem_licznik_konca);
         }
-        // RESETUJEMY status_arkusza
+
         egzamin->lista[id_kandydata_PD].status_arkusza = 0; 
         
         pthread_cond_signal(&egzamin->lista[id_kandydata_PD].cond_ipc); 
@@ -343,6 +331,7 @@ void* przewodniczacy_komisji_B(void* arg){
             stanowiska[stolik].zajete = 0;
             pthread_mutex_unlock(&stanowiska[stolik].mutex);
             sem_post(sem_miejsca_komisji);
+            
             sem_post(sem_kolejka_komisji); 
             continue;
         }
@@ -436,11 +425,8 @@ void* przewodniczacy_komisji_B(void* arg){
                    (int)getpid(), stanowiska[stolik].id_kandydata, srednia);
         }
         egzamin->lista[id_kandydata_PD].status = 3; 
-
-        // WAŻNE: Kandydat kończy proces rekrutacji (Niezależnie od wyniku w B)
         sem_post(sem_licznik_konca);
 
-        // Czyszczenie flagi arkusza
         egzamin->lista[id_kandydata_PD].status_arkusza = 0;
 
         pthread_cond_signal(&egzamin->lista[id_kandydata_PD].cond_ipc);
@@ -487,6 +473,12 @@ int main(int argc, char* argv[]){
     snprintf(nazwa_pliku_logu, sizeof(nazwa_pliku_logu), "komisja_%c", argv[1][0]);
     plik_logu = otworz_log(nazwa_pliku_logu, "w");
 
+    if (argv[1][0] == 'A') {
+        AKTUALNY_KOLOR_LOGU = ANSI_COLOR_RED;
+    } else {
+        AKTUALNY_KOLOR_LOGU = ANSI_COLOR_MAGENTA; 
+    }
+    
     char typ_komisji = argv[1][0];
     int liczba_czlonkow = 0;
     pthread_t *egzaminatorzy;
@@ -507,7 +499,6 @@ int main(int argc, char* argv[]){
     }
     egzamin = mmap(NULL,sizeof(EgzaminPamiecDzielona), PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
     
-    // Otwarcie semafora licznika (ważne dla synchronizacji z Dziekanem)
     sem_licznik_konca = sem_open(SEM_LICZNIK_KONCA, 0);
     
     if (typ_komisji == 'A'){
