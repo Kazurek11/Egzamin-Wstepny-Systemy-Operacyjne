@@ -213,13 +213,13 @@ int main() {
         if (plik_logu) fclose(plik_logu);
         return 6;
     }
-    
+    sem_close(sem_kolejka_B); // nowe nie korzystam potem juz z sem_kolejka_B w tym procesie!!!
     sem_close(sem_miejsce_A);
     sem_close(sem_miejsce_B);
 
     egzamin->liczba_kandydatow = 0;
 
-    dodaj_do_loggera(plik_logu, "[Dziekan] [PID: %d] Rekrutacja otwarta. Generuję komisje i kandydatów \n", (int)getpid());
+    dodaj_do_loggera(plik_logu, "[Dziekan] [PID: %d] Rekrutacja otwarta. Generuję komisje \n", (int)getpid());
 
     for (int i = 0; i < LICZBA_KOMISJI; i++) {
         pid_t pid = fork();
@@ -248,19 +248,19 @@ int main() {
 
     for (int i = 0; i < LICZBA_KANDYDATOW; i++) {
         pid_t pid;
-        int proby = 0;
-        const int MAX_PROB = 50; 
+        // int proby = 0;
+        // const int MAX_PROB = 1; 
         
-        do {
-            pid = fork();
-            if (pid == -1) {
-                if (errno == EAGAIN) {
-                    proby++;
-                } else {
-                    break;
-                }
-            }
-        } while (pid == -1 && proby < MAX_PROB);
+        //do {
+        pid = fork();
+        // if (pid == -1) {
+        //     if (errno == EAGAIN) {
+        //         proby++;
+        //     } else {
+        //         break;
+        //     }
+        // }
+        // } while (pid == -1 && proby < MAX_PROB);
 
         if (pid == 0) {
             execl("./kandydat", "kandydat", nazwa_dla_kandydatow, NULL);
@@ -278,7 +278,7 @@ int main() {
 
     dodaj_do_loggera(plik_logu, "[Dziekan] [PID: %d] Utworzono %d kandydatów. Czekają w kolejce FIFO.\n", (int)getpid(), faktyczna_liczba_kandydatow);
     dodaj_do_loggera(plik_logu, "[Dziekan] [PID: %d] Czekam na godzinę T %d...\n", (int)getpid(), GODZINA_T);
-    //sleep(GODZINA_T); 
+    sleep(GODZINA_T); 
     dodaj_do_loggera(plik_logu, "[Dziekan] [PID: %d] Godzina T wybija! Odbieram zgłoszenia (FIFO).\n", (int)getpid());
     
     Zgloszenie buf;
