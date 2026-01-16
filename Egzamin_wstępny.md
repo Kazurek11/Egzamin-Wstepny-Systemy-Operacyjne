@@ -1328,31 +1328,31 @@ Poniżej przedstawiono zestawienie wykorzystanych w projekcie funkcji systemowyc
 Zastosowano niskopoziomowe operacje wejścia/wyjścia do obsługi potoków nazwanych oraz standardowe I/O do obsługi logów i raportów.
 
 * **`open()`** - [[Kandydat] Otwarcie potoku FIFO i wysłanie struktury zgłoszenia przez Kandydata.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/be18b7eae0fccc711c2f3cb5a19f8a7750a6690e/kandydat.c#L34)
-* **`write()`** - [definicja](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/kandydat.c%23Lxx-Lxx)
+* **`write()`** - [[Kandydat] Wysłanie zgloszenia przez kandydata](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/kandydat.c#L45)
 
-* **`close()`**- [link2](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/kandydat.c%23Lxx-Lxx)
+* **`close()`**- [[Dziekan] Zamkniecie fifo](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L339)
 
-* **`read()`** - [[Dziekan] Odczyt zgłoszeń z potoku FIFO przez proces Dziekana (pętla nasłuchująca).](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c%23Lxx-Lxx)
+* **`read()`** - [[Dziekan] Odczyt zgłoszeń z potoku FIFO przez proces Dziekana.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L288)
 
-* **`unlink()`** - [[Dziekan] Usunięcie pliku potoku z systemu plików po zakończeniu symulacji.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c%23Lxx)
+* **`unlink()`** - [[Dziekan] Usunięcie pliku potoku nazwanego(FIFO) z systemu plików po zakończeniu symulacji.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L340)
 
-* **`fopen()`** - [[Dziekan] Generowanie trwałych plików z wynikami (Listy Rankingowe).](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c%23Lxx-Lxx)
+* **`fopen()`** - [[Dziekan] Generowanie trwałych plików z wynikami (Listy Rankingowe).](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L34)
 
-* **`fprintf()`** – [[Dziekan] Generowanie trwałych plików z wynikami (Listy Rankingowe)](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c%23Lxx-Lxx)
+* **`fprintf()`** – [[Logger] Generowanie trwałych plików z wynikami (Listy Rankingowe)](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/common.h#L120)
 
-* **`fclose()`** [[Dziekan] Generowanie trwałych plików z wynikami (Listy Rankingowe).](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c%23Lxx-Lxx)
+* **`fclose()`** [[Dziekan] Generowanie trwałych plików z wynikami (Listy Rankingowe).](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L61)
 
 ### b. Tworzenie procesów
 
 Zarządzanie cyklem życia procesów realizowane jest przez proces zarządcy (Dziekana).
 
-* **`fork()`** – [[Dziekan] Utworzenie nowego procesu kandydatów.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c%23Lxx-Lxx)
+* **`fork()`** – [[Dziekan] Utworzenie nowego procesu kandydatów.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L255)
 
-* **`execl()`** – [[Dziekan] Nadpisanie obrazu procesu kodem programu potomnego](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c%23Lxx)
+* **`execl()`** – [[Dziekan] Nadpisanie obrazu procesu kodem programu potomnego komisji.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L228)
 
-* **`wait()`**` –  [[Dziekan] Odbieranie statusu zakończenia procesów potomnych.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c%23Lxx-Lxx)
+* **`wait()`**` –  [[Dziekan] Czekania na zakończenie procesów w kodzie rodzica.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L356)
 
-* **`waitpid()`** - [[Dziekan] Odbieranie statusu zakończenia procesów potomnych.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c%23Lxx-Lxx)
+* **`waitpid()`** - [[Dziekan] -------Odbieranie statusu zakończenia procesów potomnych.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L105)
 
 * **`exit()`** [[Dziekan] – Kontrolowane zakończenie procesu w przypadku błędu `execl` lub sygnału.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c%23Lxx)
 

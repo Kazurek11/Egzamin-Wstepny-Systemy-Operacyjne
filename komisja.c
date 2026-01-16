@@ -23,6 +23,7 @@ pthread_cond_t cond_wolni_czlonkowie = PTHREAD_COND_INITIALIZER;
 // Funkcja czyszcząca pamięć kandydata przed wysłaniem go do następnej komisji
 void cleaner_pytan(int id_kandydata) {
     if (id_kandydata < 0 || id_kandydata >= MAX_KANDYDATOW) return;
+    // Czyścimy "brudnopis" studenta, żeby Komisja B dostała czystą kartkę
     for (int i = 0; i < 5; i++) {
         egzamin->lista[id_kandydata].pytania[i] = -1;
         egzamin->lista[id_kandydata].id_egzaminatora[i] = -1;
@@ -50,6 +51,7 @@ int wylosuj_unikalne_pytanie(int stolik_idx) {
     while (!unikalne) {
         pytanie = (rand() % 50) + 1; 
         unikalne = 1;
+        // Sprawdzamy czy nikt przy tym stoliku nie zadał już tego samego pytania
         for (int i = 0; i < stanowiska[stolik_idx].liczba_zadanych_pytan; i++) {
             if (stanowiska[stolik_idx].pytania[i] == pytanie) {
                 unikalne = 0;
@@ -62,7 +64,7 @@ int wylosuj_unikalne_pytanie(int stolik_idx) {
 
 // --- UNIWERSALNA FUNKCJA EGZAMINOWANIA (ZADAWANIE PYTAŃ) ---
 void pracuj_jako_czlonek(int stolik, int id, char typ_egzaminatora, char typ_komisji) {
-    // 1. Bariera startowa - czekamy na komplet przy stoliku
+    // 1. Bariera startowa - czekamy aż wszyscy egzaminatorzy usiądą przy stoliku
     pthread_barrier_wait(&stanowiska[stolik].bariera);
 
     // 2. Zadawanie pytania (Sekcja Krytyczna Stanowiska)
@@ -75,7 +77,7 @@ void pracuj_jako_czlonek(int stolik, int id, char typ_egzaminatora, char typ_kom
     
     int pid_kandydata = stanowiska[stolik].id_kandydata;
     
-    // Szukamy indeksu w SHM
+    // Szukamy indeksu w SHM (pamięci dzielonej) żeby wpisać pytanie studentowi
     int shm_idx = -1;
     for (int k = 0; k < egzamin->liczba_kandydatow; k++) {
         if (egzamin->lista[k].id == pid_kandydata) {
@@ -95,7 +97,7 @@ void pracuj_jako_czlonek(int stolik, int id, char typ_egzaminatora, char typ_kom
 
     pthread_mutex_unlock(&stanowiska[stolik].mutex);
 
-    // 3. Bariera po zadaniu pytań
+    // 3. Bariera po zadaniu pytań - czekamy aż każdy wpisze swoje pytanie
     pthread_barrier_wait(&stanowiska[stolik].bariera);
 }
 
@@ -107,26 +109,28 @@ void* czlonek_komisji_A(void* arg){
     while (1) {
         int moj_stolik = -1;
         
-        // Szukanie pracy
+        // Szukanie pracy (mechanizm puli wątków)
         pthread_mutex_lock(&mutex_rekrutacja);
         while (moj_stolik == -1) {
             for (int i = 0; i < MAX_MIEJSC; i++) {
+                // Sprawdzamy czy przy którymś stoliku brakuje ludzi
                 if (stanowiska[i].potrzebni_czlonkowie > 0) {
-                    stanowiska[i].potrzebni_czlonkowie--;
+                    stanowiska[i].potrzebni_czlonkowie--; // Rezerwuję miejsce dla siebie
                     moj_stolik = i;
                     break;
                 }
             }
             if (moj_stolik == -1) {
+                // Brak pracy - idę spać i czekam na sygnał od Przewodniczącego
                 pthread_cond_wait(&cond_wolni_czlonkowie, &mutex_rekrutacja);
             }
         }
         pthread_mutex_unlock(&mutex_rekrutacja);
 
-        // Praca - zadawanie pytań
+        // Praca - zadawanie pytań (wspólna funkcja)
         pracuj_jako_czlonek(moj_stolik, id, 'C', 'A');
 
-        // Czekanie na barierze aż student odpowie
+        // Czekanie na barierze aż student odpowie (Przewodniczący pilnuje czasu)
         pthread_barrier_wait(&stanowiska[moj_stolik].bariera);
 
         // --- OCENIANIE ---
@@ -139,6 +143,7 @@ void* czlonek_komisji_A(void* arg){
         if (shm_idx != -1) {
             Student *s = &egzamin->lista[shm_idx];
             for (int k = 0; k < 5; k++) {
+                // Każdy ocenia tylko SWOJE pytanie
                 if (s->id_egzaminatora[k] == id && s->oceny[k] == -1) {
                     int ocena = 0;
                     if (s->status_arkusza == 2) ocena = (rand() % 101); 
@@ -151,7 +156,7 @@ void* czlonek_komisji_A(void* arg){
             }
         }
 
-        // Bariera końcowa
+        // Bariera końcowa - czekamy aż wszyscy ocenią zanim zwolnimy stolik
         pthread_barrier_wait(&stanowiska[moj_stolik].bariera);
     }
     return NULL;
@@ -163,6 +168,7 @@ void* przewodniczacy_komisji_A(void* arg){
     dodaj_do_loggera(plik_logu, "[Komisja A] [P] Przewodniczący %d w komisji A: Rozpoczynam pracę.\n", P_id);
 
     while (1) {
+        // Czekam na kandydata w kolejce oraz na wolny stolik w sali
         sem_wait(sem_kolejka_komisji); 
         sem_wait(sem_miejsca_komisji); 
 
@@ -172,6 +178,7 @@ void* przewodniczacy_komisji_A(void* arg){
         int id_kandydata_PD = -1;
         int kandydat_pid = -1;
 
+        // Pobieram pierwszego oczekującego studenta z pamięci dzielonej
         for (int i = 0; i < egzamin->liczba_kandydatow; i++) {
             if (egzamin->lista[i].status == 1) { 
                 egzamin->lista[i].status = 11;  
@@ -182,6 +189,7 @@ void* przewodniczacy_komisji_A(void* arg){
         }
         
         if (id_kandydata_PD == -1) {
+            // Fałszywy alarm - zwalniam zasoby i wracam do pętli
             stanowiska[stolik].zajete = 0;
             pthread_mutex_unlock(&stanowiska[stolik].mutex);
             sem_post(sem_miejsca_komisji);
@@ -189,19 +197,20 @@ void* przewodniczacy_komisji_A(void* arg){
             continue; 
         }
 
-        // Obsługa "Starej Teorii"
+        // Obsługa "Starej Teorii" - student zdał kiedyś, puszczamy go od razu dalej
         if (egzamin->lista[id_kandydata_PD].zdana_teoria_wczesniej == 1) {
             dodaj_do_loggera(plik_logu, "[Komisja A] [PID: %d] |\t Kandydat [PID: %d] (Stary) |\t ZALICZONA A (Wcześniej) |\t Przekierowanie do B\n", 
                    (int)getpid(), kandydat_pid);
             
             pthread_mutex_lock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
             egzamin->lista[id_kandydata_PD].zaliczona_A = 1;
-            cleaner_pytan(id_kandydata_PD); 
-            egzamin->lista[id_kandydata_PD].status = 2; 
+            cleaner_pytan(id_kandydata_PD); // Czyścimy przed B
+            egzamin->lista[id_kandydata_PD].status = 2; // Idzie do kolejki B
             pthread_mutex_unlock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
 
             sem_post(sem_kolejka_przyszlosci); 
             
+            // Zwalniam stolik bo egzaminu fizycznie nie było
             stanowiska[stolik].zajete = 0;
             pthread_mutex_unlock(&stanowiska[stolik].mutex);
             sem_post(sem_miejsca_komisji);
@@ -211,22 +220,23 @@ void* przewodniczacy_komisji_A(void* arg){
         stanowiska[stolik].id_kandydata = kandydat_pid;
         stanowiska[stolik].liczba_zadanych_pytan = 0;
         
+        // Reset tablic ocen dla pewności
         for (int i = 0; i < 5; i++) {
             egzamin->lista[id_kandydata_PD].oceny[i] = -1;
             egzamin->lista[id_kandydata_PD].id_egzaminatora[i] = -1;
         }
         pthread_mutex_unlock(&stanowiska[stolik].mutex);
 
-        // Rekrutacja
+        // Rekrutacja - budzę śpiących członków komisji do pracy przy tym stoliku
         pthread_mutex_lock(&mutex_rekrutacja);
         stanowiska[stolik].potrzebni_czlonkowie = LICZBA_EGZAMINATOROW_A - 1;
         pthread_cond_broadcast(&cond_wolni_czlonkowie);
         pthread_mutex_unlock(&mutex_rekrutacja);
 
-        // Bariera 1: Start
+        // Bariera 1: Czekam aż zbierze się cały skład komisji
         pthread_barrier_wait(&stanowiska[stolik].bariera);
 
-        // Przewodniczący też zadaje pytanie
+        // Przewodniczący też zadaje jedno pytanie
         pthread_mutex_lock(&stanowiska[stolik].mutex);
         int pyt = wylosuj_unikalne_pytanie(stolik);
         int idx = stanowiska[stolik].liczba_zadanych_pytan;
@@ -241,18 +251,20 @@ void* przewodniczacy_komisji_A(void* arg){
 
         pthread_mutex_unlock(&stanowiska[stolik].mutex);
 
-        // Bariera 2: Pytania zadane
+        // Bariera 2: Czekam aż wszyscy członkowie zadadzą swoje pytania
         pthread_barrier_wait(&stanowiska[stolik].bariera);
         
-        // Komunikacja
+        // Komunikacja ze studentem - wysyłam sygnał "masz pytania"
         pthread_mutex_lock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
         egzamin->lista[id_kandydata_PD].status_arkusza = 1; 
         pthread_cond_signal(&egzamin->lista[id_kandydata_PD].cond_ipc); 
         
+        // Ustawiam timeout 2 sekundy na odpowiedź
         struct timespec ts;
         clock_gettime(CLOCK_REALTIME, &ts);
         ts.tv_sec += 2; 
 
+        // Czekam na odpowiedź studenta (z limitem czasu)
         int wait_res = 0;
         while (egzamin->lista[id_kandydata_PD].status_arkusza != 2 && wait_res != ETIMEDOUT) {
             wait_res = pthread_cond_timedwait(&egzamin->lista[id_kandydata_PD].cond_ipc, 
@@ -260,6 +272,7 @@ void* przewodniczacy_komisji_A(void* arg){
                                               &ts);
         }
         
+        // Jeśli czas minął - dyskwalifikacja
         if (wait_res == ETIMEDOUT) {
              dodaj_do_loggera(plik_logu, "[Komisja A] [PID: %d] TIMEOUT! Kandydat [PID: %d] nie odpowiedział. Dyskwalifikacja.\n", (int)getpid(), kandydat_pid);
              egzamin->lista[id_kandydata_PD].status = 3; 
@@ -267,10 +280,10 @@ void* przewodniczacy_komisji_A(void* arg){
         }
         pthread_mutex_unlock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
 
-        // Bariera 3: Pozwolenie na ocenianie
+        // Bariera 3: Daję sygnał komisji, że można sprawdzać (lub że student oblał timeoutem)
         pthread_barrier_wait(&stanowiska[stolik].bariera); 
 
-        // Ocenianie przez P
+        // Ocenianie przez Przewodniczącego (sprawdzam swoją część)
         Student *s = &egzamin->lista[id_kandydata_PD];
         for (int k = 0; k < 5; k++) {
             if (s->id_egzaminatora[k] == P_id && s->oceny[k] == -1) {
@@ -283,10 +296,10 @@ void* przewodniczacy_komisji_A(void* arg){
             }
         }
 
-        // Bariera 4: Koniec oceniania
+        // Bariera 4: Czekam aż wszyscy członkowie wystawią oceny
         pthread_barrier_wait(&stanowiska[stolik].bariera);
 
-        // Podsumowanie
+        // Podsumowanie wyników
         int suma = 0;
         for (int k = 0; k < LICZBA_EGZAMINATOROW_A; k++) {
             suma += egzamin->lista[id_kandydata_PD].oceny[k];
@@ -296,29 +309,32 @@ void* przewodniczacy_komisji_A(void* arg){
         
         pthread_mutex_lock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
         
+        // Decyzja: Zdał czy Oblał?
         if (srednia >= 30.0 && s->status != 3) {
             egzamin->lista[id_kandydata_PD].zaliczona_A = 1; 
             dodaj_do_loggera(plik_logu, "[Komisja A] [PID: %d] |\t Kandydat [PID: %d] |\t ZDAŁ A (-> B) |\t Wynik: %.2lf pkt\n", 
                    (int)getpid(), kandydat_pid, srednia);
             
-            cleaner_pytan(id_kandydata_PD);
+            cleaner_pytan(id_kandydata_PD); // Czyszczę arkusz dla następnej komisji
 
-            egzamin->lista[id_kandydata_PD].status = 2; 
+            egzamin->lista[id_kandydata_PD].status = 2; // Kierunek: Komisja B
             sem_post(sem_kolejka_przyszlosci);
         } else {
             egzamin->lista[id_kandydata_PD].zaliczona_A = 0; 
             dodaj_do_loggera(plik_logu, "[Komisja A] [PID: %d] |\t Kandydat [PID: %d] |\t OBLAŁ A (Koniec) |\t Wynik: %.2lf pkt\n", 
                    (int)getpid(), kandydat_pid, srednia);
                    
-            egzamin->lista[id_kandydata_PD].status = 3; 
-            sem_post(sem_licznik_konca);
+            egzamin->lista[id_kandydata_PD].status = 3; // Koniec egzaminu
+            sem_post(sem_licznik_konca); // Informuję dziekana o zakończeniu
         }
 
         egzamin->lista[id_kandydata_PD].status_arkusza = 0; 
         
+        // Budzę studenta, żeby sprawdził wynik
         pthread_cond_signal(&egzamin->lista[id_kandydata_PD].cond_ipc); 
         pthread_mutex_unlock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
         
+        // Zwalniam stolik dla kolejnej grupy
         stanowiska[stolik].zajete = 0; 
         sem_post(sem_miejsca_komisji); 
     }
@@ -332,6 +348,7 @@ void* czlonek_komisji_B(void* arg){
     free(arg);
     while (1) {
         int moj_stolik = -1;
+        // Szukanie pracy (mechanizm puli wątków analogicznie jak w A)
         pthread_mutex_lock(&mutex_rekrutacja);
         while (moj_stolik == -1) {
             for (int i = 0; i < MAX_MIEJSC; i++) {
@@ -392,6 +409,7 @@ void* przewodniczacy_komisji_B(void* arg){
         int id_kandydata_PD = -1;
         int kandydat_pid = -1;
 
+        // Szukam kandydata skierowanego do Komisji B (status 2)
         for (int i = 0; i < egzamin->liczba_kandydatow; i++) {
             if (egzamin->lista[i].status == 2) { 
                 egzamin->lista[i].status = 22; 
@@ -420,6 +438,7 @@ void* przewodniczacy_komisji_B(void* arg){
 
         pthread_mutex_unlock(&stanowiska[stolik].mutex);
 
+        // Rekrutacja zespołu B
         pthread_mutex_lock(&mutex_rekrutacja);
         stanowiska[stolik].potrzebni_czlonkowie = LICZBA_EGZAMINATOROW_B - 1;
         pthread_cond_broadcast(&cond_wolni_czlonkowie);
@@ -444,7 +463,7 @@ void* przewodniczacy_komisji_B(void* arg){
 
         pthread_barrier_wait(&stanowiska[stolik].bariera);
         
-        // Timed Wait
+        // Timed Wait na odpowiedzi
         pthread_mutex_lock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
         egzamin->lista[id_kandydata_PD].status_arkusza = 1; 
         pthread_cond_signal(&egzamin->lista[id_kandydata_PD].cond_ipc); 
@@ -493,6 +512,7 @@ void* przewodniczacy_komisji_B(void* arg){
         
         pthread_mutex_lock(&egzamin->lista[id_kandydata_PD].mutex_ipc);
         
+        // Decyzja końcowa w Komisji B
         if (srednia >= 30.0 && s->status != 3) {
             egzamin->lista[id_kandydata_PD].zaliczona_B = 1;
             egzamin->lista[id_kandydata_PD].czy_przyjety = 1; 
@@ -509,7 +529,7 @@ void* przewodniczacy_komisji_B(void* arg){
         }
 
         egzamin->lista[id_kandydata_PD].status_arkusza = 0; 
-        sem_post(sem_licznik_konca); // Koniec dla Dziekana
+        sem_post(sem_licznik_konca); // Daję znać Dziekanowi, że ten student definitywnie skończył
 
         pthread_cond_signal(&egzamin->lista[id_kandydata_PD].cond_ipc); 
         pthread_mutex_unlock(&egzamin->lista[id_kandydata_PD].mutex_ipc);

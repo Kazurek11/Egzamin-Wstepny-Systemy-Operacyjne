@@ -13,6 +13,7 @@ int main(int argc, char *argv[]) {
     Zgloszenie zgloszenie_kandydat;
     zgloszenie_kandydat.id = getpid();
     
+    // Losujemy statystyki kandydata (czy ma maturę, czy zdał teorię wcześniej)
     if ((rand() % 100) < SZANSA_NA_ZDANA_TEORIE) {
         zgloszenie_kandydat.zdana_matura = 1;       
         zgloszenie_kandydat.zdana_teoria_wczesniej = 1; 
@@ -31,6 +32,7 @@ int main(int argc, char *argv[]) {
         dodaj_do_loggera(plik_logu, "[Kandydat] [PID: %d]\t Zostałem utworzony i nie mam zdanej matury.\n",(int)getpid());
     }
     
+    // Wysyłamy zgłoszenie do Dziekana przez kolejkę FIFO
     int file_descriptor = open(FIFO_WEJSCIE, O_WRONLY);
     if (file_descriptor == -1) {
         perror("[Kandydat] Nie mogę wejść do kolejki"); 
@@ -58,11 +60,13 @@ int main(int argc, char *argv[]) {
         sem_close(sem_sync);
     }
 
+    // Jeśli kandydat nie ma matury, kończy działanie od razu (nie wchodzi do systemu)
     if (zgloszenie_kandydat.zdana_matura == 0) {
         if (plik_logu) fclose(plik_logu);
         return 0;
     }
 
+    // Podłączamy się do pamięci dzielonej, żeby widzieć egzamin
     int shm_fd = shm_open(SHM_NAME, O_RDWR, 0600);
     if (shm_fd == -1) {
         perror("[Kandydat] Błąd utowrzenia shm_fd (identyfikator)");
@@ -81,6 +85,7 @@ int main(int argc, char *argv[]) {
     int moj_index = -1;
 
     // --- BEZPIECZNE OCZEKIWANIE NA WPISANIE NA LISTĘ ---
+    // Czekamy, aż Dziekan przetworzy zgłoszenie i wpisze nas do pamięci dzielonej
     pthread_mutex_lock(&egzamin->mutex_rejestracji);
     while (moj_index == -1) {
         for (int i = 0; i < egzamin->liczba_kandydatow; i++) {
@@ -90,6 +95,7 @@ int main(int argc, char *argv[]) {
             }
         }
         if (moj_index == -1) {
+            // Usypiamy proces do momentu, aż Dziekan zaktualizuje listę
             pthread_cond_wait(&egzamin->cond_rejestracji, &egzamin->mutex_rejestracji);
         }
     }
@@ -99,21 +105,25 @@ int main(int argc, char *argv[]) {
     Student *kandydat = &egzamin->lista[moj_index];
 
     while (1) {
+        // Blokujemy dostęp do własnych danych, żeby sprawdzić status
         pthread_mutex_lock(&kandydat->mutex_ipc);
 
+        // Czekamy na sygnał od Komisji: 1 (masz pytania) lub 3 (koniec/odrzucenie)
         while (kandydat->status_arkusza != 1 && kandydat->status != 3) {
             pthread_cond_wait(&kandydat->cond_ipc, &kandydat->mutex_ipc);
         }
 
+        // Jeśli status to 3, oznacza to koniec egzaminu dla tego kandydata
         if (kandydat->status == 3) {
             pthread_mutex_unlock(&kandydat->mutex_ipc);
             break;
         }
 
+        // Jeśli otrzymaliśmy arkusz z pytaniami (status 1)
         if (kandydat->status_arkusza == 1) {
             int limit_pytan = 0;
 
-            // Dynamiczne zliczanie pytań z pamięci dzielonej (sprawdzamy > 0)
+            // Sprawdzamy ile pytań faktycznie dostaliśmy
             for (int i = 0; i < 5; i++) {
                 if (kandydat->pytania[i] > 0) {
                     limit_pytan++;
@@ -127,7 +137,7 @@ int main(int argc, char *argv[]) {
             // Definiujemy typ komisji na podstawie statusu (przed pętlą)
             char typ_komisji = (kandydat->status == 11 || kandydat->status == 1) ? 'A' : 'B';
 
-            // Iterujemy po całej tablicy i odpowiadamy tam, gdzie są pytania
+            // Udzielamy losowych odpowiedzi na otrzymane pytania
             for (int i = 0; i < 5; i++) {
                 if (kandydat->pytania[i] > 0) {
                     // Pobieramy dane z pamięci dzielonej
@@ -152,6 +162,7 @@ int main(int argc, char *argv[]) {
                 }
             }
 
+            // Oznaczamy arkusz jako wypełniony (status 2) i budzimy Komisję
             kandydat->status_arkusza = 2; // Gotowe
             pthread_cond_signal(&kandydat->cond_ipc); // Budzimy komisję
         }

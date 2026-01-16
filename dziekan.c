@@ -5,12 +5,14 @@ volatile sig_atomic_t rekrutacja_zakonczona = 0;
 pid_t globalne_pidy_komisji[LICZBA_KOMISJI];
 EgzaminPamiecDzielona *egzamin = NULL; 
 
+// Funkcja generująca pliki tekstowe z wynikami rekrutacji
 void generuj_raporty() {
     if (egzamin == NULL) return;
 
     int liczba_uczestnikow = egzamin->liczba_kandydatow;
     if (liczba_uczestnikow <= 0 || liczba_uczestnikow > MAX_KANDYDATOW) return;
 
+    // Tworzymy lokalną kopię danych, aby sortowanie nie mieszało w pamięci dzielonej
     Student *kopia_studentow = malloc(sizeof(Student) * liczba_uczestnikow);
     if (!kopia_studentow) return;
 
@@ -18,6 +20,7 @@ void generuj_raporty() {
         kopia_studentow[i] = egzamin->lista[i];
     }
 
+    // Sortowanie bąbelkowe malejąco wg sumy punktów
     for (int i = 0; i < liczba_uczestnikow - 1; i++) {
         for (int j = 0; j < liczba_uczestnikow - i - 1; j++) {
             double suma1 = kopia_studentow[j].punkty_teoria + kopia_studentow[j].punkty_praktyka;
@@ -31,6 +34,7 @@ void generuj_raporty() {
         }
     }
 
+    // Generowanie pełnego rankingu ze statusami
     FILE *plik_ranking = fopen("lista_rankingowa.txt", "w");
     if (plik_ranking) {
         fprintf(plik_ranking, "PID | OCENA A | OCENA B | OGOLNA OCENA | STATUS\n");
@@ -45,6 +49,7 @@ void generuj_raporty() {
                 status = "BRAK_MATURY";
             }
             else if (s.zaliczona_A == 1 && s.zaliczona_B == 1) {
+                // Sprawdzamy limit miejsc na roku
                 if (licznik_zakwalifikowanych < LIMIT_PRZYJEC) {
                     status = "ZDAL_EGZAMIN_PRZYJETY";
                     licznik_zakwalifikowanych++; 
@@ -61,6 +66,7 @@ void generuj_raporty() {
         fclose(plik_ranking);
     }
 
+    // Generowanie listy tylko dla przyjętych studentów
     FILE *plik_przyjec = fopen("lista_przyjetych.txt", "w");
     if (plik_przyjec) {
         fprintf(plik_przyjec, "PID | OCENA A | OCENA B | OGOLNA OCENA\n");
@@ -143,6 +149,7 @@ int main() {
     sigaction(SIGINT, &sa_ewakuacja, NULL);
     sigaction(SIGUSR1, &sa_ewakuacja, NULL);
     
+    // Sprzątanie starych semaforów przed uruchomieniem
     sem_unlink(KOLEJKA_KOMISJA_A);
     sem_unlink(KOLEJKA_KOMISJA_B);
     sem_unlink(WOLNE_MIEJSCA_KOMISJA_A);
@@ -165,6 +172,7 @@ int main() {
         return 5;
     }
 
+    // Inicjalizacja pamięci dzielonej dla egzaminu
     int shm_fd = shm_open(SHM_NAME, O_CREAT | O_RDWR, 0600);
     if (shm_fd == -1) {
         if (plik_logu) fclose(plik_logu);
@@ -191,6 +199,7 @@ int main() {
     pthread_mutex_init(&egzamin->mutex_rejestracji, &mattr);
     pthread_cond_init(&egzamin->cond_rejestracji, &cattr);
 
+    // Inicjalizacja mechanizmów synchronizacji dla każdego slotu studenta
     for (int i = 0; i < MAX_KANDYDATOW; i++) {
         pthread_mutex_init(&egzamin->lista[i].mutex_ipc, &mattr);
         pthread_cond_init(&egzamin->lista[i].cond_ipc, &cattr);
@@ -200,6 +209,7 @@ int main() {
     pthread_mutexattr_destroy(&mattr);
     pthread_condattr_destroy(&cattr);
 
+    // Tworzenie semaforów sterujących kolejkami i miejscami
     sem_t *sem_kolejka_A = sem_open(KOLEJKA_KOMISJA_A, O_CREAT, 0600, 0);
     sem_t *sem_kolejka_B = sem_open(KOLEJKA_KOMISJA_B, O_CREAT, 0600, 0);
     sem_t *sem_miejsce_A = sem_open(WOLNE_MIEJSCA_KOMISJA_A, O_CREAT, 0600, 3);
@@ -221,6 +231,7 @@ int main() {
 
     dodaj_do_loggera(plik_logu, "[Dziekan] [PID: %d] Rekrutacja otwarta. Generuję komisje \n", (int)getpid());
 
+    // Dziekan otwiera biuro: Tworzenie procesów Komisji A i B
     for (int i = 0; i < LICZBA_KOMISJI; i++) {
         pid_t pid = fork();
         if (pid == 0) {
@@ -246,6 +257,7 @@ int main() {
 
     int faktyczna_liczba_kandydatow = 0;
 
+    // Dziekan zaprasza kandydatów: Tworzenie procesów studentów (symulacja tłumu)
     for (int i = 0; i < LICZBA_KANDYDATOW; i++) {
         pid_t pid;
         // int proby = 0;
@@ -278,12 +290,15 @@ int main() {
 
     dodaj_do_loggera(plik_logu, "[Dziekan] [PID: %d] Utworzono %d kandydatów. Czekają w kolejce FIFO.\n", (int)getpid(), faktyczna_liczba_kandydatow);
     dodaj_do_loggera(plik_logu, "[Dziekan] [PID: %d] Czekam na godzinę T %d...\n", (int)getpid(), GODZINA_T);
+    
+    // Oczekiwanie na 'Godzinę Zero' - rozpoczęcie rekrutacji
     sleep(GODZINA_T); 
     dodaj_do_loggera(plik_logu, "[Dziekan] [PID: %d] Godzina T wybija! Odbieram zgłoszenia (FIFO).\n", (int)getpid());
     
     Zgloszenie buf;
     int odczytani = 0;
 
+    // Rejestracja kandydatów: Dziekan odbiera zgłoszenia z kolejki FIFO i wpisuje je do systemu
     while (odczytani < faktyczna_liczba_kandydatow) {
         if (read(fd_fifo, &buf, sizeof(Zgloszenie)) <= 0) {
             break;
@@ -304,6 +319,7 @@ int main() {
             egzamin->lista[idx].punkty_teoria = 0;
             egzamin->lista[idx].punkty_praktyka = 0;
 
+            // Weryfikacja formalna: czy kandydat ma maturę?
             if (buf.zdana_matura == 1) {
                 egzamin->liczba_kandydatow++; 
 
@@ -318,12 +334,13 @@ int main() {
                            (int)getpid(), buf.id, globalne_pidy_komisji[0]);
                 } else {
                     egzamin->lista[idx].status = 1; 
-                    sem_post(sem_kolejka_A);
+                    sem_post(sem_kolejka_A); 
                     
                     dodaj_do_loggera(plik_logu, "[Dziekan] [PID: %d] Kandydat [PID: %d] skierowany do komisji A [PID: %d]\n", 
                            (int)getpid(), buf.id, globalne_pidy_komisji[0]);
                 }
             } else {
+                // Kandydaci bez matury są odrzucani i nie zajmują kolejki
                 egzamin->lista[idx].status = 3; 
                 egzamin->liczba_kandydatow++; 
                 
@@ -341,6 +358,7 @@ int main() {
     
     dodaj_do_loggera(plik_logu, "[Dziekan] [PID: %d] Zakończono wpuszczanie. Czekam aż wszyscy studenci zakończą egzaminy...\n", (int)getpid());
 
+    // Bariera końcowa: Dziekan czeka, aż każdy wpuszczony kandydat zakończy egzamin (zda, obleje lub zrezygnuje)
     for (int i = 0; i < faktyczna_liczba_kandydatow; i++) {
         sem_wait(sem_licznik_konca);
     }
@@ -349,6 +367,7 @@ int main() {
     
     rekrutacja_zakonczona = 1;
 
+    // Koniec dnia pracy: Dziekan zamyka komisje (wysyła sygnał zakończenia)
     for (int i = 0; i < LICZBA_KOMISJI; i++) {
         kill(globalne_pidy_komisji[i], SIGTERM);
     }
@@ -357,6 +376,7 @@ int main() {
 
     dodaj_do_loggera(plik_logu, "\n[Dziekan] [PID: %d] Generuję listy rankingowe...\n", (int)getpid());
     
+    // Podsumowanie: Generowanie list rankingowych i listy przyjętych
     generuj_raporty();
 
     sem_close(sem_licznik_konca);
