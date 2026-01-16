@@ -1327,7 +1327,7 @@ Poniżej przedstawiono zestawienie wykorzystanych w projekcie funkcji systemowyc
 
 Zastosowano niskopoziomowe operacje wejścia/wyjścia do obsługi potoków nazwanych oraz standardowe I/O do obsługi logów i raportów.
 
-* **`open()`** - [[Kandydat] Otwarcie potoku FIFO i wysłanie struktury zgłoszenia przez Kandydata.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/kandydat.c%23Lxx-Lxx)
+* **`open()`** - [[Kandydat] Otwarcie potoku FIFO i wysłanie struktury zgłoszenia przez Kandydata.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/be18b7eae0fccc711c2f3cb5a19f8a7750a6690e/kandydat.c#L34)
 * **`write()`** - [definicja](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/kandydat.c%23Lxx-Lxx)
 
 * **`close()`**- [link2](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/kandydat.c%23Lxx-Lxx)
