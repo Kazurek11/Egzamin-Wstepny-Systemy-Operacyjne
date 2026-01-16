@@ -1,0 +1,1010 @@
+[Czas: 12:12:29.063]	[Dziekan] [PID: 416586] Rekrutacja otwarta. Generuję komisje 
+[Czas: 12:12:29.064]	[Dziekan] [PID: 416586] Rozpoczynam sekwencyjne tworzenie kandydatów...
+[Czas: 12:12:30.805]	[Dziekan] [PID: 416586] Utworzono 1000 kandydatów. Czekają w kolejce FIFO.
+[Czas: 12:12:30.806]	[Dziekan] [PID: 416586] Czekam na godzinę T 5...
+[Czas: 12:12:35.814]	[Dziekan] [PID: 416586] Godzina T wybija! Odbieram zgłoszenia (FIFO).
+[Czas: 12:12:35.814]	[Dziekan] [PID: 416586] Kandydat [PID: 416589] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.836]	[Dziekan] [PID: 416586] Kandydat [PID: 416598] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.836]	[Dziekan] [PID: 416586] Kandydat [PID: 416599] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:35.836]	[Dziekan] [PID: 416586] Kandydat [PID: 416600] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.836]	[Dziekan] [PID: 416586] Kandydat [PID: 416601] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.836]	[Dziekan] [PID: 416586] Kandydat [PID: 416602] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.837]	[Dziekan] [PID: 416586] Kandydat [PID: 416603] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.837]	[Dziekan] [PID: 416586] Kandydat [PID: 416604] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.837]	[Dziekan] [PID: 416586] Kandydat [PID: 416605] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.837]	[Dziekan] [PID: 416586] Kandydat [PID: 416606] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.837]	[Dziekan] [PID: 416586] Kandydat [PID: 416607] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.837]	[Dziekan] [PID: 416586] Kandydat [PID: 416608] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.837]	[Dziekan] [PID: 416586] Kandydat [PID: 416609] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.837]	[Dziekan] [PID: 416586] Kandydat [PID: 416610] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.838]	[Dziekan] [PID: 416586] Kandydat [PID: 416611] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.838]	[Dziekan] [PID: 416586] Kandydat [PID: 416612] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.838]	[Dziekan] [PID: 416586] Kandydat [PID: 416613] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.838]	[Dziekan] [PID: 416586] Kandydat [PID: 416614] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.838]	[Dziekan] [PID: 416586] Kandydat [PID: 416615] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.838]	[Dziekan] [PID: 416586] Kandydat [PID: 416616] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.838]	[Dziekan] [PID: 416586] Kandydat [PID: 416617] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.838]	[Dziekan] [PID: 416586] Kandydat [PID: 416618] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.838]	[Dziekan] [PID: 416586] Kandydat [PID: 416619] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.839]	[Dziekan] [PID: 416586] Kandydat [PID: 416620] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.839]	[Dziekan] [PID: 416586] Kandydat [PID: 416621] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.839]	[Dziekan] [PID: 416586] Kandydat [PID: 416622] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.839]	[Dziekan] [PID: 416586] Kandydat [PID: 416623] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.839]	[Dziekan] [PID: 416586] Kandydat [PID: 416624] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.839]	[Dziekan] [PID: 416586] Kandydat [PID: 416625] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.839]	[Dziekan] [PID: 416586] Kandydat [PID: 416626] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.839]	[Dziekan] [PID: 416586] Kandydat [PID: 416627] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.839]	[Dziekan] [PID: 416586] Kandydat [PID: 416628] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.840]	[Dziekan] [PID: 416586] Kandydat [PID: 416629] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.840]	[Dziekan] [PID: 416586] Kandydat [PID: 416630] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.840]	[Dziekan] [PID: 416586] Kandydat [PID: 416631] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.840]	[Dziekan] [PID: 416586] Kandydat [PID: 416632] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.840]	[Dziekan] [PID: 416586] Kandydat [PID: 416633] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.840]	[Dziekan] [PID: 416586] Kandydat [PID: 416634] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.840]	[Dziekan] [PID: 416586] Kandydat [PID: 416635] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.840]	[Dziekan] [PID: 416586] Kandydat [PID: 416636] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.841]	[Dziekan] [PID: 416586] Kandydat [PID: 416637] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.841]	[Dziekan] [PID: 416586] Kandydat [PID: 416638] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.841]	[Dziekan] [PID: 416586] Kandydat [PID: 416639] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.841]	[Dziekan] [PID: 416586] Kandydat [PID: 416640] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.841]	[Dziekan] [PID: 416586] Kandydat [PID: 416641] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.841]	[Dziekan] [PID: 416586] Kandydat [PID: 416642] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.841]	[Dziekan] [PID: 416586] Kandydat [PID: 416643] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.841]	[Dziekan] [PID: 416586] Kandydat [PID: 416644] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.841]	[Dziekan] [PID: 416586] Kandydat [PID: 416645] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.841]	[Dziekan] [PID: 416586] Kandydat [PID: 416646] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.841]	[Dziekan] [PID: 416586] Kandydat [PID: 416647] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.841]	[Dziekan] [PID: 416586] Kandydat [PID: 416648] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.841]	[Dziekan] [PID: 416586] Kandydat [PID: 416649] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.841]	[Dziekan] [PID: 416586] Kandydat [PID: 416650] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.842]	[Dziekan] [PID: 416586] Kandydat [PID: 416651] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.842]	[Dziekan] [PID: 416586] Kandydat [PID: 416652] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.842]	[Dziekan] [PID: 416586] Kandydat [PID: 416653] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.842]	[Dziekan] [PID: 416586] Kandydat [PID: 416654] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.842]	[Dziekan] [PID: 416586] Kandydat [PID: 416655] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.842]	[Dziekan] [PID: 416586] Kandydat [PID: 416656] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.842]	[Dziekan] [PID: 416586] Kandydat [PID: 416657] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.842]	[Dziekan] [PID: 416586] Kandydat [PID: 416658] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.842]	[Dziekan] [PID: 416586] Kandydat [PID: 416659] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.842]	[Dziekan] [PID: 416586] Kandydat [PID: 416660] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.842]	[Dziekan] [PID: 416586] Kandydat [PID: 416661] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.843]	[Dziekan] [PID: 416586] Kandydat [PID: 416662] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.843]	[Dziekan] [PID: 416586] Kandydat [PID: 416663] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.843]	[Dziekan] [PID: 416586] Kandydat [PID: 416664] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.843]	[Dziekan] [PID: 416586] Kandydat [PID: 416665] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.843]	[Dziekan] [PID: 416586] Kandydat [PID: 416666] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.843]	[Dziekan] [PID: 416586] Kandydat [PID: 416667] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.843]	[Dziekan] [PID: 416586] Kandydat [PID: 416668] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.843]	[Dziekan] [PID: 416586] Kandydat [PID: 416669] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.843]	[Dziekan] [PID: 416586] Kandydat [PID: 416670] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.844]	[Dziekan] [PID: 416586] Kandydat [PID: 416671] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.844]	[Dziekan] [PID: 416586] Kandydat [PID: 416672] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.844]	[Dziekan] [PID: 416586] Kandydat [PID: 416673] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.844]	[Dziekan] [PID: 416586] Kandydat [PID: 416674] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.844]	[Dziekan] [PID: 416586] Kandydat [PID: 416675] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.844]	[Dziekan] [PID: 416586] Kandydat [PID: 416676] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:35.844]	[Dziekan] [PID: 416586] Kandydat [PID: 416677] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.844]	[Dziekan] [PID: 416586] Kandydat [PID: 416678] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.844]	[Dziekan] [PID: 416586] Kandydat [PID: 416679] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.844]	[Dziekan] [PID: 416586] Kandydat [PID: 416680] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.845]	[Dziekan] [PID: 416586] Kandydat [PID: 416681] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.845]	[Dziekan] [PID: 416586] Kandydat [PID: 416682] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.845]	[Dziekan] [PID: 416586] Kandydat [PID: 416683] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.845]	[Dziekan] [PID: 416586] Kandydat [PID: 416684] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.845]	[Dziekan] [PID: 416586] Kandydat [PID: 416685] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.845]	[Dziekan] [PID: 416586] Kandydat [PID: 416686] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.845]	[Dziekan] [PID: 416586] Kandydat [PID: 416687] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.845]	[Dziekan] [PID: 416586] Kandydat [PID: 416688] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.845]	[Dziekan] [PID: 416586] Kandydat [PID: 416689] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.845]	[Dziekan] [PID: 416586] Kandydat [PID: 416690] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.846]	[Dziekan] [PID: 416586] Kandydat [PID: 416691] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.846]	[Dziekan] [PID: 416586] Kandydat [PID: 416692] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.846]	[Dziekan] [PID: 416586] Kandydat [PID: 416693] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.846]	[Dziekan] [PID: 416586] Kandydat [PID: 416694] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.846]	[Dziekan] [PID: 416586] Kandydat [PID: 416695] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.846]	[Dziekan] [PID: 416586] Kandydat [PID: 416696] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.846]	[Dziekan] [PID: 416586] Kandydat [PID: 416697] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.846]	[Dziekan] [PID: 416586] Kandydat [PID: 416698] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.846]	[Dziekan] [PID: 416586] Kandydat [PID: 416699] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.847]	[Dziekan] [PID: 416586] Kandydat [PID: 416700] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.847]	[Dziekan] [PID: 416586] Kandydat [PID: 416701] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:35.847]	[Dziekan] [PID: 416586] Kandydat [PID: 416702] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.847]	[Dziekan] [PID: 416586] Kandydat [PID: 416703] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.847]	[Dziekan] [PID: 416586] Kandydat [PID: 416704] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.847]	[Dziekan] [PID: 416586] Kandydat [PID: 416705] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.948]	[Dziekan] [PID: 416586] Kandydat [PID: 416706] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.983]	[Dziekan] [PID: 416586] Kandydat [PID: 416707] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:35.991]	[Dziekan] [PID: 416586] Kandydat [PID: 416708] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.016]	[Dziekan] [PID: 416586] Kandydat [PID: 416709] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.020]	[Dziekan] [PID: 416586] Kandydat [PID: 416710] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.032]	[Dziekan] [PID: 416586] Kandydat [PID: 416711] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.034]	[Dziekan] [PID: 416586] Kandydat [PID: 416712] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.034]	[Dziekan] [PID: 416586] Kandydat [PID: 416713] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.035]	[Dziekan] [PID: 416586] Kandydat [PID: 416714] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.035]	[Dziekan] [PID: 416586] Kandydat [PID: 416716] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.035]	[Dziekan] [PID: 416586] Kandydat [PID: 416717] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.035]	[Dziekan] [PID: 416586] Kandydat [PID: 416718] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.035]	[Dziekan] [PID: 416586] Kandydat [PID: 416719] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.035]	[Dziekan] [PID: 416586] Kandydat [PID: 416720] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.035]	[Dziekan] [PID: 416586] Kandydat [PID: 416721] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.036]	[Dziekan] [PID: 416586] Kandydat [PID: 416722] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.036]	[Dziekan] [PID: 416586] Kandydat [PID: 416723] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.036]	[Dziekan] [PID: 416586] Kandydat [PID: 416724] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.036]	[Dziekan] [PID: 416586] Kandydat [PID: 416725] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.036]	[Dziekan] [PID: 416586] Kandydat [PID: 416726] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.036]	[Dziekan] [PID: 416586] Kandydat [PID: 416727] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.037]	[Dziekan] [PID: 416586] Kandydat [PID: 416728] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.037]	[Dziekan] [PID: 416586] Kandydat [PID: 416729] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.037]	[Dziekan] [PID: 416586] Kandydat [PID: 416730] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.037]	[Dziekan] [PID: 416586] Kandydat [PID: 416731] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.037]	[Dziekan] [PID: 416586] Kandydat [PID: 416732] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.037]	[Dziekan] [PID: 416586] Kandydat [PID: 416733] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.037]	[Dziekan] [PID: 416586] Kandydat [PID: 416734] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.037]	[Dziekan] [PID: 416586] Kandydat [PID: 416736] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.037]	[Dziekan] [PID: 416586] Kandydat [PID: 416738] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.038]	[Dziekan] [PID: 416586] Kandydat [PID: 416739] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.038]	[Dziekan] [PID: 416586] Kandydat [PID: 416740] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.038]	[Dziekan] [PID: 416586] Kandydat [PID: 416741] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.038]	[Dziekan] [PID: 416586] Kandydat [PID: 416742] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.038]	[Dziekan] [PID: 416586] Kandydat [PID: 416743] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.038]	[Dziekan] [PID: 416586] Kandydat [PID: 416744] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.039]	[Dziekan] [PID: 416586] Kandydat [PID: 416745] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.040]	[Dziekan] [PID: 416586] Kandydat [PID: 416746] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.040]	[Dziekan] [PID: 416586] Kandydat [PID: 416747] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.040]	[Dziekan] [PID: 416586] Kandydat [PID: 416748] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.043]	[Dziekan] [PID: 416586] Kandydat [PID: 416749] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.143]	[Dziekan] [PID: 416586] Kandydat [PID: 416750] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.166]	[Dziekan] [PID: 416586] Kandydat [PID: 416751] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.166]	[Dziekan] [PID: 416586] Kandydat [PID: 416752] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.166]	[Dziekan] [PID: 416586] Kandydat [PID: 416753] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.166]	[Dziekan] [PID: 416586] Kandydat [PID: 416754] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.166]	[Dziekan] [PID: 416586] Kandydat [PID: 416755] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.166]	[Dziekan] [PID: 416586] Kandydat [PID: 416756] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.167]	[Dziekan] [PID: 416586] Kandydat [PID: 416757] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.167]	[Dziekan] [PID: 416586] Kandydat [PID: 416758] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.167]	[Dziekan] [PID: 416586] Kandydat [PID: 416759] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.167]	[Dziekan] [PID: 416586] Kandydat [PID: 416760] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.167]	[Dziekan] [PID: 416586] Kandydat [PID: 416761] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.167]	[Dziekan] [PID: 416586] Kandydat [PID: 416762] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.167]	[Dziekan] [PID: 416586] Kandydat [PID: 416763] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.167]	[Dziekan] [PID: 416586] Kandydat [PID: 416764] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.168]	[Dziekan] [PID: 416586] Kandydat [PID: 416765] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.168]	[Dziekan] [PID: 416586] Kandydat [PID: 416766] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.168]	[Dziekan] [PID: 416586] Kandydat [PID: 416767] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.168]	[Dziekan] [PID: 416586] Kandydat [PID: 416768] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.168]	[Dziekan] [PID: 416586] Kandydat [PID: 416769] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.168]	[Dziekan] [PID: 416586] Kandydat [PID: 416770] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.168]	[Dziekan] [PID: 416586] Kandydat [PID: 416771] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.168]	[Dziekan] [PID: 416586] Kandydat [PID: 416772] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.169]	[Dziekan] [PID: 416586] Kandydat [PID: 416773] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.169]	[Dziekan] [PID: 416586] Kandydat [PID: 416774] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.169]	[Dziekan] [PID: 416586] Kandydat [PID: 416775] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.169]	[Dziekan] [PID: 416586] Kandydat [PID: 416776] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.169]	[Dziekan] [PID: 416586] Kandydat [PID: 416777] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.169]	[Dziekan] [PID: 416586] Kandydat [PID: 416778] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.175]	[Dziekan] [PID: 416586] Kandydat [PID: 416779] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.195]	[Dziekan] [PID: 416586] Kandydat [PID: 416780] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.199]	[Dziekan] [PID: 416586] Kandydat [PID: 416781] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.199]	[Dziekan] [PID: 416586] Kandydat [PID: 416782] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.199]	[Dziekan] [PID: 416586] Kandydat [PID: 416783] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.199]	[Dziekan] [PID: 416586] Kandydat [PID: 416784] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.199]	[Dziekan] [PID: 416586] Kandydat [PID: 416785] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.199]	[Dziekan] [PID: 416586] Kandydat [PID: 416786] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.199]	[Dziekan] [PID: 416586] Kandydat [PID: 416787] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.199]	[Dziekan] [PID: 416586] Kandydat [PID: 416788] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.200]	[Dziekan] [PID: 416586] Kandydat [PID: 416789] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.200]	[Dziekan] [PID: 416586] Kandydat [PID: 416790] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.200]	[Dziekan] [PID: 416586] Kandydat [PID: 416791] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.200]	[Dziekan] [PID: 416586] Kandydat [PID: 416792] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.200]	[Dziekan] [PID: 416586] Kandydat [PID: 416793] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.200]	[Dziekan] [PID: 416586] Kandydat [PID: 416794] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.201]	[Dziekan] [PID: 416586] Kandydat [PID: 416795] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.201]	[Dziekan] [PID: 416586] Kandydat [PID: 416796] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.201]	[Dziekan] [PID: 416586] Kandydat [PID: 416797] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.201]	[Dziekan] [PID: 416586] Kandydat [PID: 416798] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.201]	[Dziekan] [PID: 416586] Kandydat [PID: 416799] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.201]	[Dziekan] [PID: 416586] Kandydat [PID: 416800] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.202]	[Dziekan] [PID: 416586] Kandydat [PID: 416801] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.202]	[Dziekan] [PID: 416586] Kandydat [PID: 416802] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.202]	[Dziekan] [PID: 416586] Kandydat [PID: 416803] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.202]	[Dziekan] [PID: 416586] Kandydat [PID: 416804] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.202]	[Dziekan] [PID: 416586] Kandydat [PID: 416805] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.202]	[Dziekan] [PID: 416586] Kandydat [PID: 416806] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.202]	[Dziekan] [PID: 416586] Kandydat [PID: 416807] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.203]	[Dziekan] [PID: 416586] Kandydat [PID: 416808] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.203]	[Dziekan] [PID: 416586] Kandydat [PID: 416809] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.203]	[Dziekan] [PID: 416586] Kandydat [PID: 416810] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.203]	[Dziekan] [PID: 416586] Kandydat [PID: 416811] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.203]	[Dziekan] [PID: 416586] Kandydat [PID: 416812] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.203]	[Dziekan] [PID: 416586] Kandydat [PID: 416813] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.204]	[Dziekan] [PID: 416586] Kandydat [PID: 416814] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.204]	[Dziekan] [PID: 416586] Kandydat [PID: 416815] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.205]	[Dziekan] [PID: 416586] Kandydat [PID: 416816] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.208]	[Dziekan] [PID: 416586] Kandydat [PID: 416817] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.211]	[Dziekan] [PID: 416586] Kandydat [PID: 416818] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.224]	[Dziekan] [PID: 416586] Kandydat [PID: 416819] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.229]	[Dziekan] [PID: 416586] Kandydat [PID: 416820] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.232]	[Dziekan] [PID: 416586] Kandydat [PID: 416821] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.237]	[Dziekan] [PID: 416586] Kandydat [PID: 416822] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.300]	[Dziekan] [PID: 416586] Kandydat [PID: 416823] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.312]	[Dziekan] [PID: 416586] Kandydat [PID: 416824] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.312]	[Dziekan] [PID: 416586] Kandydat [PID: 416825] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:36.312]	[Dziekan] [PID: 416586] Kandydat [PID: 416826] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.312]	[Dziekan] [PID: 416586] Kandydat [PID: 416827] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.312]	[Dziekan] [PID: 416586] Kandydat [PID: 416828] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:36.313]	[Dziekan] [PID: 416586] Kandydat [PID: 416829] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.313]	[Dziekan] [PID: 416586] Kandydat [PID: 416830] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.313]	[Dziekan] [PID: 416586] Kandydat [PID: 416831] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:36.313]	[Dziekan] [PID: 416586] Kandydat [PID: 416832] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.313]	[Dziekan] [PID: 416586] Kandydat [PID: 416833] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.313]	[Dziekan] [PID: 416586] Kandydat [PID: 416834] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.313]	[Dziekan] [PID: 416586] Kandydat [PID: 416835] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.313]	[Dziekan] [PID: 416586] Kandydat [PID: 416836] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.314]	[Dziekan] [PID: 416586] Kandydat [PID: 416837] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.314]	[Dziekan] [PID: 416586] Kandydat [PID: 416838] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.314]	[Dziekan] [PID: 416586] Kandydat [PID: 416839] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.314]	[Dziekan] [PID: 416586] Kandydat [PID: 416840] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.314]	[Dziekan] [PID: 416586] Kandydat [PID: 416841] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.314]	[Dziekan] [PID: 416586] Kandydat [PID: 416842] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.314]	[Dziekan] [PID: 416586] Kandydat [PID: 416843] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.314]	[Dziekan] [PID: 416586] Kandydat [PID: 416844] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.314]	[Dziekan] [PID: 416586] Kandydat [PID: 416845] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.314]	[Dziekan] [PID: 416586] Kandydat [PID: 416846] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.314]	[Dziekan] [PID: 416586] Kandydat [PID: 416847] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.315]	[Dziekan] [PID: 416586] Kandydat [PID: 416848] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.315]	[Dziekan] [PID: 416586] Kandydat [PID: 416849] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.315]	[Dziekan] [PID: 416586] Kandydat [PID: 416850] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.315]	[Dziekan] [PID: 416586] Kandydat [PID: 416851] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.315]	[Dziekan] [PID: 416586] Kandydat [PID: 416852] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.315]	[Dziekan] [PID: 416586] Kandydat [PID: 416853] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.315]	[Dziekan] [PID: 416586] Kandydat [PID: 416854] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.315]	[Dziekan] [PID: 416586] Kandydat [PID: 416855] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.316]	[Dziekan] [PID: 416586] Kandydat [PID: 416856] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.316]	[Dziekan] [PID: 416586] Kandydat [PID: 416857] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.316]	[Dziekan] [PID: 416586] Kandydat [PID: 416858] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.316]	[Dziekan] [PID: 416586] Kandydat [PID: 416859] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.316]	[Dziekan] [PID: 416586] Kandydat [PID: 416860] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.316]	[Dziekan] [PID: 416586] Kandydat [PID: 416861] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.316]	[Dziekan] [PID: 416586] Kandydat [PID: 416862] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.317]	[Dziekan] [PID: 416586] Kandydat [PID: 416863] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.317]	[Dziekan] [PID: 416586] Kandydat [PID: 416864] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.317]	[Dziekan] [PID: 416586] Kandydat [PID: 416865] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.317]	[Dziekan] [PID: 416586] Kandydat [PID: 416866] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.317]	[Dziekan] [PID: 416586] Kandydat [PID: 416867] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.317]	[Dziekan] [PID: 416586] Kandydat [PID: 416868] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.318]	[Dziekan] [PID: 416586] Kandydat [PID: 416869] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.318]	[Dziekan] [PID: 416586] Kandydat [PID: 416870] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.318]	[Dziekan] [PID: 416586] Kandydat [PID: 416871] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.318]	[Dziekan] [PID: 416586] Kandydat [PID: 416872] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.318]	[Dziekan] [PID: 416586] Kandydat [PID: 416873] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.318]	[Dziekan] [PID: 416586] Kandydat [PID: 416874] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.318]	[Dziekan] [PID: 416586] Kandydat [PID: 416875] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.319]	[Dziekan] [PID: 416586] Kandydat [PID: 416876] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.319]	[Dziekan] [PID: 416586] Kandydat [PID: 416877] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.319]	[Dziekan] [PID: 416586] Kandydat [PID: 416878] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.319]	[Dziekan] [PID: 416586] Kandydat [PID: 416879] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.319]	[Dziekan] [PID: 416586] Kandydat [PID: 416880] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.319]	[Dziekan] [PID: 416586] Kandydat [PID: 416881] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.319]	[Dziekan] [PID: 416586] Kandydat [PID: 416882] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.320]	[Dziekan] [PID: 416586] Kandydat [PID: 416883] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.320]	[Dziekan] [PID: 416586] Kandydat [PID: 416884] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.320]	[Dziekan] [PID: 416586] Kandydat [PID: 416885] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.320]	[Dziekan] [PID: 416586] Kandydat [PID: 416886] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.320]	[Dziekan] [PID: 416586] Kandydat [PID: 416887] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.320]	[Dziekan] [PID: 416586] Kandydat [PID: 416888] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.320]	[Dziekan] [PID: 416586] Kandydat [PID: 416889] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.320]	[Dziekan] [PID: 416586] Kandydat [PID: 416890] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.320]	[Dziekan] [PID: 416586] Kandydat [PID: 416891] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.320]	[Dziekan] [PID: 416586] Kandydat [PID: 416892] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.320]	[Dziekan] [PID: 416586] Kandydat [PID: 416893] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.320]	[Dziekan] [PID: 416586] Kandydat [PID: 416894] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.321]	[Dziekan] [PID: 416586] Kandydat [PID: 416895] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.321]	[Dziekan] [PID: 416586] Kandydat [PID: 416896] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.321]	[Dziekan] [PID: 416586] Kandydat [PID: 416897] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.321]	[Dziekan] [PID: 416586] Kandydat [PID: 416898] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.321]	[Dziekan] [PID: 416586] Kandydat [PID: 416899] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.321]	[Dziekan] [PID: 416586] Kandydat [PID: 416900] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.321]	[Dziekan] [PID: 416586] Kandydat [PID: 416901] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.321]	[Dziekan] [PID: 416586] Kandydat [PID: 416902] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.321]	[Dziekan] [PID: 416586] Kandydat [PID: 416903] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.321]	[Dziekan] [PID: 416586] Kandydat [PID: 416904] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.321]	[Dziekan] [PID: 416586] Kandydat [PID: 416905] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.343]	[Dziekan] [PID: 416586] Kandydat [PID: 416906] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.345]	[Dziekan] [PID: 416586] Kandydat [PID: 416907] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.345]	[Dziekan] [PID: 416586] Kandydat [PID: 416908] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.345]	[Dziekan] [PID: 416586] Kandydat [PID: 416909] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.346]	[Dziekan] [PID: 416586] Kandydat [PID: 416910] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.346]	[Dziekan] [PID: 416586] Kandydat [PID: 416911] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.346]	[Dziekan] [PID: 416586] Kandydat [PID: 416912] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.346]	[Dziekan] [PID: 416586] Kandydat [PID: 416913] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.346]	[Dziekan] [PID: 416586] Kandydat [PID: 416914] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.346]	[Dziekan] [PID: 416586] Kandydat [PID: 416915] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.346]	[Dziekan] [PID: 416586] Kandydat [PID: 416916] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.346]	[Dziekan] [PID: 416586] Kandydat [PID: 416917] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.346]	[Dziekan] [PID: 416586] Kandydat [PID: 416918] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.347]	[Dziekan] [PID: 416586] Kandydat [PID: 416919] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.347]	[Dziekan] [PID: 416586] Kandydat [PID: 416920] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.347]	[Dziekan] [PID: 416586] Kandydat [PID: 416921] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.347]	[Dziekan] [PID: 416586] Kandydat [PID: 416922] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.347]	[Dziekan] [PID: 416586] Kandydat [PID: 416923] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.348]	[Dziekan] [PID: 416586] Kandydat [PID: 416924] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.348]	[Dziekan] [PID: 416586] Kandydat [PID: 416925] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.348]	[Dziekan] [PID: 416586] Kandydat [PID: 416926] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.348]	[Dziekan] [PID: 416586] Kandydat [PID: 416927] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.348]	[Dziekan] [PID: 416586] Kandydat [PID: 416928] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.348]	[Dziekan] [PID: 416586] Kandydat [PID: 416929] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.349]	[Dziekan] [PID: 416586] Kandydat [PID: 416930] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.358]	[Dziekan] [PID: 416586] Kandydat [PID: 416931] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.364]	[Dziekan] [PID: 416586] Kandydat [PID: 416932] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.376]	[Dziekan] [PID: 416586] Kandydat [PID: 416933] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.379]	[Dziekan] [PID: 416586] Kandydat [PID: 416934] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.494]	[Dziekan] [PID: 416586] Kandydat [PID: 416935] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.519]	[Dziekan] [PID: 416586] Kandydat [PID: 416936] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:36.520]	[Dziekan] [PID: 416586] Kandydat [PID: 416937] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.528]	[Dziekan] [PID: 416586] Kandydat [PID: 416938] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.535]	[Dziekan] [PID: 416586] Kandydat [PID: 416939] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.540]	[Dziekan] [PID: 416586] Kandydat [PID: 416940] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.553]	[Dziekan] [PID: 416586] Kandydat [PID: 416941] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.556]	[Dziekan] [PID: 416586] Kandydat [PID: 416942] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.560]	[Dziekan] [PID: 416586] Kandydat [PID: 416943] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.568]	[Dziekan] [PID: 416586] Kandydat [PID: 416944] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.569]	[Dziekan] [PID: 416586] Kandydat [PID: 416945] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.569]	[Dziekan] [PID: 416586] Kandydat [PID: 416946] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.569]	[Dziekan] [PID: 416586] Kandydat [PID: 416947] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.569]	[Dziekan] [PID: 416586] Kandydat [PID: 416948] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.570]	[Dziekan] [PID: 416586] Kandydat [PID: 416949] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.570]	[Dziekan] [PID: 416586] Kandydat [PID: 416950] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.570]	[Dziekan] [PID: 416586] Kandydat [PID: 416951] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.570]	[Dziekan] [PID: 416586] Kandydat [PID: 416952] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.570]	[Dziekan] [PID: 416586] Kandydat [PID: 416953] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.570]	[Dziekan] [PID: 416586] Kandydat [PID: 416954] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.570]	[Dziekan] [PID: 416586] Kandydat [PID: 416955] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.570]	[Dziekan] [PID: 416586] Kandydat [PID: 416956] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.570]	[Dziekan] [PID: 416586] Kandydat [PID: 416957] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.570]	[Dziekan] [PID: 416586] Kandydat [PID: 416958] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:36.571]	[Dziekan] [PID: 416586] Kandydat [PID: 416959] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.571]	[Dziekan] [PID: 416586] Kandydat [PID: 416960] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.571]	[Dziekan] [PID: 416586] Kandydat [PID: 416961] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.571]	[Dziekan] [PID: 416586] Kandydat [PID: 416962] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.636]	[Dziekan] [PID: 416586] Kandydat [PID: 416963] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.636]	[Dziekan] [PID: 416586] Kandydat [PID: 416964] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.636]	[Dziekan] [PID: 416586] Kandydat [PID: 416965] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.636]	[Dziekan] [PID: 416586] Kandydat [PID: 416966] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.636]	[Dziekan] [PID: 416586] Kandydat [PID: 416967] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.636]	[Dziekan] [PID: 416586] Kandydat [PID: 416968] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.636]	[Dziekan] [PID: 416586] Kandydat [PID: 416969] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.636]	[Dziekan] [PID: 416586] Kandydat [PID: 416970] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.637]	[Dziekan] [PID: 416586] Kandydat [PID: 416971] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.637]	[Dziekan] [PID: 416586] Kandydat [PID: 416972] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.637]	[Dziekan] [PID: 416586] Kandydat [PID: 416973] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.637]	[Dziekan] [PID: 416586] Kandydat [PID: 416974] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.637]	[Dziekan] [PID: 416586] Kandydat [PID: 416975] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.637]	[Dziekan] [PID: 416586] Kandydat [PID: 416976] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.640]	[Dziekan] [PID: 416586] Kandydat [PID: 416977] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.657]	[Dziekan] [PID: 416586] Kandydat [PID: 416978] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.663]	[Dziekan] [PID: 416586] Kandydat [PID: 416979] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.693]	[Dziekan] [PID: 416586] Kandydat [PID: 416980] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.700]	[Dziekan] [PID: 416586] Kandydat [PID: 416981] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.702]	[Dziekan] [PID: 416586] Kandydat [PID: 416982] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.849]	[Dziekan] [PID: 416586] Kandydat [PID: 416983] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.866]	[Dziekan] [PID: 416586] Kandydat [PID: 416984] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.866]	[Dziekan] [PID: 416586] Kandydat [PID: 416985] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.867]	[Dziekan] [PID: 416586] Kandydat [PID: 416986] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.867]	[Dziekan] [PID: 416586] Kandydat [PID: 416987] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.867]	[Dziekan] [PID: 416586] Kandydat [PID: 416988] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.867]	[Dziekan] [PID: 416586] Kandydat [PID: 416989] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.867]	[Dziekan] [PID: 416586] Kandydat [PID: 416990] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.867]	[Dziekan] [PID: 416586] Kandydat [PID: 416991] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.867]	[Dziekan] [PID: 416586] Kandydat [PID: 416992] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.867]	[Dziekan] [PID: 416586] Kandydat [PID: 416993] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.868]	[Dziekan] [PID: 416586] Kandydat [PID: 416994] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.868]	[Dziekan] [PID: 416586] Kandydat [PID: 416995] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.868]	[Dziekan] [PID: 416586] Kandydat [PID: 416996] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.868]	[Dziekan] [PID: 416586] Kandydat [PID: 416997] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.868]	[Dziekan] [PID: 416586] Kandydat [PID: 416998] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.868]	[Dziekan] [PID: 416586] Kandydat [PID: 416999] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.868]	[Dziekan] [PID: 416586] Kandydat [PID: 417000] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.869]	[Dziekan] [PID: 416586] Kandydat [PID: 417001] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.869]	[Dziekan] [PID: 416586] Kandydat [PID: 417002] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.869]	[Dziekan] [PID: 416586] Kandydat [PID: 417003] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.879]	[Dziekan] [PID: 416586] Kandydat [PID: 417004] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.885]	[Dziekan] [PID: 416586] Kandydat [PID: 417005] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.910]	[Dziekan] [PID: 416586] Kandydat [PID: 417006] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.913]	[Dziekan] [PID: 416586] Kandydat [PID: 417007] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.914]	[Dziekan] [PID: 416586] Kandydat [PID: 417008] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.914]	[Dziekan] [PID: 416586] Kandydat [PID: 417009] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.914]	[Dziekan] [PID: 416586] Kandydat [PID: 417010] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.914]	[Dziekan] [PID: 416586] Kandydat [PID: 417011] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.914]	[Dziekan] [PID: 416586] Kandydat [PID: 417013] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.914]	[Dziekan] [PID: 416586] Kandydat [PID: 417014] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.914]	[Dziekan] [PID: 416586] Kandydat [PID: 417015] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.915]	[Dziekan] [PID: 416586] Kandydat [PID: 417017] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.915]	[Dziekan] [PID: 416586] Kandydat [PID: 417018] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.915]	[Dziekan] [PID: 416586] Kandydat [PID: 417020] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.915]	[Dziekan] [PID: 416586] Kandydat [PID: 417022] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.986]	[Dziekan] [PID: 416586] Kandydat [PID: 417023] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:36.986]	[Dziekan] [PID: 416586] Kandydat [PID: 417024] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.986]	[Dziekan] [PID: 416586] Kandydat [PID: 417025] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.986]	[Dziekan] [PID: 416586] Kandydat [PID: 417026] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.986]	[Dziekan] [PID: 416586] Kandydat [PID: 417027] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.986]	[Dziekan] [PID: 416586] Kandydat [PID: 417028] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.986]	[Dziekan] [PID: 416586] Kandydat [PID: 417029] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.986]	[Dziekan] [PID: 416586] Kandydat [PID: 417030] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.986]	[Dziekan] [PID: 416586] Kandydat [PID: 417031] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.987]	[Dziekan] [PID: 416586] Kandydat [PID: 417032] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:36.987]	[Dziekan] [PID: 416586] Kandydat [PID: 417033] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.987]	[Dziekan] [PID: 416586] Kandydat [PID: 417034] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:36.987]	[Dziekan] [PID: 416586] Kandydat [PID: 417035] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.000]	[Dziekan] [PID: 416586] Kandydat [PID: 417036] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.001]	[Dziekan] [PID: 416586] Kandydat [PID: 417037] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.002]	[Dziekan] [PID: 416586] Kandydat [PID: 417038] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.002]	[Dziekan] [PID: 416586] Kandydat [PID: 417039] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.002]	[Dziekan] [PID: 416586] Kandydat [PID: 417040] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.002]	[Dziekan] [PID: 416586] Kandydat [PID: 417041] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.002]	[Dziekan] [PID: 416586] Kandydat [PID: 417042] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.002]	[Dziekan] [PID: 416586] Kandydat [PID: 417043] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.002]	[Dziekan] [PID: 416586] Kandydat [PID: 417044] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.003]	[Dziekan] [PID: 416586] Kandydat [PID: 417045] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.003]	[Dziekan] [PID: 416586] Kandydat [PID: 417046] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.003]	[Dziekan] [PID: 416586] Kandydat [PID: 417047] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.003]	[Dziekan] [PID: 416586] Kandydat [PID: 417048] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.003]	[Dziekan] [PID: 416586] Kandydat [PID: 417049] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.003]	[Dziekan] [PID: 416586] Kandydat [PID: 417050] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.004]	[Dziekan] [PID: 416586] Kandydat [PID: 417051] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:37.004]	[Dziekan] [PID: 416586] Kandydat [PID: 417052] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.004]	[Dziekan] [PID: 416586] Kandydat [PID: 417053] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.004]	[Dziekan] [PID: 416586] Kandydat [PID: 417054] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.004]	[Dziekan] [PID: 416586] Kandydat [PID: 417055] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.004]	[Dziekan] [PID: 416586] Kandydat [PID: 417056] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.005]	[Dziekan] [PID: 416586] Kandydat [PID: 417057] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.005]	[Dziekan] [PID: 416586] Kandydat [PID: 417058] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.005]	[Dziekan] [PID: 416586] Kandydat [PID: 417059] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.005]	[Dziekan] [PID: 416586] Kandydat [PID: 417060] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.005]	[Dziekan] [PID: 416586] Kandydat [PID: 417061] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.005]	[Dziekan] [PID: 416586] Kandydat [PID: 417062] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.005]	[Dziekan] [PID: 416586] Kandydat [PID: 417063] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.005]	[Dziekan] [PID: 416586] Kandydat [PID: 417064] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.005]	[Dziekan] [PID: 416586] Kandydat [PID: 417066] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.006]	[Dziekan] [PID: 416586] Kandydat [PID: 417067] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.006]	[Dziekan] [PID: 416586] Kandydat [PID: 417069] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.006]	[Dziekan] [PID: 416586] Kandydat [PID: 417070] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.006]	[Dziekan] [PID: 416586] Kandydat [PID: 417071] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.006]	[Dziekan] [PID: 416586] Kandydat [PID: 417072] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.006]	[Dziekan] [PID: 416586] Kandydat [PID: 417074] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.006]	[Dziekan] [PID: 416586] Kandydat [PID: 417075] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.007]	[Dziekan] [PID: 416586] Kandydat [PID: 417076] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.007]	[Dziekan] [PID: 416586] Kandydat [PID: 417078] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.007]	[Dziekan] [PID: 416586] Kandydat [PID: 417079] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.007]	[Dziekan] [PID: 416586] Kandydat [PID: 417080] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.081]	[Dziekan] [PID: 416586] Kandydat [PID: 417082] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.088]	[Dziekan] [PID: 416586] Kandydat [PID: 417083] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417085] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417086] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417088] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417090] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417091] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417093] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417094] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417096] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.165]	[Dziekan] [PID: 416586] Kandydat [PID: 417097] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.174]	[Dziekan] [PID: 416586] Kandydat [PID: 417099] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.188]	[Dziekan] [PID: 416586] Kandydat [PID: 417100] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.209]	[Dziekan] [PID: 416586] Kandydat [PID: 417102] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.210]	[Dziekan] [PID: 416586] Kandydat [PID: 417103] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.210]	[Dziekan] [PID: 416586] Kandydat [PID: 417105] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.210]	[Dziekan] [PID: 416586] Kandydat [PID: 417106] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417107] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417109] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417110] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417112] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417113] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417115] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417116] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417117] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417119] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417120] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417122] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417123] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417125] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417126] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417128] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417129] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417131] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.211]	[Dziekan] [PID: 416586] Kandydat [PID: 417132] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.229]	[Dziekan] [PID: 416586] Kandydat [PID: 417134] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.315]	[Dziekan] [PID: 416586] Kandydat [PID: 417135] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.327]	[Dziekan] [PID: 416586] Kandydat [PID: 417137] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.327]	[Dziekan] [PID: 416586] Kandydat [PID: 417138] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.327]	[Dziekan] [PID: 416586] Kandydat [PID: 417140] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.327]	[Dziekan] [PID: 416586] Kandydat [PID: 417141] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.327]	[Dziekan] [PID: 416586] Kandydat [PID: 417142] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.327]	[Dziekan] [PID: 416586] Kandydat [PID: 417144] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.327]	[Dziekan] [PID: 416586] Kandydat [PID: 417145] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.327]	[Dziekan] [PID: 416586] Kandydat [PID: 417147] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.327]	[Dziekan] [PID: 416586] Kandydat [PID: 417148] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.352]	[Dziekan] [PID: 416586] Kandydat [PID: 417150] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.354]	[Dziekan] [PID: 416586] Kandydat [PID: 417151] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.354]	[Dziekan] [PID: 416586] Kandydat [PID: 417153] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.359]	[Dziekan] [PID: 416586] Kandydat [PID: 417154] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.365]	[Dziekan] [PID: 416586] Kandydat [PID: 417156] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.370]	[Dziekan] [PID: 416586] Kandydat [PID: 417157] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.377]	[Dziekan] [PID: 416586] Kandydat [PID: 417159] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.390]	[Dziekan] [PID: 416586] Kandydat [PID: 417160] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.519]	[Dziekan] [PID: 416586] Kandydat [PID: 417161] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.530]	[Dziekan] [PID: 416586] Kandydat [PID: 417163] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.530]	[Dziekan] [PID: 416586] Kandydat [PID: 417164] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.530]	[Dziekan] [PID: 416586] Kandydat [PID: 417166] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.530]	[Dziekan] [PID: 416586] Kandydat [PID: 417167] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.530]	[Dziekan] [PID: 416586] Kandydat [PID: 417169] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.530]	[Dziekan] [PID: 416586] Kandydat [PID: 417170] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.530]	[Dziekan] [PID: 416586] Kandydat [PID: 417172] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.538]	[Dziekan] [PID: 416586] Kandydat [PID: 417173] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.541]	[Dziekan] [PID: 416586] Kandydat [PID: 417175] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.554]	[Dziekan] [PID: 416586] Kandydat [PID: 417176] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.577]	[Dziekan] [PID: 416586] Kandydat [PID: 417178] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.694]	[Dziekan] [PID: 416586] Kandydat [PID: 417179] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.705]	[Dziekan] [PID: 416586] Kandydat [PID: 417181] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.705]	[Dziekan] [PID: 416586] Kandydat [PID: 417182] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.705]	[Dziekan] [PID: 416586] Kandydat [PID: 417184] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.705]	[Dziekan] [PID: 416586] Kandydat [PID: 417185] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.705]	[Dziekan] [PID: 416586] Kandydat [PID: 417187] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.705]	[Dziekan] [PID: 416586] Kandydat [PID: 417188] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.705]	[Dziekan] [PID: 416586] Kandydat [PID: 417190] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.706]	[Dziekan] [PID: 416586] Kandydat [PID: 417191] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.706]	[Dziekan] [PID: 416586] Kandydat [PID: 417192] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.706]	[Dziekan] [PID: 416586] Kandydat [PID: 417194] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.706]	[Dziekan] [PID: 416586] Kandydat [PID: 417195] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.706]	[Dziekan] [PID: 416586] Kandydat [PID: 417197] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.706]	[Dziekan] [PID: 416586] Kandydat [PID: 417198] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.706]	[Dziekan] [PID: 416586] Kandydat [PID: 417200] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.706]	[Dziekan] [PID: 416586] Kandydat [PID: 417202] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.707]	[Dziekan] [PID: 416586] Kandydat [PID: 417203] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.707]	[Dziekan] [PID: 416586] Kandydat [PID: 417205] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.707]	[Dziekan] [PID: 416586] Kandydat [PID: 417206] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.707]	[Dziekan] [PID: 416586] Kandydat [PID: 417208] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.707]	[Dziekan] [PID: 416586] Kandydat [PID: 417210] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.707]	[Dziekan] [PID: 416586] Kandydat [PID: 417211] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.707]	[Dziekan] [PID: 416586] Kandydat [PID: 417213] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.708]	[Dziekan] [PID: 416586] Kandydat [PID: 417215] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.708]	[Dziekan] [PID: 416586] Kandydat [PID: 417216] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.708]	[Dziekan] [PID: 416586] Kandydat [PID: 417218] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.708]	[Dziekan] [PID: 416586] Kandydat [PID: 417219] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.708]	[Dziekan] [PID: 416586] Kandydat [PID: 417220] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.709]	[Dziekan] [PID: 416586] Kandydat [PID: 417222] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.709]	[Dziekan] [PID: 416586] Kandydat [PID: 417224] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.709]	[Dziekan] [PID: 416586] Kandydat [PID: 417225] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.709]	[Dziekan] [PID: 416586] Kandydat [PID: 417227] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.709]	[Dziekan] [PID: 416586] Kandydat [PID: 417228] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.709]	[Dziekan] [PID: 416586] Kandydat [PID: 417229] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.709]	[Dziekan] [PID: 416586] Kandydat [PID: 417231] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.710]	[Dziekan] [PID: 416586] Kandydat [PID: 417232] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.710]	[Dziekan] [PID: 416586] Kandydat [PID: 417234] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.710]	[Dziekan] [PID: 416586] Kandydat [PID: 417235] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.710]	[Dziekan] [PID: 416586] Kandydat [PID: 417237] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.710]	[Dziekan] [PID: 416586] Kandydat [PID: 417239] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.710]	[Dziekan] [PID: 416586] Kandydat [PID: 417240] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.710]	[Dziekan] [PID: 416586] Kandydat [PID: 417242] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:37.711]	[Dziekan] [PID: 416586] Kandydat [PID: 417244] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.711]	[Dziekan] [PID: 416586] Kandydat [PID: 417245] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.711]	[Dziekan] [PID: 416586] Kandydat [PID: 417247] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.711]	[Dziekan] [PID: 416586] Kandydat [PID: 417248] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.711]	[Dziekan] [PID: 416586] Kandydat [PID: 417250] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.711]	[Dziekan] [PID: 416586] Kandydat [PID: 417251] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.711]	[Dziekan] [PID: 416586] Kandydat [PID: 417253] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.711]	[Dziekan] [PID: 416586] Kandydat [PID: 417254] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.711]	[Dziekan] [PID: 416586] Kandydat [PID: 417256] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.712]	[Dziekan] [PID: 416586] Kandydat [PID: 417257] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.712]	[Dziekan] [PID: 416586] Kandydat [PID: 417259] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.712]	[Dziekan] [PID: 416586] Kandydat [PID: 417260] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.712]	[Dziekan] [PID: 416586] Kandydat [PID: 417262] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.712]	[Dziekan] [PID: 416586] Kandydat [PID: 417264] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.712]	[Dziekan] [PID: 416586] Kandydat [PID: 417265] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.712]	[Dziekan] [PID: 416586] Kandydat [PID: 417267] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.724]	[Dziekan] [PID: 416586] Kandydat [PID: 417268] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.727]	[Dziekan] [PID: 416586] Kandydat [PID: 417270] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.739]	[Dziekan] [PID: 416586] Kandydat [PID: 417271] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.773]	[Dziekan] [PID: 416586] Kandydat [PID: 417272] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.776]	[Dziekan] [PID: 416586] Kandydat [PID: 417274] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.776]	[Dziekan] [PID: 416586] Kandydat [PID: 417275] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.776]	[Dziekan] [PID: 416586] Kandydat [PID: 417276] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.776]	[Dziekan] [PID: 416586] Kandydat [PID: 417278] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.776]	[Dziekan] [PID: 416586] Kandydat [PID: 417279] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.776]	[Dziekan] [PID: 416586] Kandydat [PID: 417281] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.776]	[Dziekan] [PID: 416586] Kandydat [PID: 417282] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.776]	[Dziekan] [PID: 416586] Kandydat [PID: 417284] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.776]	[Dziekan] [PID: 416586] Kandydat [PID: 417286] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.777]	[Dziekan] [PID: 416586] Kandydat [PID: 417287] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.777]	[Dziekan] [PID: 416586] Kandydat [PID: 417289] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.777]	[Dziekan] [PID: 416586] Kandydat [PID: 417290] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.777]	[Dziekan] [PID: 416586] Kandydat [PID: 417292] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.777]	[Dziekan] [PID: 416586] Kandydat [PID: 417293] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.777]	[Dziekan] [PID: 416586] Kandydat [PID: 417295] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.777]	[Dziekan] [PID: 416586] Kandydat [PID: 417296] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.777]	[Dziekan] [PID: 416586] Kandydat [PID: 417298] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.777]	[Dziekan] [PID: 416586] Kandydat [PID: 417299] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.778]	[Dziekan] [PID: 416586] Kandydat [PID: 417301] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.778]	[Dziekan] [PID: 416586] Kandydat [PID: 417302] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.778]	[Dziekan] [PID: 416586] Kandydat [PID: 417304] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.778]	[Dziekan] [PID: 416586] Kandydat [PID: 417305] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.778]	[Dziekan] [PID: 416586] Kandydat [PID: 417307] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.778]	[Dziekan] [PID: 416586] Kandydat [PID: 417308] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.778]	[Dziekan] [PID: 416586] Kandydat [PID: 417310] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.778]	[Dziekan] [PID: 416586] Kandydat [PID: 417311] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.778]	[Dziekan] [PID: 416586] Kandydat [PID: 417313] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.779]	[Dziekan] [PID: 416586] Kandydat [PID: 417314] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.910]	[Dziekan] [PID: 416586] Kandydat [PID: 417316] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.918]	[Dziekan] [PID: 416586] Kandydat [PID: 417318] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.918]	[Dziekan] [PID: 416586] Kandydat [PID: 417319] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.918]	[Dziekan] [PID: 416586] Kandydat [PID: 417320] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.918]	[Dziekan] [PID: 416586] Kandydat [PID: 417322] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.918]	[Dziekan] [PID: 416586] Kandydat [PID: 417323] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.928]	[Dziekan] [PID: 416586] Kandydat [PID: 417325] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.929]	[Dziekan] [PID: 416586] Kandydat [PID: 417326] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.929]	[Dziekan] [PID: 416586] Kandydat [PID: 417327] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.929]	[Dziekan] [PID: 416586] Kandydat [PID: 417329] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.929]	[Dziekan] [PID: 416586] Kandydat [PID: 417330] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.929]	[Dziekan] [PID: 416586] Kandydat [PID: 417332] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.929]	[Dziekan] [PID: 416586] Kandydat [PID: 417333] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.929]	[Dziekan] [PID: 416586] Kandydat [PID: 417335] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.929]	[Dziekan] [PID: 416586] Kandydat [PID: 417337] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.930]	[Dziekan] [PID: 416586] Kandydat [PID: 417339] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.930]	[Dziekan] [PID: 416586] Kandydat [PID: 417340] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.930]	[Dziekan] [PID: 416586] Kandydat [PID: 417342] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.930]	[Dziekan] [PID: 416586] Kandydat [PID: 417343] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.930]	[Dziekan] [PID: 416586] Kandydat [PID: 417345] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.930]	[Dziekan] [PID: 416586] Kandydat [PID: 417346] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.930]	[Dziekan] [PID: 416586] Kandydat [PID: 417348] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.930]	[Dziekan] [PID: 416586] Kandydat [PID: 417350] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.930]	[Dziekan] [PID: 416586] Kandydat [PID: 417351] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.930]	[Dziekan] [PID: 416586] Kandydat [PID: 417353] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:37.930]	[Dziekan] [PID: 416586] Kandydat [PID: 417354] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.930]	[Dziekan] [PID: 416586] Kandydat [PID: 417356] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.931]	[Dziekan] [PID: 416586] Kandydat [PID: 417357] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.931]	[Dziekan] [PID: 416586] Kandydat [PID: 417359] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.931]	[Dziekan] [PID: 416586] Kandydat [PID: 417360] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.931]	[Dziekan] [PID: 416586] Kandydat [PID: 417362] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.931]	[Dziekan] [PID: 416586] Kandydat [PID: 417363] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.931]	[Dziekan] [PID: 416586] Kandydat [PID: 417365] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.931]	[Dziekan] [PID: 416586] Kandydat [PID: 417366] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.931]	[Dziekan] [PID: 416586] Kandydat [PID: 417367] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.931]	[Dziekan] [PID: 416586] Kandydat [PID: 417369] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.932]	[Dziekan] [PID: 416586] Kandydat [PID: 417370] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:37.939]	[Dziekan] [PID: 416586] Kandydat [PID: 417372] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.059]	[Dziekan] [PID: 416586] Kandydat [PID: 417373] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.137]	[Dziekan] [PID: 416586] Kandydat [PID: 417375] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.182]	[Dziekan] [PID: 416586] Kandydat [PID: 417376] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.198]	[Dziekan] [PID: 416586] Kandydat [PID: 417377] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.199]	[Dziekan] [PID: 416586] Kandydat [PID: 417379] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.199]	[Dziekan] [PID: 416586] Kandydat [PID: 417381] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.199]	[Dziekan] [PID: 416586] Kandydat [PID: 417382] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.199]	[Dziekan] [PID: 416586] Kandydat [PID: 417383] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.199]	[Dziekan] [PID: 416586] Kandydat [PID: 417385] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.200]	[Dziekan] [PID: 416586] Kandydat [PID: 417386] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.209]	[Dziekan] [PID: 416586] Kandydat [PID: 417388] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.315]	[Dziekan] [PID: 416586] Kandydat [PID: 417389] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.323]	[Dziekan] [PID: 416586] Kandydat [PID: 417391] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.323]	[Dziekan] [PID: 416586] Kandydat [PID: 417392] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.323]	[Dziekan] [PID: 416586] Kandydat [PID: 417394] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.323]	[Dziekan] [PID: 416586] Kandydat [PID: 417395] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:38.323]	[Dziekan] [PID: 416586] Kandydat [PID: 417397] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.323]	[Dziekan] [PID: 416586] Kandydat [PID: 417398] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.324]	[Dziekan] [PID: 416586] Kandydat [PID: 417400] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.350]	[Dziekan] [PID: 416586] Kandydat [PID: 417401] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.353]	[Dziekan] [PID: 416586] Kandydat [PID: 417403] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.461]	[Dziekan] [PID: 416586] Kandydat [PID: 417404] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.486]	[Dziekan] [PID: 416586] Kandydat [PID: 417406] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.486]	[Dziekan] [PID: 416586] Kandydat [PID: 417407] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.486]	[Dziekan] [PID: 416586] Kandydat [PID: 417409] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.486]	[Dziekan] [PID: 416586] Kandydat [PID: 417410] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.486]	[Dziekan] [PID: 416586] Kandydat [PID: 417412] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.486]	[Dziekan] [PID: 416586] Kandydat [PID: 417413] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.486]	[Dziekan] [PID: 416586] Kandydat [PID: 417414] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.487]	[Dziekan] [PID: 416586] Kandydat [PID: 417416] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.487]	[Dziekan] [PID: 416586] Kandydat [PID: 417417] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.487]	[Dziekan] [PID: 416586] Kandydat [PID: 417419] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.487]	[Dziekan] [PID: 416586] Kandydat [PID: 417420] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.487]	[Dziekan] [PID: 416586] Kandydat [PID: 417421] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.487]	[Dziekan] [PID: 416586] Kandydat [PID: 417423] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.487]	[Dziekan] [PID: 416586] Kandydat [PID: 417424] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.487]	[Dziekan] [PID: 416586] Kandydat [PID: 417426] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.487]	[Dziekan] [PID: 416586] Kandydat [PID: 417427] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.487]	[Dziekan] [PID: 416586] Kandydat [PID: 417429] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.487]	[Dziekan] [PID: 416586] Kandydat [PID: 417430] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.488]	[Dziekan] [PID: 416586] Kandydat [PID: 417432] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.488]	[Dziekan] [PID: 416586] Kandydat [PID: 417433] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.488]	[Dziekan] [PID: 416586] Kandydat [PID: 417435] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.488]	[Dziekan] [PID: 416586] Kandydat [PID: 417436] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.488]	[Dziekan] [PID: 416586] Kandydat [PID: 417438] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.488]	[Dziekan] [PID: 416586] Kandydat [PID: 417439] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.488]	[Dziekan] [PID: 416586] Kandydat [PID: 417440] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.488]	[Dziekan] [PID: 416586] Kandydat [PID: 417442] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.488]	[Dziekan] [PID: 416586] Kandydat [PID: 417443] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.488]	[Dziekan] [PID: 416586] Kandydat [PID: 417445] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.488]	[Dziekan] [PID: 416586] Kandydat [PID: 417446] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.489]	[Dziekan] [PID: 416586] Kandydat [PID: 417448] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.489]	[Dziekan] [PID: 416586] Kandydat [PID: 417449] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.489]	[Dziekan] [PID: 416586] Kandydat [PID: 417450] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.489]	[Dziekan] [PID: 416586] Kandydat [PID: 417452] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.489]	[Dziekan] [PID: 416586] Kandydat [PID: 417453] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.494]	[Dziekan] [PID: 416586] Kandydat [PID: 417455] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.495]	[Dziekan] [PID: 416586] Kandydat [PID: 417456] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.495]	[Dziekan] [PID: 416586] Kandydat [PID: 417458] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.495]	[Dziekan] [PID: 416586] Kandydat [PID: 417459] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.495]	[Dziekan] [PID: 416586] Kandydat [PID: 417461] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.495]	[Dziekan] [PID: 416586] Kandydat [PID: 417462] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.496]	[Dziekan] [PID: 416586] Kandydat [PID: 417464] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.496]	[Dziekan] [PID: 416586] Kandydat [PID: 417465] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.496]	[Dziekan] [PID: 416586] Kandydat [PID: 417467] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.496]	[Dziekan] [PID: 416586] Kandydat [PID: 417468] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.496]	[Dziekan] [PID: 416586] Kandydat [PID: 417470] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.496]	[Dziekan] [PID: 416586] Kandydat [PID: 417471] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.497]	[Dziekan] [PID: 416586] Kandydat [PID: 417473] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.497]	[Dziekan] [PID: 416586] Kandydat [PID: 417475] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.497]	[Dziekan] [PID: 416586] Kandydat [PID: 417476] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.497]	[Dziekan] [PID: 416586] Kandydat [PID: 417478] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.497]	[Dziekan] [PID: 416586] Kandydat [PID: 417479] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.497]	[Dziekan] [PID: 416586] Kandydat [PID: 417481] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.498]	[Dziekan] [PID: 416586] Kandydat [PID: 417482] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.498]	[Dziekan] [PID: 416586] Kandydat [PID: 417484] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.498]	[Dziekan] [PID: 416586] Kandydat [PID: 417485] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:38.498]	[Dziekan] [PID: 416586] Kandydat [PID: 417487] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.498]	[Dziekan] [PID: 416586] Kandydat [PID: 417488] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.498]	[Dziekan] [PID: 416586] Kandydat [PID: 417489] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.498]	[Dziekan] [PID: 416586] Kandydat [PID: 417491] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.499]	[Dziekan] [PID: 416586] Kandydat [PID: 417492] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.499]	[Dziekan] [PID: 416586] Kandydat [PID: 417494] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.499]	[Dziekan] [PID: 416586] Kandydat [PID: 417495] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.499]	[Dziekan] [PID: 416586] Kandydat [PID: 417497] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.499]	[Dziekan] [PID: 416586] Kandydat [PID: 417498] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.499]	[Dziekan] [PID: 416586] Kandydat [PID: 417500] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.499]	[Dziekan] [PID: 416586] Kandydat [PID: 417501] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.500]	[Dziekan] [PID: 416586] Kandydat [PID: 417503] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.500]	[Dziekan] [PID: 416586] Kandydat [PID: 417504] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.500]	[Dziekan] [PID: 416586] Kandydat [PID: 417506] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.500]	[Dziekan] [PID: 416586] Kandydat [PID: 417507] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.500]	[Dziekan] [PID: 416586] Kandydat [PID: 417509] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.500]	[Dziekan] [PID: 416586] Kandydat [PID: 417511] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.500]	[Dziekan] [PID: 416586] Kandydat [PID: 417512] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.501]	[Dziekan] [PID: 416586] Kandydat [PID: 417514] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.540]	[Dziekan] [PID: 416586] Kandydat [PID: 417515] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.607]	[Dziekan] [PID: 416586] Kandydat [PID: 417517] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.610]	[Dziekan] [PID: 416586] Kandydat [PID: 417519] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.610]	[Dziekan] [PID: 416586] Kandydat [PID: 417520] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.610]	[Dziekan] [PID: 416586] Kandydat [PID: 417522] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.610]	[Dziekan] [PID: 416586] Kandydat [PID: 417524] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.611]	[Dziekan] [PID: 416586] Kandydat [PID: 417525] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.611]	[Dziekan] [PID: 416586] Kandydat [PID: 417526] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.611]	[Dziekan] [PID: 416586] Kandydat [PID: 417528] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.611]	[Dziekan] [PID: 416586] Kandydat [PID: 417529] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.611]	[Dziekan] [PID: 416586] Kandydat [PID: 417531] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.611]	[Dziekan] [PID: 416586] Kandydat [PID: 417532] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.612]	[Dziekan] [PID: 416586] Kandydat [PID: 417534] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.612]	[Dziekan] [PID: 416586] Kandydat [PID: 417535] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.612]	[Dziekan] [PID: 416586] Kandydat [PID: 417537] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.612]	[Dziekan] [PID: 416586] Kandydat [PID: 417538] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.612]	[Dziekan] [PID: 416586] Kandydat [PID: 417540] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:38.612]	[Dziekan] [PID: 416586] Kandydat [PID: 417541] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.613]	[Dziekan] [PID: 416586] Kandydat [PID: 417543] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.613]	[Dziekan] [PID: 416586] Kandydat [PID: 417544] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.613]	[Dziekan] [PID: 416586] Kandydat [PID: 417546] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.613]	[Dziekan] [PID: 416586] Kandydat [PID: 417547] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.613]	[Dziekan] [PID: 416586] Kandydat [PID: 417549] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.613]	[Dziekan] [PID: 416586] Kandydat [PID: 417551] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.613]	[Dziekan] [PID: 416586] Kandydat [PID: 417552] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.625]	[Dziekan] [PID: 416586] Kandydat [PID: 417554] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.643]	[Dziekan] [PID: 416586] Kandydat [PID: 417555] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.651]	[Dziekan] [PID: 416586] Kandydat [PID: 417557] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.680]	[Dziekan] [PID: 416586] Kandydat [PID: 417558] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.773]	[Dziekan] [PID: 416586] Kandydat [PID: 417560] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.803]	[Dziekan] [PID: 416586] Kandydat [PID: 417561] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.803]	[Dziekan] [PID: 416586] Kandydat [PID: 417563] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.803]	[Dziekan] [PID: 416586] Kandydat [PID: 417564] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.804]	[Dziekan] [PID: 416586] Kandydat [PID: 417566] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.804]	[Dziekan] [PID: 416586] Kandydat [PID: 417567] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.804]	[Dziekan] [PID: 416586] Kandydat [PID: 417569] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.804]	[Dziekan] [PID: 416586] Kandydat [PID: 417570] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.804]	[Dziekan] [PID: 416586] Kandydat [PID: 417572] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.804]	[Dziekan] [PID: 416586] Kandydat [PID: 417573] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.804]	[Dziekan] [PID: 416586] Kandydat [PID: 417575] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.804]	[Dziekan] [PID: 416586] Kandydat [PID: 417576] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.804]	[Dziekan] [PID: 416586] Kandydat [PID: 417577] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.805]	[Dziekan] [PID: 416586] Kandydat [PID: 417579] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.805]	[Dziekan] [PID: 416586] Kandydat [PID: 417580] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.805]	[Dziekan] [PID: 416586] Kandydat [PID: 417582] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.805]	[Dziekan] [PID: 416586] Kandydat [PID: 417583] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.805]	[Dziekan] [PID: 416586] Kandydat [PID: 417585] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.805]	[Dziekan] [PID: 416586] Kandydat [PID: 417586] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.805]	[Dziekan] [PID: 416586] Kandydat [PID: 417588] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:38.805]	[Dziekan] [PID: 416586] Kandydat [PID: 417589] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.805]	[Dziekan] [PID: 416586] Kandydat [PID: 417591] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.806]	[Dziekan] [PID: 416586] Kandydat [PID: 417592] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.806]	[Dziekan] [PID: 416586] Kandydat [PID: 417594] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.806]	[Dziekan] [PID: 416586] Kandydat [PID: 417596] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.806]	[Dziekan] [PID: 416586] Kandydat [PID: 417597] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.806]	[Dziekan] [PID: 416586] Kandydat [PID: 417598] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.806]	[Dziekan] [PID: 416586] Kandydat [PID: 417600] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.806]	[Dziekan] [PID: 416586] Kandydat [PID: 417602] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.806]	[Dziekan] [PID: 416586] Kandydat [PID: 417603] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.806]	[Dziekan] [PID: 416586] Kandydat [PID: 417605] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.807]	[Dziekan] [PID: 416586] Kandydat [PID: 417606] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.807]	[Dziekan] [PID: 416586] Kandydat [PID: 417608] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.807]	[Dziekan] [PID: 416586] Kandydat [PID: 417609] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.807]	[Dziekan] [PID: 416586] Kandydat [PID: 417611] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.807]	[Dziekan] [PID: 416586] Kandydat [PID: 417612] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.807]	[Dziekan] [PID: 416586] Kandydat [PID: 417614] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.807]	[Dziekan] [PID: 416586] Kandydat [PID: 417616] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.807]	[Dziekan] [PID: 416586] Kandydat [PID: 417617] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.807]	[Dziekan] [PID: 416586] Kandydat [PID: 417619] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.807]	[Dziekan] [PID: 416586] Kandydat [PID: 417620] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.807]	[Dziekan] [PID: 416586] Kandydat [PID: 417622] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.808]	[Dziekan] [PID: 416586] Kandydat [PID: 417624] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.808]	[Dziekan] [PID: 416586] Kandydat [PID: 417625] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.808]	[Dziekan] [PID: 416586] Kandydat [PID: 417627] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.808]	[Dziekan] [PID: 416586] Kandydat [PID: 417628] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.808]	[Dziekan] [PID: 416586] Kandydat [PID: 417630] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.808]	[Dziekan] [PID: 416586] Kandydat [PID: 417631] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.808]	[Dziekan] [PID: 416586] Kandydat [PID: 417633] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.808]	[Dziekan] [PID: 416586] Kandydat [PID: 417635] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.808]	[Dziekan] [PID: 416586] Kandydat [PID: 417636] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.809]	[Dziekan] [PID: 416586] Kandydat [PID: 417638] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.828]	[Dziekan] [PID: 416586] Kandydat [PID: 417639] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.837]	[Dziekan] [PID: 416586] Kandydat [PID: 417641] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.850]	[Dziekan] [PID: 416586] Kandydat [PID: 417643] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.851]	[Dziekan] [PID: 416586] Kandydat [PID: 417644] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.851]	[Dziekan] [PID: 416586] Kandydat [PID: 417646] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.851]	[Dziekan] [PID: 416586] Kandydat [PID: 417648] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.851]	[Dziekan] [PID: 416586] Kandydat [PID: 417649] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.851]	[Dziekan] [PID: 416586] Kandydat [PID: 417651] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.851]	[Dziekan] [PID: 416586] Kandydat [PID: 417652] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.851]	[Dziekan] [PID: 416586] Kandydat [PID: 417654] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.851]	[Dziekan] [PID: 416586] Kandydat [PID: 417655] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.852]	[Dziekan] [PID: 416586] Kandydat [PID: 417656] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.852]	[Dziekan] [PID: 416586] Kandydat [PID: 417658] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.852]	[Dziekan] [PID: 416586] Kandydat [PID: 417659] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.852]	[Dziekan] [PID: 416586] Kandydat [PID: 417661] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.852]	[Dziekan] [PID: 416586] Kandydat [PID: 417662] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.852]	[Dziekan] [PID: 416586] Kandydat [PID: 417664] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.852]	[Dziekan] [PID: 416586] Kandydat [PID: 417666] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.852]	[Dziekan] [PID: 416586] Kandydat [PID: 417667] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.852]	[Dziekan] [PID: 416586] Kandydat [PID: 417669] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.852]	[Dziekan] [PID: 416586] Kandydat [PID: 417670] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.853]	[Dziekan] [PID: 416586] Kandydat [PID: 417672] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.853]	[Dziekan] [PID: 416586] Kandydat [PID: 417673] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.853]	[Dziekan] [PID: 416586] Kandydat [PID: 417675] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.853]	[Dziekan] [PID: 416586] Kandydat [PID: 417676] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.853]	[Dziekan] [PID: 416586] Kandydat [PID: 417678] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:38.853]	[Dziekan] [PID: 416586] Kandydat [PID: 417680] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.853]	[Dziekan] [PID: 416586] Kandydat [PID: 417681] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.853]	[Dziekan] [PID: 416586] Kandydat [PID: 417683] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.853]	[Dziekan] [PID: 416586] Kandydat [PID: 417684] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.854]	[Dziekan] [PID: 416586] Kandydat [PID: 417686] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.854]	[Dziekan] [PID: 416586] Kandydat [PID: 417687] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.854]	[Dziekan] [PID: 416586] Kandydat [PID: 417689] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.854]	[Dziekan] [PID: 416586] Kandydat [PID: 417690] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.854]	[Dziekan] [PID: 416586] Kandydat [PID: 417692] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.854]	[Dziekan] [PID: 416586] Kandydat [PID: 417693] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.854]	[Dziekan] [PID: 416586] Kandydat [PID: 417695] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.854]	[Dziekan] [PID: 416586] Kandydat [PID: 417696] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.854]	[Dziekan] [PID: 416586] Kandydat [PID: 417698] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.859]	[Dziekan] [PID: 416586] Kandydat [PID: 417699] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:38.865]	[Dziekan] [PID: 416586] Kandydat [PID: 417701] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.941]	[Dziekan] [PID: 416586] Kandydat [PID: 417702] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.975]	[Dziekan] [PID: 416586] Kandydat [PID: 417704] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.975]	[Dziekan] [PID: 416586] Kandydat [PID: 417705] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.976]	[Dziekan] [PID: 416586] Kandydat [PID: 417707] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:38.981]	[Dziekan] [PID: 416586] Kandydat [PID: 417708] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.042]	[Dziekan] [PID: 416586] Kandydat [PID: 417710] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.045]	[Dziekan] [PID: 416586] Kandydat [PID: 417711] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417713] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417714] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417716] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417717] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417718] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417720] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417721] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417723] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417724] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417726] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417727] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417729] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417730] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417732] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417733] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417735] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417736] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.046]	[Dziekan] [PID: 416586] Kandydat [PID: 417738] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.047]	[Dziekan] [PID: 416586] Kandydat [PID: 417739] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.047]	[Dziekan] [PID: 416586] Kandydat [PID: 417741] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.047]	[Dziekan] [PID: 416586] Kandydat [PID: 417743] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.047]	[Dziekan] [PID: 416586] Kandydat [PID: 417744] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.047]	[Dziekan] [PID: 416586] Kandydat [PID: 417746] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.047]	[Dziekan] [PID: 416586] Kandydat [PID: 417747] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.047]	[Dziekan] [PID: 416586] Kandydat [PID: 417749] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.048]	[Dziekan] [PID: 416586] Kandydat [PID: 417750] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.048]	[Dziekan] [PID: 416586] Kandydat [PID: 417752] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.048]	[Dziekan] [PID: 416586] Kandydat [PID: 417753] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.048]	[Dziekan] [PID: 416586] Kandydat [PID: 417754] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.048]	[Dziekan] [PID: 416586] Kandydat [PID: 417756] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.048]	[Dziekan] [PID: 416586] Kandydat [PID: 417757] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.048]	[Dziekan] [PID: 416586] Kandydat [PID: 417759] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.049]	[Dziekan] [PID: 416586] Kandydat [PID: 417760] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.049]	[Dziekan] [PID: 416586] Kandydat [PID: 417762] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.049]	[Dziekan] [PID: 416586] Kandydat [PID: 417763] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.049]	[Dziekan] [PID: 416586] Kandydat [PID: 417764] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:39.050]	[Dziekan] [PID: 416586] Kandydat [PID: 417765] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.050]	[Dziekan] [PID: 416586] Kandydat [PID: 417767] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.050]	[Dziekan] [PID: 416586] Kandydat [PID: 417768] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.050]	[Dziekan] [PID: 416586] Kandydat [PID: 417770] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.050]	[Dziekan] [PID: 416586] Kandydat [PID: 417771] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.050]	[Dziekan] [PID: 416586] Kandydat [PID: 417773] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.050]	[Dziekan] [PID: 416586] Kandydat [PID: 417774] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.051]	[Dziekan] [PID: 416586] Kandydat [PID: 417776] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.051]	[Dziekan] [PID: 416586] Kandydat [PID: 417777] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.051]	[Dziekan] [PID: 416586] Kandydat [PID: 417778] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.051]	[Dziekan] [PID: 416586] Kandydat [PID: 417780] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.051]	[Dziekan] [PID: 416586] Kandydat [PID: 417781] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.051]	[Dziekan] [PID: 416586] Kandydat [PID: 417783] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.052]	[Dziekan] [PID: 416586] Kandydat [PID: 417784] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.099]	[Dziekan] [PID: 416586] Kandydat [PID: 417786] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:39.151]	[Dziekan] [PID: 416586] Kandydat [PID: 417787] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.151]	[Dziekan] [PID: 416586] Kandydat [PID: 417789] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.152]	[Dziekan] [PID: 416586] Kandydat [PID: 417790] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.152]	[Dziekan] [PID: 416586] Kandydat [PID: 417792] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.152]	[Dziekan] [PID: 416586] Kandydat [PID: 417793] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.152]	[Dziekan] [PID: 416586] Kandydat [PID: 417795] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.152]	[Dziekan] [PID: 416586] Kandydat [PID: 417796] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.152]	[Dziekan] [PID: 416586] Kandydat [PID: 417798] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.152]	[Dziekan] [PID: 416586] Kandydat [PID: 417799] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.152]	[Dziekan] [PID: 416586] Kandydat [PID: 417801] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.152]	[Dziekan] [PID: 416586] Kandydat [PID: 417802] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.152]	[Dziekan] [PID: 416586] Kandydat [PID: 417804] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.152]	[Dziekan] [PID: 416586] Kandydat [PID: 417805] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.152]	[Dziekan] [PID: 416586] Kandydat [PID: 417806] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.152]	[Dziekan] [PID: 416586] Kandydat [PID: 417808] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.152]	[Dziekan] [PID: 416586] Kandydat [PID: 417809] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.153]	[Dziekan] [PID: 416586] Kandydat [PID: 417811] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.153]	[Dziekan] [PID: 416586] Kandydat [PID: 417812] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.153]	[Dziekan] [PID: 416586] Kandydat [PID: 417814] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.153]	[Dziekan] [PID: 416586] Kandydat [PID: 417815] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.153]	[Dziekan] [PID: 416586] Kandydat [PID: 417817] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.153]	[Dziekan] [PID: 416586] Kandydat [PID: 417818] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.153]	[Dziekan] [PID: 416586] Kandydat [PID: 417820] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.154]	[Dziekan] [PID: 416586] Kandydat [PID: 417822] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.154]	[Dziekan] [PID: 416586] Kandydat [PID: 417823] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.154]	[Dziekan] [PID: 416586] Kandydat [PID: 417825] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.154]	[Dziekan] [PID: 416586] Kandydat [PID: 417826] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.154]	[Dziekan] [PID: 416586] Kandydat [PID: 417828] skierowany do komisji A [PID: 416587] |	 Kandydat zdał teorię wcześniej
+[Czas: 12:12:39.155]	[Dziekan] [PID: 416586] Kandydat [PID: 417830] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.155]	[Dziekan] [PID: 416586] Kandydat [PID: 417831] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.155]	[Dziekan] [PID: 416586] Kandydat [PID: 417833] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.155]	[Dziekan] [PID: 416586] Kandydat [PID: 417834] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.155]	[Dziekan] [PID: 416586] Kandydat [PID: 417836] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.155]	[Dziekan] [PID: 416586] Kandydat [PID: 417837] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.155]	[Dziekan] [PID: 416586] Kandydat [PID: 417839] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.155]	[Dziekan] [PID: 416586] Kandydat [PID: 417840] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.155]	[Dziekan] [PID: 416586] Kandydat [PID: 417842] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417843] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417845] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417846] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417848] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417849] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417851] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417852] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417854] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417856] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.156]	[Dziekan] [PID: 416586] Kandydat [PID: 417857] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.157]	[Dziekan] [PID: 416586] Kandydat [PID: 417859] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.157]	[Dziekan] [PID: 416586] Kandydat [PID: 417860] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.157]	[Dziekan] [PID: 416586] Kandydat [PID: 417862] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.157]	[Dziekan] [PID: 416586] Kandydat [PID: 417864] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.157]	[Dziekan] [PID: 416586] Kandydat [PID: 417865] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.158]	[Dziekan] [PID: 416586] Kandydat [PID: 417867] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.158]	[Dziekan] [PID: 416586] Kandydat [PID: 417868] zarejestrowany w systemie, ale odrzucony (Brak Matury).
+[Czas: 12:12:39.158]	[Dziekan] [PID: 416586] Kandydat [PID: 417870] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.159]	[Dziekan] [PID: 416586] Kandydat [PID: 417871] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.159]	[Dziekan] [PID: 416586] Kandydat [PID: 417873] skierowany do komisji A [PID: 416587]
+[Czas: 12:12:39.159]	[Dziekan] [PID: 416586] Zakończono wpuszczanie. Czekam aż wszyscy studenci zakończą egzaminy...
+[Czas: 12:12:40.494]	[Dziekan] [PID: 416586] Wszyscy kandydaci zakończyli proces. Zamykam komisje.
+[Czas: 12:12:40.495]	
+[Dziekan] [PID: 416586] Generuję listy rankingowe...
+[Czas: 12:12:40.513]	[Dziekan] [PID: 416586] Raporty gotowe (Limit przyjęć: 1500).

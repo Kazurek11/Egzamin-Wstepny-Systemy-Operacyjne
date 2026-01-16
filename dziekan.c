@@ -147,7 +147,7 @@ int main() {
     sem_unlink(KOLEJKA_KOMISJA_B);
     sem_unlink(WOLNE_MIEJSCA_KOMISJA_A);
     sem_unlink(WOLNE_MIEJSCA_KOMISJA_B);
-    sem_unlink(SEM_LOG_KEY);
+    // sem_unlink(SEM_LOG_KEY);
     sem_unlink(SEM_SYNC_START);
     sem_unlink(SEM_LICZNIK_KONCA); 
 

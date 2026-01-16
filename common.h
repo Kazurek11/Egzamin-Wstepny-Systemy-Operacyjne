@@ -24,14 +24,14 @@
 #include <string.h>      
 #include <stdarg.h>
 
-#define GODZINA_T 2         
-#define GODZINA_Ti 200
+#define GODZINA_T 5         
+#define GODZINA_Ti 300
 
-#define MAX_KANDYDATOW 1200
-#define LICZBA_KANDYDATOW 1200
+#define MAX_KANDYDATOW 1000
+#define LICZBA_KANDYDATOW 1000
 #define CHETNI_NA_MIEJSCE 10
-#define LIMIT_PRZYJEC (LICZBA_KANDYDATOW / CHETNI_NA_MIEJSCE)
-#define SZANSA_NA_BRAK_MATURY 2
+#define LIMIT_PRZYJEC 1500 //(LICZBA_KANDYDATOW / CHETNI_NA_MIEJSCE)
+#define SZANSA_NA_BRAK_MATURY 20
 #define SZANSA_NA_ZDANA_TEORIE 2
 
 #define FIFO_WEJSCIE "kolejka_przed_wydzialem"
@@ -42,7 +42,7 @@
 #define WOLNE_MIEJSCA_KOMISJA_A "/sem_miejsca_a" 
 #define WOLNE_MIEJSCA_KOMISJA_B "/sem_miejsca_b" 
 
-#define SEM_LOG_KEY "/sem_logger_synchronizacja"
+// #define SEM_LOG_KEY "/sem_logger_synchronizacja"
 #define SEM_SYNC_START "/sem_sync_kolejnosc"
 
 #define SEM_LICZNIK_KONCA "/sem_licznik_zakonczonych_spraw"

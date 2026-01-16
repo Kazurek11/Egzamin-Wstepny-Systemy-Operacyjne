@@ -95,7 +95,7 @@ int main(int argc, char *argv[]) {
     }
     pthread_mutex_unlock(&egzamin->mutex_rejestracji);
     // ---------------------------------------------------
-
+    
     Student *kandydat = &egzamin->lista[moj_index];
 
     while (1) {
@@ -111,23 +111,45 @@ int main(int argc, char *argv[]) {
         }
 
         if (kandydat->status_arkusza == 1) {
-            int aktualny_status = kandydat->status;
             int limit_pytan = 0;
 
-            if (aktualny_status == 1 || aktualny_status == 11) {
-                limit_pytan = LICZBA_EGZAMINATOROW_A;
-            } else if (aktualny_status == 2 || aktualny_status == 22) {
-                limit_pytan = LICZBA_EGZAMINATOROW_B;
+            // Dynamiczne zliczanie pytań z pamięci dzielonej (sprawdzamy > 0)
+            for (int i = 0; i < 5; i++) {
+                if (kandydat->pytania[i] > 0) {
+                    limit_pytan++;
+                }
             }
 
             dodaj_do_loggera(plik_logu, "[Kandydat] [PID: %d] \t Otrzymałem %d pytań! Odpowiadam...\n", getpid(), limit_pytan);
             
             // sleep_ms(GODZINA_Ti); 
 
-            for (int i = 0; i < limit_pytan; i++) {
-                int pytanie = kandydat->pytania[i];
-                int odpowiedz = pytanie + (rand() % 10) + 1; 
-                kandydat->odpowiedzi[i] = odpowiedz;
+            // Definiujemy typ komisji na podstawie statusu (przed pętlą)
+            char typ_komisji = (kandydat->status == 11 || kandydat->status == 1) ? 'A' : 'B';
+
+            // Iterujemy po całej tablicy i odpowiadamy tam, gdzie są pytania
+            for (int i = 0; i < 5; i++) {
+                if (kandydat->pytania[i] > 0) {
+                    // Pobieramy dane z pamięci dzielonej
+                    int pytanie = kandydat->pytania[i];
+                    int id_egzaminatora = kandydat->id_egzaminatora[i];
+                    
+                    // Określamy typ egzaminatora (0 = Przewodniczący, inni = Członkowie)
+                    char typ_egzaminatora = (id_egzaminatora == 0) ? 'P' : 'C';
+
+                    int odpowiedz = pytanie + (rand() % 10) + 1; 
+                    kandydat->odpowiedzi[i] = odpowiedz;
+
+                    dodaj_do_loggera(plik_logu, 
+                        "[Kandydat] [PID: %d] \t [Komisja %c] Pytanie: %d o numerze %d od Egzaminatora [%c] [ID: %d] \t Moja odpowiedź to: %d.\n", 
+                        getpid(),
+                        typ_komisji, 
+                        pytanie, 
+                        i + 1,
+                        typ_egzaminatora,
+                        id_egzaminatora,
+                        odpowiedz);
+                }
             }
 
             kandydat->status_arkusza = 2; // Gotowe

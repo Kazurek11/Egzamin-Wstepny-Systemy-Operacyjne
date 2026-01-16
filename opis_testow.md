@@ -1,7 +1,5 @@
 - testowanie zabicia procesu kandydata podczas symulacji
   oczekiwany wynik: Kandydat dojdzie do komisji a tam na odpowiedz na pytania ma max 2s. Po tym czasie kandydat zmienia status w Student w środku pamieci dzielonej na 3 (koniec).
-- testowanie zawieszenia procesu kandydata podczas symulacji
-  oczekiwany wynik: Wszystkie procesy zostana zastopowane i po wpisaniu `fg` wszystko wróci do działania.
 - testowanie zachowania programu kiedy 100%/99% nie zda matury.
   oczekiwany wynik: W momencie gdy `SZANSA_NA_ZDANA_TEORIE == 0` to zaden z uczestników nie powinien zdawać mature.
 - testowanie zachowania programu w momencie gdy wszyscy uczestnicy będą mieli zdana czesc teoretyczna.
