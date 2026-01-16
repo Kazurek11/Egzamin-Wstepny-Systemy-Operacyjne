@@ -44,10 +44,6 @@ Raport z przebiegu symulacji zapisać w pliku (plikach) tekstowym.
 
 ## Problematyka
 
-Oto kompletna, bardzo szczegółowa dokumentacja, podzielona na logiczne moduły, ale zachowująca chronologię wydarzeń i wszystkie niuanse techniczne, o które prosiłeś (w tym dokładne wyjaśnienie barier, atrybutów mutexów i logiki semaforów).
-
-Tekst jest sformatowany w stylu akademickim/inżynierskim.
-
 ---
 
 ## 4. Przebieg inicjalizacji i struktura procesów symulacji
