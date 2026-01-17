@@ -226,7 +226,7 @@ Po uruchomieniu kandydat wykonuje następujące kroki:
 
 1. **Losowanie atrybutów:** Zgodnie z logiką (zdana teoria -> zdana matura), najpierw losowane jest 2% kandydatów ze zdaną teorią. Z pozostałej puli losowane jest 2% pechowców bez zdanej matury. Reszta otrzymuje zdaną maturę bez teorii.
 2. **Wysłanie zgłoszenia:** Kandydat wysyła strukturę `Zgloszenie` przez kolejkę FIFO do Dziekana.
-3. **Selekcja wstępna:** Jeśli wylosowano brak matury, proces kończy działanie zaraz po wysłaniu zgłoszenia a Dziekan odnotowuje jego wykluczenie z dalszej rekturacji -> obniża semafor `SEM_LICZNIK_KONCA` (opis w sekcji 4.5).
+3. **Selekcja wstępna:** Jeśli wylosowano brak matury, proces kończy działanie zaraz po wysłaniu zgłoszenia a Dziekan odnotowuje jego wykluczenie z dalszej rekturacji -> obniża semafor `SEM_LICZNIK_KONCA` (opis w sekcji 2.5).
 4. **Dostęp do Pamięci Dzielonej:** Kandydaci z maturą mapują pamięć (`mmap`). W przypadku błędu mapowania proces kończy działanie.
 5. **Oczekiwanie na rejestrację:** Kandydat wchodzi w sekcję krytyczną (`mutex_rejestracji`). Sprawdza, czy został wpisany na listę. Jeśli nie, zasypia na zmiennej warunkowej `cond_rejestracji`, czekając na sygnał `broadcast` od Dziekana.
 
@@ -483,7 +483,6 @@ Na samym końcu Przewodniczący wykonuje procedurę czyszczenia po obsłużonym 
 2. Oznacza stolik jako wolny (`zajete = 0`) i podnosi semafor `WOLNE_MIEJSCA_KOMISJA_X`, umożliwiając rozpoczęcie egzaminu dla kolejnej osoby z kolejki.
 
 Tym samym cykl obsługi jednego kandydata przez komisję zostaje zamknięty, a przewodniczący wraca na początek pętli głównej (`while(1)`), oczekując na kolejne zgłoszenia.
-Oto kompletna i sformatowana końcowa część dokumentacji, uwzględniająca logikę zarządzania procesami przez Dziekana oraz działanie raportowania.
 
 ---
 
@@ -1165,7 +1164,7 @@ Test 4.3 zakończył się pełnym sukcesem. System poprawnie obsłużył ścież
 
 ---
 
-## 4.4. Weryfikacja mechanizmu limitów przyjęć (Numerus Clausus)
+## 4.4. Weryfikacja mechanizmu limitów przyjęć
 
 Celem tej serii testów nie jest sprawdzenie przebiegu samego egzaminu (komisje pracują standardowo), lecz weryfikacja logiki post-processingu w procesie Dziekana. Testy mają na celu potwierdzenie, że funkcja `generuj_raporty()` poprawnie sortuje kandydatów i odcina osoby, które zdały egzamin, ale nie zmieściły się w limicie miejsc.
 
@@ -1389,96 +1388,98 @@ Poniżej przedstawiono zestawienie wykorzystanych w projekcie funkcji systemowyc
 
 Zastosowano niskopoziomowe operacje wejścia/wyjścia do obsługi potoków nazwanych oraz standardowe I/O do obsługi logów i raportów.
 
-* **`open()`** - [[Kandydat] Otwarcie potoku FIFO i wysłanie struktury zgłoszenia przez Kandydata.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/be18b7eae0fccc711c2f3cb5a19f8a7750a6690e/kandydat.c#L36)
-* **`write()`** - [[Kandydat] Wysłanie zgloszenia przez kandydata](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/kandydat.c#L47)
+* **`open()`** - [[Kandydat] Otwarcie potoku FIFO i wysłanie struktury zgłoszenia przez Kandydata.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/kandydat.c#L34)
 
-* **`close()`**- [[Dziekan] Zamkniecie fifo](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L356)
+* **`write()`** - [[Kandydat] Wysłanie zgloszenia przez kandydata](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/kandydat.c#L47)
 
-* **`read()`** - [[Dziekan] Odczyt zgłoszeń z potoku FIFO przez proces Dziekana.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L303)
+* **`close()`**- [[Dziekan] Zamknięcie fifo](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L356)
 
-* **`unlink()`** - [[Dziekan] Usunięcie pliku potoku nazwanego(FIFO) z systemu plików po zakończeniu symulacji.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L357)
+* **`read()`** - [[Dziekan] Odczyt zgłoszeń z potoku FIFO przez proces Dziekana.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L303)
 
-* **`fopen()`** - [[Dziekan] Generowanie trwałych plików z wynikami (Listy Rankingowe).](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L38)
+* **`unlink()`** - [[Dziekan] Usunięcie pliku potoku nazwanego(FIFO) z systemu plików po zakończeniu symulacji.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L357)
 
-* **`fprintf()`** – [[Logger] Generowanie trwałych plików z wynikami (Listy Rankingowe)](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/common.h#L134)
+* **`fopen()`** - [[Dziekan] Generowanie trwałych plików z wynikami (Listy Rankingowe).](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L38)
 
-* **`fclose()`** [[Dziekan] Generowanie trwałych plików z wynikami (Listy Rankingowe).](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L66)
+* **`fprintf()`** – [[Logger] Generowanie trwałych plików z wynikami (Listy Rankingowe)](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/common.h#L134)
+
+* **`fclose()`** [[Dziekan] Generowanie trwałych plików z wynikami (Listy Rankingowe).](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L66)
 
 ### 6.2. Tworzenie procesów
 
 Zarządzanie cyklem życia procesów realizowane jest przez proces zarządcy (Dziekana).
 
-* **`fork()`** – [[Dziekan] Utworzenie nowego procesu kandydatów.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L267)
+* **`fork()`** – [[Dziekan] Utworzenie nowego procesu kandydatów.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L267)
 
-* **`execl()`** – [[Dziekan] Nadpisanie obrazu procesu kodem programu potomnego komisji.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L239)
+* **`execl()`** – [[Dziekan] Nadpisanie obrazu procesu kodem programu potomnego komisji.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L239)
 
-* **`wait()`** –  [[Dziekan] Czekania na zakończenie procesów w kodzie rodzica.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L375)
+* **`wait()`** –  [[Dziekan] Czekania na zakończenie procesów w kodzie rodzica.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L375)
 
-* **`waitpid()`** - [[Dziekan] Obieranie bez blokowania się zwłok procesów potomnych (sprzatanie zoombie).](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/bf8e8004d1e100064a459f56cd43bbe013f766d9/dziekan.c#L111)
+* **`waitpid()`** - [[Dziekan] Obieranie bez blokowania się zwłok procesów potomnych (sprzątanie zombie).](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L111)
 
-* **`exit()`** - [[Dziekan] Kontrolowane zakończenie procesu w przypadku błędu `execl` lub sygnału.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/dziekan.c#L240)
+* **`exit()`** - [[Dziekan] Kontrolowane zakończenie procesu w przypadku błędu `execl` lub sygnału.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L240)
 
 ### 6.3. Tworzenie i obsługa wątków
 
 Wielowątkowość wykorzystano w procesach Komisji do równoległej obsługi wielu stanowisk egzaminacyjnych.
 
-* **`pthread_create()`** - [[Komisja] Utworzenie puli wątków egzaminatorów](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/komisja.c#L600)
+* **`pthread_create()`** - [[Komisja] Utworzenie puli wątków egzaminatorów](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/komisja.c#L600)
   
-* **`pthread_join()`** - [[Komisja] Oczekiwanie na wykonanie zadań przez pule wątków egzaminatorów](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/komisja.c#L609)
+* **`pthread_join()`** - [[Komisja] Oczekiwanie na wykonanie zadań przez pule wątków egzaminatorów](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/komisja.c#L609)
 
-* **`pthread_mutex_lock()`**, **`pthread_mutex_unlock()`** –  [[Komisja] Ochrona sekcji krytycznych (dostęp do danych stolika i rekrutacja wątków).](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/komisja.c#L37-L40)
+* **`pthread_mutex_lock()`**, **`pthread_mutex_unlock()`** –  [[Komisja] Ochrona sekcji krytycznych (dostęp do danych stolika i rekrutacja wątków).](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/komisja.c#L37-L40)
 
-* **`pthread_cond_wait()`** – [[Komisja] Informacja dla watków aby zasnał i czekał na sygnał egzaminujacego (zabiera CPU)](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/komisja.c#L125)
+* **`pthread_cond_wait()`** – [[Komisja] Informacja dla watków aby zasnał i czekał na sygnał egzaminujacego (zabiera CPU)](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/komisja.c#L125)
 
-* **`pthread_cond_signal()`** – [[Komisja] Sygnał dla procesu kandydata informujacy o wyłanych pytaniach przez komisje](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/komisja.c#L260)
+* **`pthread_cond_signal()`** – [[Komisja] Sygnał dla procesu kandydata informujacy o wyłanych pytaniach przez komisje](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/komisja.c#L260)
 
 * **`pthread_cond_broadcast()`**
-[[Komisja] Obudzenie człnków do pracy przy stoliku *powiazane z pthread_cond_wait()*](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/komisja.c#L233)
+[[Komisja] Obudzenie człnków do pracy przy stoliku *powiazane z pthread_cond_wait()*](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/komisja.c#L233)
 
-* **`pthread_cond_timedwait()`** – [[Komisja] Oczekiwanie na odpowiedź kandydata z mechanizmem timeoutu](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/komisja.c#L270)
+* **`pthread_cond_timedwait()`** – [[Komisja] Oczekiwanie na odpowiedź kandydata z mechanizmem timeoutu](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/komisja.c#L270)
 
-* **`pthread_barrier_wait()`** – [[Komisja] Synchronizacja grupowa, zbiórka członków komisji przy stoliku](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/komisja.c#L237)
+* **`pthread_barrier_wait()`** – [[Komisja] Synchronizacja grupowa, zbiórka członków komisji przy stoliku](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/komisja.c#L237)
 
 ### 6.4. Obsługa sygnałów
 
 System reaguje na sygnały systemowe w celu zapewnienia stabilności i obsługi ewakuacji.
 
-* **`sigaction()`** – [[Dziekan] Rejestracja zaawansowanych handlerów dla `SIGCHLD`.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/dziekan.c#L142C5-L142C14)
+* **`sigaction()`** – [[Dziekan] Rejestracja zaawansowanych handlerów dla `SIGCHLD`.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L142C5-L142C14)
 
-* **`kill()`** – [[Dziekan] Wysłanie sygnału kończącego (`SIGTERM`) do grupy procesów komisji.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/dziekan.c#L371)
+* **`kill()`** – [[Dziekan] Wysłanie sygnału kończącego (`SIGTERM`) do grupy procesów komisji.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L371)
 
 ### 6.5. Synchronizacja procesów (Semafory POSIX)
 
 Do sterowania przepływem kandydatów między instancjami (Dziekan -> A -> B) wykorzystano semafory nazwane.
 
-* **`sem_open()`**, **`sem_close()`** - [[Dziekan] Tworzenie semaforów z flaga O_CREATE oraz zamykanie nieuzywanych w procesie](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/dziekan.c#L213-L226)
+* **`sem_open()`**, **`sem_close()`** - [[Dziekan] Tworzenie semaforów z flaga O_CREATE oraz zamykanie nieuzywanych w procesie](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L213-L226)
 
-* **`sem_unlink()`** - [[Dziekan] Czyszczenie zasobów przed uruchomieniem symulacji.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/dziekan.c#L153-L159)
+* **`sem_unlink()`** - [[Dziekan] Czyszczenie zasobów przed uruchomieniem symulacji.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L153-L159)
 
-* **`sem_wait()`** -[[Komisja] Blokowanie procesu Komisji w oczekiwaniu na kandydata.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/komisja.c#L172)
+* **`sem_wait()`** -[[Komisja] Blokowanie procesu Komisji w oczekiwaniu na kandydata.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/komisja.c#L172)
 
-* **`sem_post()`** – [[Dziekan] Sygnalizowanie Komisji dostępności kandydata przez Dziekana.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/dziekan.c#L331-L337)
+* **`sem_post()`** – [[Dziekan] Sygnalizowanie Komisji dostępności kandydata przez Dziekana.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L331-L337)
 
 ### 6.6. Łącza nazwane (FIFO)
 
 Kanał komunikacyjny służący do przesyłania struktur zgłoszeniowych od Kandydatów do Dziekana.
 
-* **`mkfifo()`** – [[Dziekan] Utworzenie pliku specjalnego kolejki FIFO z minimalnymi prawami.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/dziekan.c#L166)
+* **`mkfifo()`** – [[Dziekan] Utworzenie pliku specjalnego kolejki FIFO z minimalnymi prawami.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L166)
 
 ### 6.7. Segmenty pamięci dzielonej (POSIX SHM)
 
 Główny magazyn danych (tablica studentów) współdzielony między wszystkimi procesami symulacji.
 
-* **`shm_open()`**, **`ftruncate()`**, **`mmap()`** - [[Dziekan] Utworzenie, nadanie rozmiaru i zmapowanie obiektu pamięci.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/dziekan.c#L176-L183)
+* **`shm_open()`**, **`ftruncate()`**, **`mmap()`** - [[Dziekan] Utworzenie, nadanie rozmiaru i zmapowanie obiektu pamięci.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L176-L183)
 
-* **`shm_unlink()`** - [[Dziekan] Usunięcie obiektu pamięci z systemu po zakończeniu symulacji.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/dziekan.c#L167)
+* **`shm_unlink()`** - [[Dziekan] Usunięcie obiektu pamięci z systemu po zakończeniu symulacji.](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L167)
 
-* **Atrybut `PTHREAD_PROCESS_SHARED`** - [[Dziekan] Konfiguracja mutexów i zmiennych warunkowych do pracy w pamięci dzielonej (między procesami](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/0c3e33182ebb1867013141757f2b2502aef94ee2/dziekan.c#L194-L197)
+* **Atrybut `PTHREAD_PROCESS_SHARED`** - [[Dziekan] Konfiguracja mutexów i zmiennych warunkowych do pracy w pamięci dzielonej (między procesami](https://github.com/Kazurek11/Egzamin-Wstepny-Systemy-Operacyjne/blob/main/dziekan.c#L194-L197)
+
 ## 7. Podsumowanie
 
 ### 7.1. Wyzwania projektowe
 
-Projekt wymagał głebokiego zastanowienia i analizy treści zadania. Jeszcze trudniejsza okazała się implemetnacja struktur i implementacja wszytskich procesów oraz wątków wykorzystywanych do realizacji symulacji. Największym wyzwaniem okazało się zaprojektowanie struktury pamięci dzielonej w taki sposób, aby była czytelna i stosunkowo optymalna pod kątem wydajności. Zależało mi, aby symulacja działała możliwie jak najwydajniej, bez polegania na sztywnych ograniczeniach czasowych (np. sleep) jako metodzie synchronizacji.
+Projekt wymagał głebokiego zastanowienia i analizy treści zadania. Jeszcze trudniejsza okazała się implemetnacja struktur i implementacja wszytskich procesów oraz wątków wykorzystywanych do realizacji symulacji. Największym wyzwaniem okazało się zaprojektowanie struktury pamięci dzielonej w taki sposób, aby była czytelna i stosunkowo optymalna pod kątem wydajności. Zależało mi, aby symulacja działała możliwie jak najwydajniej, bez polegania na sztywnych ograniczeniach czasowych (np. `sleep`) jako metodzie synchronizacji.
 
 ### 7.2. Optymalizacja struktury danych i zarządzania zasobami
 
