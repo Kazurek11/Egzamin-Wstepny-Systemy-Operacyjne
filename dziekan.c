@@ -99,6 +99,16 @@ void handler_ewakuacji(int sig) {
     rekrutacja_zakonczona = 1; // Blokujemy handler śmierci dziecka
     generuj_raporty();         // Zapisujemy to co mamy
     kill(0, SIGTERM);          // Zabijamy wszystko
+    
+    // Sprzątanie awaryjne (również tutaj warto to dodać dla czystości)
+    sem_unlink(KOLEJKA_KOMISJA_A);
+    sem_unlink(KOLEJKA_KOMISJA_B);
+    sem_unlink(WOLNE_MIEJSCA_KOMISJA_A);
+    sem_unlink(WOLNE_MIEJSCA_KOMISJA_B);
+    sem_unlink(SEM_SYNC_START);
+    sem_unlink(SEM_LICZNIK_KONCA); 
+    shm_unlink(SHM_NAME);
+
     exit(0);
 }
 
@@ -123,6 +133,16 @@ void handler_smierci_dziecka(int sig) {
                 
                 generuj_raporty(); // Ratujemy dane przy awarii
                 kill(0, SIGTERM); 
+                
+                // Sprzątanie awaryjne
+                sem_unlink(KOLEJKA_KOMISJA_A);
+                sem_unlink(KOLEJKA_KOMISJA_B);
+                sem_unlink(WOLNE_MIEJSCA_KOMISJA_A);
+                sem_unlink(WOLNE_MIEJSCA_KOMISJA_B);
+                sem_unlink(SEM_SYNC_START);
+                sem_unlink(SEM_LICZNIK_KONCA); 
+                shm_unlink(SHM_NAME);
+
                 exit(1);
             }
         }
@@ -149,12 +169,11 @@ int main() {
     sigaction(SIGINT, &sa_ewakuacja, NULL);
     sigaction(SIGUSR1, &sa_ewakuacja, NULL);
     
-    // Sprzątanie starych semaforów przed uruchomieniem
+    // Sprzątanie starych semaforów przed uruchomieniem (na wypadek złego zamknięcia wcześniej)
     sem_unlink(KOLEJKA_KOMISJA_A);
     sem_unlink(KOLEJKA_KOMISJA_B);
     sem_unlink(WOLNE_MIEJSCA_KOMISJA_A);
     sem_unlink(WOLNE_MIEJSCA_KOMISJA_B);
-    // sem_unlink(SEM_LOG_KEY);
     sem_unlink(SEM_SYNC_START);
     sem_unlink(SEM_LICZNIK_KONCA); 
 
@@ -383,6 +402,15 @@ int main() {
     dodaj_do_loggera(plik_logu, "[Dziekan] [PID: %d] Raporty gotowe (Limit przyjęć: %d).\n", (int)getpid(), LIMIT_PRZYJEC);
     
     if (plik_logu) fclose(plik_logu);
+    
+    // Ostateczne sprzątanie zasobów systemowych IPC (usuwanie plików semaforów i pamięci dzielonej)
+    sem_unlink(KOLEJKA_KOMISJA_A);
+    sem_unlink(KOLEJKA_KOMISJA_B);
+    sem_unlink(WOLNE_MIEJSCA_KOMISJA_A);
+    sem_unlink(WOLNE_MIEJSCA_KOMISJA_B);
+    sem_unlink(SEM_SYNC_START);
+    sem_unlink(SEM_LICZNIK_KONCA); 
     shm_unlink(SHM_NAME); 
+    
     return 0;
 }

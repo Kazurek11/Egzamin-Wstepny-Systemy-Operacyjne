@@ -26,17 +26,17 @@
 #include <stdarg.h>
 
 // --- KONFIGURACJA SYMULACJI ---
-#define GODZINA_T 5         // Czas oczekiwania na rozpoczęcie egzaminu (w sekundach)
-#define GODZINA_Ti 300      // Jednostka czasu symulacji (np. czas pisania odpowiedzi)
+#define GODZINA_T 3         // Czas oczekiwania na rozpoczęcie egzaminu (w sekundach)
+#define GODZINA_Ti 200      // Jednostka czasu symulacji (np. czas pisania odpowiedzi)
 
 // --- PARAMETRY REKRUTACJI ---
-#define MAX_KANDYDATOW 1000 // Maksymalna pojemność systemu
-#define LICZBA_KANDYDATOW 1000 // Ilu kandydatów faktycznie generujemy
+#define MAX_KANDYDATOW 1200 // Maksymalna pojemność systemu
+#define LICZBA_KANDYDATOW 1200 // Ilu kandydatów faktycznie generujemy
 #define CHETNI_NA_MIEJSCE 10   // Współczynnik trudności dostania się
-#define LIMIT_PRZYJEC 1500     // Limit miejsc na roku (może być wyliczany lub stały)
+#define LIMIT_PRZYJEC (LICZBA_KANDYDATOW / CHETNI_NA_MIEJSCE)    // Limit miejsc na roku (może być wyliczany lub stały)
 
 // Szanse (w procentach) na posiadanie określonych cech przez kandydata
-#define SZANSA_NA_BRAK_MATURY 20
+#define SZANSA_NA_BRAK_MATURY 2
 #define SZANSA_NA_ZDANA_TEORIE 2
 
 // --- KOMUNIKACJA MIĘDZYPROCESOWA (IPC) ---
@@ -188,7 +188,7 @@ typedef struct {
 #define LICZBA_EGZAMINATOROW_A 5 // Skład komisji A (1 Przew. + 4 Członków)
 #define LICZBA_EGZAMINATOROW_B 3 // Skład komisji B (1 Przew. + 2 Członków)
 #define LICZBA_KOMISJI 2
-
+#define TIMEOUT 2 // timeout dla kandydata po którym zostaje zdyskfalifikowany u komisji
 // Struktura opisująca pojedynczy stolik egzaminacyjny (lokalna dla procesu komisji)
 typedef struct {
     int id_kandydata;              // Kto siedzi przy stoliku?

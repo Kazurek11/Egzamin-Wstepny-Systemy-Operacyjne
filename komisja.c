@@ -262,7 +262,7 @@ void* przewodniczacy_komisji_A(void* arg){
         // Ustawiam timeout 2 sekundy na odpowiedź
         struct timespec ts;
         clock_gettime(CLOCK_REALTIME, &ts);
-        ts.tv_sec += 2; 
+        ts.tv_sec += TIMEOUT; 
 
         // Czekam na odpowiedź studenta (z limitem czasu)
         int wait_res = 0;

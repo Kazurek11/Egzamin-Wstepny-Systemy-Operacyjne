@@ -132,7 +132,7 @@ int main(int argc, char *argv[]) {
 
             dodaj_do_loggera(plik_logu, "[Kandydat] [PID: %d] \t Otrzymałem %d pytań! Odpowiadam...\n", getpid(), limit_pytan);
             
-            // sleep_ms(GODZINA_Ti); 
+            sleep_ms(GODZINA_Ti); 
 
             // Definiujemy typ komisji na podstawie statusu (przed pętlą)
             char typ_komisji = (kandydat->status == 11 || kandydat->status == 1) ? 'A' : 'B';
