@@ -483,7 +483,6 @@ Na samym końcu Przewodniczący wykonuje procedurę czyszczenia po obsłużonym 
 2. Oznacza stolik jako wolny (`zajete = 0`) i podnosi semafor `WOLNE_MIEJSCA_KOMISJA_X`, umożliwiając rozpoczęcie egzaminu dla kolejnej osoby z kolejki.
 
 Tym samym cykl obsługi jednego kandydata przez komisję zostaje zamknięty, a przewodniczący wraca na początek pętli głównej (`while(1)`), oczekując na kolejne zgłoszenia.
-Oto kompletna i sformatowana końcowa część dokumentacji, uwzględniająca logikę zarządzania procesami przez Dziekana oraz działanie raportowania.
 
 ---
 
