@@ -226,7 +226,7 @@ Po uruchomieniu kandydat wykonuje następujące kroki:
 
 1. **Losowanie atrybutów:** Zgodnie z logiką (zdana teoria -> zdana matura), najpierw losowane jest 2% kandydatów ze zdaną teorią. Z pozostałej puli losowane jest 2% pechowców bez zdanej matury. Reszta otrzymuje zdaną maturę bez teorii.
 2. **Wysłanie zgłoszenia:** Kandydat wysyła strukturę `Zgloszenie` przez kolejkę FIFO do Dziekana.
-3. **Selekcja wstępna:** Jeśli wylosowano brak matury, proces kończy działanie zaraz po wysłaniu zgłoszenia a Dziekan odnotowuje jego wykluczenie z dalszej rekturacji -> obniża semafor `SEM_LICZNIK_KONCA` (opis w sekcji 4.5).
+3. **Selekcja wstępna:** Jeśli wylosowano brak matury, proces kończy działanie zaraz po wysłaniu zgłoszenia a Dziekan odnotowuje jego wykluczenie z dalszej rekturacji -> obniża semafor `SEM_LICZNIK_KONCA` (opis w sekcji 2.5).
 4. **Dostęp do Pamięci Dzielonej:** Kandydaci z maturą mapują pamięć (`mmap`). W przypadku błędu mapowania proces kończy działanie.
 5. **Oczekiwanie na rejestrację:** Kandydat wchodzi w sekcję krytyczną (`mutex_rejestracji`). Sprawdza, czy został wpisany na listę. Jeśli nie, zasypia na zmiennej warunkowej `cond_rejestracji`, czekając na sygnał `broadcast` od Dziekana.
 
