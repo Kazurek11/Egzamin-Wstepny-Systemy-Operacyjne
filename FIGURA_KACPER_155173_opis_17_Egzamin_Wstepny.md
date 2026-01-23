@@ -105,8 +105,7 @@ Projekt został zaimplementowany w języku C z wykorzystaniem standardu POSIX, c
 * **System operacyjny:** Linux (np. Ubuntu, Debian) lub Windows z podsystemem WSL (Windows Subsystem for Linux).
 * *Uwaga:* Projekt korzysta z bibliotek `pthread` oraz `rt` (real-time), które są natywne dla systemów uniksowych. Uruchomienie bezpośrednio na Windows (bez WSL) lub macOS może wymagać dodatkowej konfiguracji.
 
-
-* **Kompilator:** GCC (GNU Compiler Collection).
+* **Kompilator:** GCC (Ubuntu 13.3.0-6ubuntu2~24.04).
 * **Narzędzia:** `make` (do automatyzacji procesu kompilacji).
 
 ### 1.2. Kompilacja i uruchomienie

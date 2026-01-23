@@ -311,7 +311,7 @@ int main() {
     dodaj_do_loggera(plik_logu, "[Dziekan] [PID: %d] Czekam na godzinę T %d...\n", (int)getpid(), GODZINA_T);
     
     // Oczekiwanie na 'Godzinę Zero' - rozpoczęcie rekrutacji
-    sleep(GODZINA_T); 
+    // sleep(GODZINA_T); 
     dodaj_do_loggera(plik_logu, "[Dziekan] [PID: %d] Godzina T wybija! Odbieram zgłoszenia (FIFO).\n", (int)getpid());
     
     Zgloszenie buf;
